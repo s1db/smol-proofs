@@ -1,14 +1,15 @@
-import pydot
 import pprint as pp
 
 # read proof.rup lines and store in a dict
+
+FILE_NAME = "proof"+".rup"
 graph_dict = {}
-with open("proof.rup", "r") as f:
+with open(FILE_NAME, "r") as f:
     for line in f.readlines():
-        rup_step_id, ancedents = line.split(":")
-        rup_step_id = int(rup_step_id)
-        ancedents = [int(x) for x in ancedents.split()]
-        graph_dict[rup_step_id] = ancedents
+        proof_step_id, antecedent = line.split(":")
+        proof_step_id = int(proof_step_id)
+        antecedent = [int(x) for x in antecedent.split()]
+        graph_dict[proof_step_id] = antecedent
 
 
 small_graph = {}
@@ -24,15 +25,8 @@ while queue:
             queue.extend(graph_dict[node])
         else:
             small_graph[node] = []
-
-# keys = sorted(list(small_graph.keys()))
-# for key in keys:
-#     print(key,":", small_graph[key])
-# print(max(graph_dict.keys()))
-# print(len(small_graph))
-
-
-with open("proofs/proof.pbp", "r") as f:
+PROOF_FILE = "proofs/"+FILE_NAME[:-4]+".pbp"
+with open(PROOF_FILE, "r") as f:
     model_step = 0
     proof_step = 0
     short_proof_step = 0
@@ -78,7 +72,7 @@ with open("proofs/proof.pbp", "r") as f:
             reformulated_line = line.split(" ")
             reformulated_line[1] = str(new_numbering[int(reformulated_line[1])])
             line = " ".join(reformulated_line)
-            print(line[:-1])
-    print("no of proof steps:", proof_step)
-    print("no of short proof steps:", short_proof_step)
-    print("% of proof steps kept:", short_proof_step/proof_step)
+            print(line)
+    print("* no of proof steps:", proof_step)
+    print("* no of short proof steps:", short_proof_step)
+    print("* % of proof steps kept:", short_proof_step/proof_step)

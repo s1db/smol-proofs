@@ -422,4 +422,5 @@ class PBProof:
 
 
 if "__main__" == __name__:
-    proof = PBProof('proofs/proof.opb', 'proofs/proof.pbp')
+    FILE = "rup_php65"
+    proof = PBProof("proofs/"+FILE+'.opb', "proofs/"+FILE+'.pbp')

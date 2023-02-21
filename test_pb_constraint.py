@@ -1,4 +1,4 @@
-from pb_constraint import PBConstraint
+from find_antecedent import PBConstraint
 
 def test_pb_constraint():
     a = PBConstraint([1, 2, 3], [1, 2, 3], 3)
