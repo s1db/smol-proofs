@@ -15,6 +15,7 @@ class PBConstraint:
             self.coefficients[literal] += coefficient
         if self.no_of_literals != len(self.coefficients):
             raise Exception("unequal number of literals and coefficients.")
+        self.coefficient_normalized_form()
 
     def is_unsatisfied(self, assignment: Iterable) -> bool:
         """
@@ -204,6 +205,19 @@ class PBConstraint:
         temp = temp[:-1] + " >= " + str(self.degree)
         return temp
 
+    def __repr__(self) -> str:
+        """
+        :return: the string representation of the constraint.
+        """
+        temp = ""
+        abs_sorted_lits = sorted(list(self.literals), key=abs)
+        for i in abs_sorted_lits:
+            if i > 0:
+                temp += str(self.coefficients[i]) + " x" + str(i) + " "
+            else:
+                temp += str(self.coefficients[i]) + " ~x" + str(-i) + " "
+        temp = temp[:-1] + " >= " + str(self.degree)
+        return temp
 
 class PBModel:
     """
@@ -234,7 +248,6 @@ class PBModel:
         self.constraint_db[self.no_of_constraints] = constraint
         print("    constraint " +
               "{:04d}".format(self.no_of_constraints) + " added: ", constraint)
-        # convert the line above in a fstring format
 
     def constraint_parser(self, line: str) -> PBConstraint:
         """
@@ -267,6 +280,26 @@ class PBModel:
                     self.add_constraint(temp)
         print("\nMODEL PARSED -- NO OF CONSTRAINTS: ", self.no_of_constraints)
 
+    def admit_v_step(self, line: str) -> None:
+        """
+        Checks if the passed solution is a valid solution
+        """
+        line = line.strip()
+        assignment = line.split()
+        tau = assignment
+        fired_constraints = []
+        while True:
+            unit_propogated = False
+            for constraint_id, constraint in self.constraint_db.items():
+                constraint_propagates = constraint.propagate(tau)
+                if constraint_propagates != []:
+                    fired_constraints.append(constraint_id)
+                    tau += constraint_propagates
+                    unit_propagated = True
+                    break
+            if not unit_propagated:
+                break
+        if len(assignment) == 
     def admit_pol_step(self, statement: str) -> None:
         """
         Processes the polish notation statement on the constraints
@@ -417,6 +450,9 @@ class PBProof:
                 elif line[0] == 'j':
                     print("J STEP: ", line[:-1])
                     self.model.admit_j_step(line)
+                elif line[0] == 'v':
+                    print("V STEP: ", line[:-1])
+                    self.model.admit_v_step(line)
                 elif line[0] == 'c':
                     self.model.admit_check_contradiction(line)
 
