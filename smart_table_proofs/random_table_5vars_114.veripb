@@ -1,0 +1,85 @@
+pseudo-Boolean proof version 1.2
+f 216 0
+# 1
+u 1 ~iv0_eq_-1 1 ~flag0_t0 >= 1 ;
+u 1 ~iv0_eq_-1 1 ~flag1_t1 >= 1 ;
+u 1 ~iv0_eq_-1 >= 1 ;
+u 1 ~iv0_eq_0 1 ~flag0_t0 >= 1 ;
+u 1 ~iv0_eq_0 1 ~flag1_t1 >= 1 ;
+u 1 ~iv0_eq_0 >= 1 ;
+u 1 ~iv0_eq_1 1 ~flag0_t0 >= 1 ;
+u 1 ~iv0_eq_1 1 ~flag1_t1 >= 1 ;
+u 1 ~iv0_eq_1 >= 1 ;
+u 1 ~iv1_eq_-1 1 ~flag0_t0 >= 1 ;
+u 1 ~iv1_eq_-1 1 ~flag1_t1 >= 1 ;
+u 1 ~iv1_eq_-1 >= 1 ;
+u 1 ~iv1_eq_0 1 ~flag0_t0 >= 1 ;
+u 1 ~iv1_eq_0 1 ~flag1_t1 >= 1 ;
+u 1 ~iv1_eq_0 >= 1 ;
+u 1 ~iv1_eq_1 1 ~flag0_t0 >= 1 ;
+u 1 ~iv1_eq_1 1 ~flag1_t1 >= 1 ;
+u 1 ~iv1_eq_1 >= 1 ;
+u 1 ~iv1_eq_2 1 ~flag0_t0 >= 1 ;
+u 1 ~iv1_eq_2 1 ~flag1_t1 >= 1 ;
+u 1 ~iv1_eq_2 >= 1 ;
+u 1 ~iv1_eq_3 1 ~flag0_t0 >= 1 ;
+u 1 ~iv1_eq_3 1 ~flag1_t1 >= 1 ;
+u 1 ~iv1_eq_3 >= 1 ;
+u 1 ~iv1_eq_4 1 ~flag0_t0 >= 1 ;
+u 1 ~iv1_eq_4 1 ~flag1_t1 >= 1 ;
+u 1 ~iv1_eq_4 >= 1 ;
+u 1 ~iv1_eq_5 1 ~flag0_t0 >= 1 ;
+u 1 ~iv1_eq_5 1 ~flag1_t1 >= 1 ;
+u >= 1 ;
+u 1 ~iv2_eq_-1 1 ~flag0_t0 >= 1 ;
+u 1 ~iv2_eq_-1 1 ~flag1_t1 >= 1 ;
+u 1 ~iv2_eq_-1 >= 1 ;
+u 1 ~iv2_eq_0 1 ~flag0_t0 >= 1 ;
+u 1 ~iv2_eq_0 1 ~flag1_t1 >= 1 ;
+u 1 ~iv2_eq_0 >= 1 ;
+u 1 ~iv2_eq_1 1 ~flag0_t0 >= 1 ;
+u 1 ~iv2_eq_1 1 ~flag1_t1 >= 1 ;
+u 1 ~iv2_eq_1 >= 1 ;
+u 1 ~iv2_eq_2 1 ~flag0_t0 >= 1 ;
+u 1 ~iv2_eq_2 1 ~flag1_t1 >= 1 ;
+u 1 ~iv2_eq_2 >= 1 ;
+u 1 ~iv2_eq_3 1 ~flag0_t0 >= 1 ;
+u 1 ~iv2_eq_3 1 ~flag1_t1 >= 1 ;
+u 1 ~iv2_eq_3 >= 1 ;
+u 1 ~iv2_eq_4 1 ~flag0_t0 >= 1 ;
+u 1 ~iv2_eq_4 1 ~flag1_t1 >= 1 ;
+u 1 ~iv2_eq_4 >= 1 ;
+u 1 ~iv2_eq_5 1 ~flag0_t0 >= 1 ;
+u 1 ~iv2_eq_5 1 ~flag1_t1 >= 1 ;
+u >= 1 ;
+u 1 ~iv3_eq_2 1 ~flag0_t0 >= 1 ;
+u 1 ~iv3_eq_2 1 ~flag1_t1 >= 1 ;
+u 1 ~iv3_eq_2 >= 1 ;
+u 1 ~iv4_eq_-1 1 ~flag0_t0 >= 1 ;
+u 1 ~iv4_eq_-1 1 ~flag1_t1 >= 1 ;
+u 1 ~iv4_eq_-1 >= 1 ;
+u 1 ~iv4_eq_0 1 ~flag0_t0 >= 1 ;
+u 1 ~iv4_eq_0 1 ~flag1_t1 >= 1 ;
+u 1 ~iv4_eq_0 >= 1 ;
+u 1 ~iv4_eq_1 1 ~flag0_t0 >= 1 ;
+u 1 ~iv4_eq_1 1 ~flag1_t1 >= 1 ;
+u 1 ~iv4_eq_1 >= 1 ;
+u 1 ~iv4_eq_2 1 ~flag0_t0 >= 1 ;
+u 1 ~iv4_eq_2 1 ~flag1_t1 >= 1 ;
+u 1 ~iv4_eq_2 >= 1 ;
+u 1 ~iv4_eq_3 1 ~flag0_t0 >= 1 ;
+u 1 ~iv4_eq_3 1 ~flag1_t1 >= 1 ;
+u 1 ~iv4_eq_3 >= 1 ;
+u 1 ~iv4_eq_4 1 ~flag0_t0 >= 1 ;
+u 1 ~iv4_eq_4 1 ~flag1_t1 >= 1 ;
+u 1 ~iv4_eq_4 >= 1 ;
+u 1 ~iv4_eq_5 1 ~flag0_t0 >= 1 ;
+u 1 ~iv4_eq_5 1 ~flag1_t1 >= 1 ;
+u >= 1 ;
+# 0
+* backtracking
+u >= 1 ;
+w 1
+* asserting contradiction
+u >= 1 ;
+c 293 0

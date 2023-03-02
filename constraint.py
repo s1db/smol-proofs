@@ -1,3 +1,8 @@
+"""
+Pseudo Boolean Constraint Class
+Implements most PB constraint operations.
+"""
+
 from typing import Iterable
 from collections import defaultdict
 import copy
@@ -5,6 +10,9 @@ from math import ceil
 
 
 class Constraint:
+    """
+    Pseudo Boolean Constraint Class 
+    """
     def __init__(self, literals, coefficients, degree):
         self.literals = set(literals)
         self.coefficients = defaultdict(int)
@@ -13,7 +21,7 @@ class Constraint:
         for literal, coefficient in zip(literals, coefficients):
             self.coefficients[literal] += coefficient
         if self.no_of_literals != len(self.coefficients):
-            raise Exception("unequal number of literals and coefficients.")
+            raise ValueError("unequal number of literals and coefficients.")
         self.coefficient_normalized_form()
 
     def is_unsatisfied(self, assignment: Iterable) -> bool:
@@ -37,7 +45,8 @@ class Constraint:
 
     def delete_literal(self, literal):
         """
-        Deletes the literal and/or the negative of the literal from the constraint.
+        Deletes the literal and/or the negative
+        of the literal from the constraint.
         """
         literals = self.literals
         if literal in literals:
@@ -87,7 +96,8 @@ class Constraint:
     def propagate(self, assignment: Iterable) -> Iterable:
         """
         :param: assignment: the assignment
-        :return: the literals that need be added to the assignment to satisfy the constraint.
+        :return: the literals that need be added
+            to the assignment to satisfy the constraint.
         """
 
         need_to_be_true = []
@@ -108,31 +118,31 @@ class Constraint:
         self.degree = -self.degree + 1
         self.coefficient_normalized_form()
 
-    def implies(self, constraint) -> int:
-        """
-        TODO: check if self semantically implies other constraint
-        :param: constraint
-        :return: True if self semantically implies other constraint
-        """
-        weaken_cost = 0
-        for i in constraint.literals:
-            if i not in self.literals:
-                return False
-            else:
-                if self.coefficients[i] < constraint.coefficients[i]:
-                    return False
-                else:
-                    weaken_cost += self.coefficients[i] - \
-                        constraint.coefficients[i]
-        if self.degree < constraint.degree:
-            return False
-        else:
-            weaken_cost += self.degree - constraint.degree
-        return weaken_cost
+    # def implies(self, constraint) -> int:
+    #     """
+    #     TODO: check if self semantically implies other constraint
+    #     :param: constraint
+    #     :return: True if self semantically implies other constraint
+    #     """
+    #     weaken_cost = 0
+    #     for i in constraint.literals:
+    #         if i not in self.literals:
+    #             return False
+    #         else:
+    #             if self.coefficients[i] < constraint.coefficients[i]:
+    #                 return False
+    #             else:
+    #                 weaken_cost += self.coefficients[i] - \
+    #                     constraint.coefficients[i]
+    #     if self.degree < constraint.degree:
+    #         return False
+    #     else:
+    #         weaken_cost += self.degree - constraint.degree
+    #     return weaken_cost
 
-    def saturation(self):
-        for i in self.literals:
-            self.coefficients[i] = min(self.coefficients[i], self.degree)
+    # def saturation(self):
+    #     for i in self.literals:
+    #         self.coefficients[i] = min(self.coefficients[i], self.degree)
 
     def __add__(self, other: 'Constraint'):
         self.literal_normalized_form()
@@ -170,6 +180,7 @@ class Constraint:
         div.degree = ceil(div.degree / other)
         div.coefficient_normalized_form()
         return div
+
     def __eq__(self, other: 'Constraint') -> bool:
         """
         :param: other: the other constraint
@@ -184,6 +195,7 @@ class Constraint:
             if self.coefficients[i] != other.coefficients[i]:
                 return False
         return True
+
     def __str__(self) -> str:
         """
         :return: the string representation of the constraint.

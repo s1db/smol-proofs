@@ -1,0 +1,11 @@
+pseudo-Boolean proof version 1.0
+f 230 0
+p 230 191 + 193 + 195 + 197 + 199 + 201 + 203 + 205 + 207 + 0
+j 231 1 ~x100 1 x71 1 x72 1 x73 1 x74 1 x75 1 x76 1 x77 1 x78 1 x79 1 x80 >= 1 ;
+p 232 30 + 0
+j 233 1 ~x100 1 x71 1 x72 1 x73 1 x74 1 x75 1 x76 1 x77 1 x78 1 x79 >= 1 ;
+j 234 1 ~x100 1 x71 1 x72 1 x73 1 x74 1 x75 1 x76 1 x77 1 x78 1 x79 >= 1 ;
+v x9 x12 x30 x34 x41 x56 x65 x78 x87 x93
+* no of proof steps: 1230
+* no of short proof steps: 235
+* % of proof steps kept: 0.1910569105691057

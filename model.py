@@ -18,9 +18,14 @@ class Model:
         self.filename = filename
         self.model_constraint_db: Dict[int, Constraint] = {}
         self.proof_constraint_db: Dict[int, Constraint] = {}
-        self.no_of_variables = 0
+        self.expected_no_of_literals = 0
+        self.expected_no_of_constraints = 0
+        self.literal_id_map = {}
+        self.no_of_literals = 0
         self.no_of_constraints = 0
         self.no_of_model_constraints = 0
+        self.constraints_known_to_propagate = set()
+        self.dead_constraints = set()
         self.parse()
 
     def get_constraint(self, id) -> Constraint:
@@ -33,6 +38,16 @@ class Model:
             return self.model_constraint_db[id]
         else:
             return self.proof_constraint_db[id]
+
+    def delete_constraint(self, id: int) -> None:
+        """
+        id: the id of the constraint to be deleted
+        """
+        if id <= self.no_of_model_constraints:
+            del self.model_constraint_db[id]
+        else:
+            del self.proof_constraint_db[id]
+        self.dead_constraints.add(id)
 
     def add_constraint(self, constraint: Constraint, to_model=False) -> None:
         """
@@ -55,17 +70,23 @@ class Model:
         :return: the constraint object
         """
         line = line[:-1].split(">=")
+        # print("",line)
         degree = int(line[1])
         line = line[0].split()
-        coefficients = [int(line[i])
-                        for i in range(0, len(line), 2)]
-        literals = [int(line[i][1:]) if line[i][0] != "~" else -
-                    1*int(line[i][2:]) for i in range(1, len(line), 2)]
-        if len(coefficients) != len(literals):
+        coefficients = [int(line[i]) for i in range(0, len(line), 2)]
+        literals = [line[i] for i in range(1, len(line), 2)]
+        literal_ids = []
+        for i in literals:
+            temp = i if i[0] != "~" else i[1:]
+            if temp not in self.literal_id_map:
+                self.no_of_literals += 1
+                self.literal_id_map[temp] = self.no_of_literals
+            literal_ids.append(
+                self.literal_id_map[temp] if i[0] != "~" else -1*self.literal_id_map[temp])
+        if len(coefficients) != len(literal_ids):
             raise Exception(
                 "unequal number of literals and coefficients")
-        temp = Constraint(literals, coefficients, degree)
-        self.no_of_variables += len(literals)
+        temp = Constraint(literal_ids, coefficients, degree)
         return temp
 
     def parse(self) -> None:
@@ -75,57 +96,63 @@ class Model:
         with open(self.filename, mode="r", encoding="utf-8") as file:
             for line in file:
                 line = line.strip()
+                if "#variable=" in line:
+                    temp = line.split()
+                    self.expected_no_of_literals = int(temp[2])
+                    self.expected_no_of_constraints = int(temp[4])
                 if not line.startswith("*") and len(line) > 0:
                     temp = self.constraint_parser(line)
                     self.add_constraint(temp, True)
         self.no_of_model_constraints = self.no_of_constraints
+        if self.expected_no_of_literals != self.no_of_literals:
+            print("WARNING: NUMBER OF LITERALS IN MODEL FILE HEADER DOES NOT MATCH WITH THE NUMBER OF LITERALS IN THE FILE")
+            # print("EXPECTED: ", self.expected_no_of_literals)
+            # print("ACTUAL: ", self.no_of_literals)
+            # for i in self.literal_id_map.keys():
+            #     print("    ",i)
+            # raise Exception(
+            #     "NUMBER OF LITERALS IN MODEL FILE DOES NOT MATCH WITH THE NUMBER OF LITERALS IN THE CONSTRAINTS")
+        if self.expected_no_of_constraints != self.no_of_constraints:
+            print("WARNING: NUMBER OF CONSTRAINTS IN MODEL FILE DOES NOT MATCH WITH THE NUMBER OF CONSTRAINTS IN THE CONSTRAINTS")
+            raise Exception(
+                "NUMBER OF CONSTRAINTS IN MODEL FILE DOES NOT MATCH WITH THE NUMBER OF CONSTRAINTS IN THE CONSTRAINTS")
         print("\nMODEL PARSED -- NO OF CONSTRAINTS: ", self.no_of_constraints)
 
     def admit_v_step(self, line: str) -> None:
         """
         Checks if the passed solution is a valid solution
         """
-        line = line.split()
+        line = line.split()[1:]
         assignment = [int(i[1:]) if i[0] != "~" else -1 *
                       int(line[i][2:]) for i in line]
-        tau = assignment
+        tau = copy.deepcopy(assignment)
         fired_constraints = []
         print("    ASSIGNMENT: ", tau)
         while True:
             unit_propagated = False
-            for constraint_id, constraint in self.proof_constraint_db.items():
+            for i in range(1, self.no_of_constraints+1):
+                constraint = self.get_constraint(i)
                 if constraint.is_unsatisfied(tau):
                     raise Exception(
-                        "INVALID SOLUTION CLAIMED, FALSIFYING CONSTRAINT: " + str(constraint_id))
-
-            for constraint_id, constraint in self.model_constraint_db.items():
-                if constraint.is_unsatisfied(tau):
-                    raise Exception(
-                        "INVALID SOLUTION CLAIMED, FALSIFYING CONSTRAINT: " + str(constraint_id))
-
-            for constraint_id, constraint in self.proof_constraint_db.items():
+                        "INVALID SOLUTION CLAIMED, FALSIFYING CONSTRAINT: " + str(i))
+            for i in range(1, self.no_of_constraints+1):
+                constraint = self.get_constraint(i)
                 constraint_propagates = constraint.propagate(tau)
                 if constraint_propagates != []:
-                    fired_constraints.append(constraint_id)
+                    fired_constraints.append(i)
                     tau += constraint_propagates
                     unit_propagated = True
                     break
             if not unit_propagated:
-                for constraint_id, constraint in self.model_constraint_db.items():
-                    constraint_propagates = constraint.propagate(tau)
-                    if constraint_propagates != []:
-                        fired_constraints.append(constraint_id)
-                        tau += constraint_propagates
-                        unit_propagated = True
-                        break
-            if not unit_propagated:
-                if len(tau) != self.no_of_variables:
+                if len(tau) != self.no_of_literals:
                     raise Exception(
                         "INVALID SOLUTION CLAIMED, NOT ALL VARIABLES ASSIGNED")
                 else:
+                    print("    VALID SOLUTION FOUND")
                     new_constraint = Constraint(
                         [-i for i in assignment], [1 for i in assignment], 1)
                     self.add_constraint(new_constraint)
+                break
 
     def admit_pol_step(self, statement: str) -> None:
         """
@@ -166,24 +193,12 @@ class Model:
         """
         Adds the implication constraint to the model
         """
-        # constraint = self.constraint_parser(line[1:-1])
-        line = line[:-1].split(">=")
-        degree = int(line[1][:-1])
-        line = line[0].split()
-        # print(line)
-        antecedents = [int(line[1])]
-        line = line[2:]
-        coefficients = [int(line[i])
-                        for i in range(0, len(line), 2)]
-        literals = [int(line[i][1:]) if line[i][0] != "~" else -
-                    1*int(line[i][2:]) for i in range(1, len(line), 2)]
-        if len(coefficients) != len(literals):
-            raise Exception(
-                "unequal number of literals and coefficients")
-        temp = Constraint(literals, coefficients, degree)
+        _, antecedent, constraint_string = line[1:-1].split(" ", 2)
+        antecedents = [int(antecedent)]
+        constraint = self.constraint_parser(constraint_string)
+        self.add_constraint(constraint)
         self.logger.warning(
-            str(self.no_of_constraints+1)+":"+" ".join([str(i) for i in antecedents]))
-        self.add_constraint(temp)
+            str(self.no_of_constraints)+":"+" ".join([str(i) for i in antecedents]))
 
     def admit_rup_step(self, line: str) -> None:
         """
@@ -205,38 +220,40 @@ class Model:
         """
         tau = rup_constraint.propagate([])
         fired_constraints = []
+        has_to_be_true = set()
         print("    ASSIGNMENT: ", tau)
         while True:
             unit_propagated = False
-            for constraint_id, constraint in self.proof_constraint_db.items():
-                if constraint.is_unsatisfied(tau):
-                    fired_constraints.append(constraint_id)
-                    print("    FIRED CONSTRAINTS: ", fired_constraints)
-                    self.logger.warning(
-                        str(self.no_of_constraints+1)+":"+" ".join([str(i) for i in fired_constraints]))
-                    return True
-            for constraint_id, constraint in self.model_constraint_db.items():
-                if constraint.is_unsatisfied(tau):
-                    fired_constraints.append(constraint_id)
-                    print("    FIRED CONSTRAINTS: ", fired_constraints)
-                    self.logger.warning(
-                        str(self.no_of_constraints+1)+":"+" ".join([str(i) for i in fired_constraints]))
-                    return True
-            for constraint_id, constraint in self.proof_constraint_db.items():
-                constraint_propagates = constraint.propagate(tau)
-                if constraint_propagates != []:
-                    fired_constraints.append(constraint_id)
-                    tau += constraint_propagates
-                    unit_propagated = True
-                    break
-            if not unit_propagated:
-                for constraint_id, constraint in self.model_constraint_db.items():
+            for i in range(1, self.no_of_constraints+1):
+                if i not in has_to_be_true and i not in self.dead_constraints:
+                    constraint = self.get_constraint(i)
+                    if constraint.is_unsatisfied(tau):
+                        fired_constraints.append(i)
+                        print("    FIRED CONSTRAINTS: ", fired_constraints)
+                        self.logger.warning(
+                            str(self.no_of_constraints+1)+":"+" ".join([str(i) for i in fired_constraints]))
+                        return True
+            for i in self.constraints_known_to_propagate:
+                if i not in has_to_be_true and i not in self.dead_constraints:
+                    constraint = self.get_constraint(i)
                     constraint_propagates = constraint.propagate(tau)
                     if constraint_propagates != []:
-                        fired_constraints.append(constraint_id)
+                        fired_constraints.append(i)
+                        has_to_be_true.add(i)
                         tau += constraint_propagates
                         unit_propagated = True
                         break
+            if not unit_propagated:
+                for i in range(1, self.no_of_constraints+1):
+                    if i not in self.constraints_known_to_propagate and i not in has_to_be_true and i not in self.dead_constraints:
+                        constraint = self.get_constraint(i)
+                        constraint_propagates = constraint.propagate(tau)
+                        if constraint_propagates != []:
+                            fired_constraints.append(i)
+                            has_to_be_true.add(i)
+                            tau += constraint_propagates
+                            unit_propagated = True
+                            break
             if not unit_propagated:
                 return False
 

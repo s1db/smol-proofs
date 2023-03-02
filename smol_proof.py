@@ -1,8 +1,7 @@
 import pprint as pp
 
-# read proof.rup lines and store in a dict
 
-FILE_NAME = "proof"
+FILE_NAME = "random_table_4vars_253"
 graph_dict = {}
 with open("rup/"+FILE_NAME+".rup", "r") as f:
     for line in f.readlines():
@@ -25,15 +24,15 @@ while queue:
             queue.extend(graph_dict[node])
         else:
             small_graph[node] = []
-PROOF_FILE = "proofs/"+FILE_NAME+".pbp"
+PROOF_FILE = "smart_table_proofs/"+FILE_NAME+".veripb"
 with open(PROOF_FILE, "r") as f:
-    with open("proofs/smol_"+FILE_NAME+".pbp", "w") as g:
+    with open("smart_table_proofs/smol_"+FILE_NAME+".veripb", "w") as g:
         model_step = 0
         proof_step = 0
         short_proof_step = 0
         new_numbering = {}
         for line in f.readlines():
-            if line[0] == "pseudo":
+            if "pseudo" in line:
                 g.write(line[:-1])
             elif line[0] == "f":
                 model_step = int(line.split()[1])
@@ -73,6 +72,8 @@ with open(PROOF_FILE, "r") as f:
                 reformulated_line[1] = str(new_numbering[int(reformulated_line[1])])
                 line = " ".join(reformulated_line)
                 g.write("\n"+line)
-        g.write("\n* no of proof steps: "+ str(proof_step))
-        g.write("\n* no of short proof steps: "+str(short_proof_step))
-        g.write("\n* % of proof steps kept: "+ str(short_proof_step/proof_step))
+            elif line[0] == "v":
+                g.write("\n"+line[:-1])
+        g.write("\n* no of proof steps: "+ str(proof_step-model_step))
+        g.write("\n* no of short proof steps: "+str(short_proof_step-model_step))
+        g.write("\n* % of proof steps kept: "+ str((short_proof_step-model_step)/(proof_step-model_step)))
