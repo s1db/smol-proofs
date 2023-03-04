@@ -14,14 +14,17 @@ files = [f for f in files if f.endswith(".opb") and not f.startswith("smol_")]
 t= {}
 for file in files:
     file = file[:-4]
-    print(file)
-    proof = Proof(OPB_LOCATION+file)
-    print("    1️⃣  rup file created")
-    SMOL_PROOF_LOCATION = "20230301-sip-proof-logs/"
-    i = make_smol(file,OPB_LOCATION, "20230301-sip-proof-logs/")
-    print("    2️⃣  smol file created")
-    t[file] = i
-    print("    3️⃣  kept:", str(round(i[1]/i[0],4)*100)+"%")
+    try:
+        print(file)
+        proof = Proof(OPB_LOCATION+file)
+        print("    1️⃣  rup file created")
+        SMOL_PROOF_LOCATION = "20230301-sip-proof-logs/"
+        i = make_smol(file,OPB_LOCATION, "20230301-sip-proof-logs/")
+        print("    2️⃣  smol file created")
+        t[file] = i
+        print("    3️⃣  kept:", str(round(i[1]/i[0],4)*100)+"%")
+    except:
+        print("    🔴  failed")
     # output = subprocess.check_output(f"veripb {OPB_LOCATION}{file}.opb {SMOL_PROOF_LOCATION}smol_{file}.veripb", shell=True)
     # if "succeeded":
     #     print("    🟢", str(output, "utf-8"))
