@@ -16,7 +16,7 @@ for file in files:
     file = file[:-4]
     try:
         print(file)
-        if not os.path.exists("rups/"+file+".rup"):
+        if not os.path.exists("rup/"+file+".rup"):
             proof = Proof(OPB_LOCATION+file)
             print("    1️⃣  rup file created")
         else:
