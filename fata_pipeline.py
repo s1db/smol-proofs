@@ -6,16 +6,12 @@ import subprocess
 OPB_LOCATION = "../../ciaran/20230301-sip-proof-logs/"
 files = os.listdir(OPB_LOCATION)
 
-# files = sorted(files,key=lambda x: os.stat(os.path.join(OPB_LOCATION, x)).st_size)
 
 file_sizes = {}
-
-# Loop through the files and get their sizes
 for file in files:
-    file_path = os.path.join(files, file)
-    if os.path.isfile(file_path):
-        file_size = os.path.getsize(file_path)
-        file_sizes[file] = file_size
+    file_sizes[file] = os.stat(OPB_LOCATION+file).st_size
+
+
 
 # Sort the file names by size
 files = sorted(file_sizes, key=file_sizes.get)
