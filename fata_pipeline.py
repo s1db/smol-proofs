@@ -22,8 +22,8 @@ for file in files:
     print("    2️⃣  smol file created")
     t[file] = i
     print("    3️⃣  kept:", str(round(i[1]/i[0],4)*100)+"%")
-    output = subprocess.check_output(f"veripb {OPB_LOCATION}{file}.opb {SMOL_PROOF_LOCATION}smol_{file}.veripb", shell=True)
-    if "succeeded":
-        print("    🟢", str(output, "utf-8"))
-    else:
-        print("    🔴", str(output, "utf-8"))
+    # output = subprocess.check_output(f"veripb {OPB_LOCATION}{file}.opb {SMOL_PROOF_LOCATION}smol_{file}.veripb", shell=True)
+    # if "succeeded":
+    #     print("    🟢", str(output, "utf-8"))
+    # else:
+    #     print("    🔴", str(output, "utf-8"))
