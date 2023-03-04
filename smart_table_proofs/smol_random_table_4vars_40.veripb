@@ -1,0 +1,12 @@
+pseudo-Boolean proof version 1.2
+f 155 0
+u 1 ~iv0_eq_-1 >= 1 ;
+u 1 ~iv0_eq_0 >= 1 ;
+u 1 ~iv0_eq_1 >= 1 ;
+u >= 1 ;
+u >= 1 ;
+c 160 0
+
+* no of proof steps: 71
+* no of short proof steps: 5
+* % of proof steps kept: 0.07042253521126761

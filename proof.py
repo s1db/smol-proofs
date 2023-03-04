@@ -1,6 +1,6 @@
 from model import Model
 from collections import defaultdict
-
+import logging
 # pylint: disable=R0903
 class Proof:
     """
@@ -62,8 +62,9 @@ class Proof:
                             wipeout[i] = set()
                     for i in to_delete:
                         self.model.delete_constraint(i)
+        logging.shutdown()
 
 
 if "__main__" == __name__:
-    FILE = "random_table_4vars_253"
+    FILE = "random_table_3vars_301"
     proof = Proof("smart_table_proofs/"+FILE)

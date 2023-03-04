@@ -106,12 +106,11 @@ class Model:
         self.no_of_model_constraints = self.no_of_constraints
         if self.expected_no_of_literals != self.no_of_literals:
             print("WARNING: NUMBER OF LITERALS IN MODEL FILE HEADER DOES NOT MATCH WITH THE NUMBER OF LITERALS IN THE FILE")
-            # print("EXPECTED: ", self.expected_no_of_literals)
-            # print("ACTUAL: ", self.no_of_literals)
-            # for i in self.literal_id_map.keys():
-            #     print("    ",i)
-            # raise Exception(
-            #     "NUMBER OF LITERALS IN MODEL FILE DOES NOT MATCH WITH THE NUMBER OF LITERALS IN THE CONSTRAINTS")
+            print("EXPECTED: ", self.expected_no_of_literals)
+            print("ACTUAL: ", self.no_of_literals)
+            print(list(self.literal_id_map.keys()))
+            raise Exception(
+                "NUMBER OF LITERALS IN MODEL FILE DOES NOT MATCH WITH THE NUMBER OF LITERALS IN THE CONSTRAINTS")
         if self.expected_no_of_constraints != self.no_of_constraints:
             print("WARNING: NUMBER OF CONSTRAINTS IN MODEL FILE DOES NOT MATCH WITH THE NUMBER OF CONSTRAINTS IN THE CONSTRAINTS")
             raise Exception(
@@ -218,6 +217,7 @@ class Model:
         Returns True if the constraint is redundant to the model.
         Else returns False.
         """
+        print("⭐", self.constraint_str(rup_constraint))
         tau = rup_constraint.propagate([])
         fired_constraints = []
         has_to_be_true = set()
@@ -225,7 +225,7 @@ class Model:
         while True:
             unit_propagated = False
             for i in range(1, self.no_of_constraints+1):
-                if i not in has_to_be_true and i not in self.dead_constraints:
+                if i not in self.dead_constraints:
                     constraint = self.get_constraint(i)
                     if constraint.is_unsatisfied(tau):
                         fired_constraints.append(i)
@@ -234,7 +234,7 @@ class Model:
                             str(self.no_of_constraints+1)+":"+" ".join([str(i) for i in fired_constraints]))
                         return True
             for i in self.constraints_known_to_propagate:
-                if i not in has_to_be_true and i not in self.dead_constraints:
+                if i not in self.dead_constraints:
                     constraint = self.get_constraint(i)
                     constraint_propagates = constraint.propagate(tau)
                     if constraint_propagates != []:
@@ -245,7 +245,7 @@ class Model:
                         break
             if not unit_propagated:
                 for i in range(1, self.no_of_constraints+1):
-                    if i not in self.constraints_known_to_propagate and i not in has_to_be_true and i not in self.dead_constraints:
+                    if i not in self.constraints_known_to_propagate and i not in self.dead_constraints:
                         constraint = self.get_constraint(i)
                         constraint_propagates = constraint.propagate(tau)
                         if constraint_propagates != []:
@@ -256,7 +256,20 @@ class Model:
                             break
             if not unit_propagated:
                 return False
-
+    def constraint_str(self, constraint:Constraint) -> str:
+        """
+        Returns the string representation of the constraint
+        """
+        id_literal_map = {v: k for k, v in self.literal_id_map.items()}
+        constraint_string = ""
+        for i in constraint.literals:
+            if i < 0:
+                constraint_string += " "+ str(constraint.coefficients[abs(i)]) + " ~" + str(id_literal_map[abs(i)])
+            else:
+                constraint_string += " "+ str(constraint.coefficients[abs(i)]) + " " + str(id_literal_map[abs(i)])
+        constraint_string += " >= "
+        constraint_string += str(constraint.degree)
+        return constraint_string
     def admit_check_contradiction(self, line: str) -> None:
         """
         Checks if the given contradiction is a contradiction

@@ -1,0 +1,9 @@
+pseudo-Boolean proof version 1.2
+f 98 0
+u >= 1 ;
+u >= 1 ;
+c 100 0
+
+* no of proof steps: 30
+* no of short proof steps: 2
+* % of proof steps kept: 0.06666666666666667
