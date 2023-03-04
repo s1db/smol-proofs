@@ -9,8 +9,9 @@ class Model:
     The class for the model.
     """
 
-    def __init__(self, filename):
+    def __init__(self, filename, loud=False):
         name = filename.split('/')[-1].split('.')[0]
+        self.loud = loud
         self.logger = logging.getLogger('model_logging')
         f_handler = logging.FileHandler('rup/'+name+'.rup', mode='w')
         f_handler.setLevel(logging.WARNING)
@@ -32,8 +33,6 @@ class Model:
         """
         id: the id of the constraint to be returned
         """
-        # print(self.model_constraint_db.keys())
-        # print(self.no_of_model_constraints, id)
         if id <= self.no_of_model_constraints:
             return self.model_constraint_db[id]
         else:
@@ -61,8 +60,8 @@ class Model:
             self.model_constraint_db[self.no_of_constraints] = constraint
         else:
             self.proof_constraint_db[self.no_of_constraints] = constraint
-        print("    constraint " +
-              "{:04d}".format(self.no_of_constraints) + " added: ", constraint)
+        if self.loud:
+            print("    constraint " +"{:04d}".format(self.no_of_constraints) + " added: ", constraint)
 
     def constraint_parser(self, line: str) -> Constraint:
         """
@@ -70,7 +69,6 @@ class Model:
         :return: the constraint object
         """
         line = line[:-1].split(">=")
-        # print("",line)
         degree = int(line[1])
         line = line[0].split()
         coefficients = [int(line[i]) for i in range(0, len(line), 2)]
@@ -104,18 +102,20 @@ class Model:
                     temp = self.constraint_parser(line)
                     self.add_constraint(temp, True)
         self.no_of_model_constraints = self.no_of_constraints
-        if self.expected_no_of_literals != self.no_of_literals:
-            print("WARNING: NUMBER OF LITERALS IN MODEL FILE HEADER DOES NOT MATCH WITH THE NUMBER OF LITERALS IN THE FILE")
-            print("EXPECTED: ", self.expected_no_of_literals)
-            print("ACTUAL: ", self.no_of_literals)
-            print(list(self.literal_id_map.keys()))
-            raise Exception(
-                "NUMBER OF LITERALS IN MODEL FILE DOES NOT MATCH WITH THE NUMBER OF LITERALS IN THE CONSTRAINTS")
+        # if self.expected_no_of_literals != self.no_of_literals:
+        #     print("WARNING: NUMBER OF LITERALS IN MODEL FILE HEADER DOES NOT MATCH WITH THE NUMBER OF LITERALS IN THE FILE")
+        #     print("EXPECTED: ", self.expected_no_of_literals)
+        #     print("ACTUAL: ", self.no_of_literals)
+        #     print(list(self.literal_id_map.keys()))
+        #     raise Exception(
+        #         "NUMBER OF LITERALS IN MODEL FILE DOES NOT MATCH WITH THE NUMBER OF LITERALS IN THE CONSTRAINTS")
         if self.expected_no_of_constraints != self.no_of_constraints:
             print("WARNING: NUMBER OF CONSTRAINTS IN MODEL FILE DOES NOT MATCH WITH THE NUMBER OF CONSTRAINTS IN THE CONSTRAINTS")
             raise Exception(
                 "NUMBER OF CONSTRAINTS IN MODEL FILE DOES NOT MATCH WITH THE NUMBER OF CONSTRAINTS IN THE CONSTRAINTS")
-        print("\nMODEL PARSED -- NO OF CONSTRAINTS: ", self.no_of_constraints)
+        if self.loud:
+            print("NO OF LITERALS   : ", self.no_of_literals)
+            print("NO OF CONSTRAINTS: ", self.no_of_constraints)
 
     def admit_v_step(self, line: str) -> None:
         """
@@ -126,7 +126,8 @@ class Model:
                       int(line[i][2:]) for i in line]
         tau = copy.deepcopy(assignment)
         fired_constraints = []
-        print("    ASSIGNMENT: ", tau)
+        if self.loud:
+            print("    ASSIGNMENT: ", tau)
         while True:
             unit_propagated = False
             for i in range(1, self.no_of_constraints+1):
@@ -147,7 +148,8 @@ class Model:
                     raise Exception(
                         "INVALID SOLUTION CLAIMED, NOT ALL VARIABLES ASSIGNED")
                 else:
-                    print("    VALID SOLUTION FOUND")
+                    if self.loud:
+                        print("    VALID SOLUTION FOUND")
                     new_constraint = Constraint(
                         [-i for i in assignment], [1 for i in assignment], 1)
                     self.add_constraint(new_constraint)
@@ -206,9 +208,11 @@ class Model:
         constraint = self.constraint_parser(line[1:-1])
         constraint.negation()
         if not self.rup(constraint):
-            print("    RUP Failed -- cannot add constraint")
+            if self.loud:
+                print("    RUP Failed -- cannot add constraint")
             raise Exception("RUP Failed -- Refutation Failed.")
-        print("    RUP Succeeded")
+        if self.loud: 
+            print("    RUP Succeeded")
         constraint.negation()
         self.add_constraint(constraint)
 
@@ -217,11 +221,13 @@ class Model:
         Returns True if the constraint is redundant to the model.
         Else returns False.
         """
-        print("⭐", self.constraint_str(rup_constraint))
+        if self.loud:
+            print("⭐", self.constraint_str(rup_constraint))
         tau = rup_constraint.propagate([])
         fired_constraints = []
         has_to_be_true = set()
-        print("    ASSIGNMENT: ", tau)
+        if self.loud:
+            print("    ASSIGNMENT: ", tau)
         while True:
             unit_propagated = False
             for i in range(1, self.no_of_constraints+1):
@@ -229,7 +235,8 @@ class Model:
                     constraint = self.get_constraint(i)
                     if constraint.is_unsatisfied(tau):
                         fired_constraints.append(i)
-                        print("    FIRED CONSTRAINTS: ", fired_constraints)
+                        if self.loud:
+                            print("    FIRED CONSTRAINTS: ", fired_constraints)
                         self.logger.warning(
                             str(self.no_of_constraints+1)+":"+" ".join([str(i) for i in fired_constraints]))
                         return True
@@ -276,6 +283,8 @@ class Model:
         """
         contradiction_id = int(line.split()[1])
         if self.get_constraint(contradiction_id).is_unsatisfied([]):
-            print("Contradiction Found")
+            if self.loud:
+                print("Contradiction Found")
         else:
-            print("Incorrect Contradiction Claimed")
+            if self.loud:
+                print("Incorrect Contradiction Claimed")

@@ -3,9 +3,8 @@ from proof import Proof
 from smol_proof import make_smol
 import subprocess
 # get the names of all files in the smart_table_proofs directory
-OPB_LOCATION = "smart_table_proofs/"
+OPB_LOCATION = "../../ciaran/20230301-sip-proof-logs/"
 files = os.listdir(OPB_LOCATION)
-# failing_files = ["random_table_3vars_301.opb", "random_table_4vars_93.opb", "random_table_3vars_244.opb", "random_table_3vars_199.opb", "random_table_4vars_55.opb"]
 
 files = sorted(files,key=lambda x: os.stat(os.path.join(OPB_LOCATION, x)).st_size)
 files = [f for f in files if f.endswith(".opb") and not f.startswith("smol_")]
