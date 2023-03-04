@@ -122,8 +122,8 @@ class Model:
         Checks if the passed solution is a valid solution
         """
         line = line.split()[1:]
-        assignment = [int(i[1:]) if i[0] != "~" else -1 *
-                      int(line[i][2:]) for i in line]
+        assignment = [self.literal_id_map[i] if i[0] != "~" else -1 *
+                      self.literal_id_map[i[1:]] for i in line]
         tau = copy.deepcopy(assignment)
         fired_constraints = []
         if self.loud:
@@ -131,18 +131,20 @@ class Model:
         while True:
             unit_propagated = False
             for i in range(1, self.no_of_constraints+1):
-                constraint = self.get_constraint(i)
-                if constraint.is_unsatisfied(tau):
-                    raise Exception(
-                        "INVALID SOLUTION CLAIMED, FALSIFYING CONSTRAINT: " + str(i))
+                if i not in self.dead_constraints:
+                    constraint = self.get_constraint(i)
+                    if constraint.is_unsatisfied(tau):
+                        raise Exception(
+                            "INVALID SOLUTION CLAIMED, FALSIFYING CONSTRAINT: " + str(i))
             for i in range(1, self.no_of_constraints+1):
-                constraint = self.get_constraint(i)
-                constraint_propagates = constraint.propagate(tau)
-                if constraint_propagates != []:
-                    fired_constraints.append(i)
-                    tau += constraint_propagates
-                    unit_propagated = True
-                    break
+                if i not in self.dead_constraints:
+                    constraint = self.get_constraint(i)
+                    constraint_propagates = constraint.propagate(tau)
+                    if constraint_propagates != []:
+                        fired_constraints.append(i)
+                        tau += constraint_propagates
+                        unit_propagated = True
+                        break
             if not unit_propagated:
                 if len(tau) != self.no_of_literals:
                     raise Exception(

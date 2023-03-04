@@ -76,5 +76,5 @@ class Proof:
 
 
 if "__main__" == __name__:
-    FILE = "random_table_3vars_301"
-    proof = Proof("smart_table_proofs/"+FILE)
+    FILE = "proof2"
+    proof = Proof("proofs/"+FILE, loud=True)
