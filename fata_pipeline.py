@@ -17,7 +17,7 @@ for file in files:
 files = sorted(file_sizes, key=file_sizes.get)
 files = [f for f in files if f.endswith(".veripb")]
 files = [f[:-7]+".opb" for f in files]
-
+files = [f for f in files if not f.startswith("all-meshes")]
 
 t= {}
 for file in files:
