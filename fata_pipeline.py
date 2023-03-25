@@ -16,10 +16,10 @@ for file in files:
 # Sort the file names by size
 files = sorted(all_file_sizes, key=all_file_sizes.get)
 files = [f for f in files if f.endswith(".veripb")]
+files = [f[:-7]+".opb" for f in files]
 
 avg_file_size = {f:((all_file_sizes[f+".opb"]+all_file_sizes[f+".veripb"])/2) for f in files}
 files = sorted(all_file_sizes, key=avg_file_size.get)
-files = [f[:-7]+".opb" for f in files]
 files = [f for f in files if not f.startswith("all-meshes")]
 
 t= {}
