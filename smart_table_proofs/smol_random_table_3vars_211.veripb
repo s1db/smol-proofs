@@ -1,9 +1,14 @@
 pseudo-Boolean proof version 1.2
 f 96 0
+u 1 ~iv1_eq_2 1 ~flag0_t0 >= 1 ;
+u 1 ~iv1_eq_3 1 ~flag0_t0 >= 1 ;
+u 1 ~iv2_eq_-1 1 ~flag0_t0 >= 1 ;
+u 1 ~iv2_eq_1 1 ~flag0_t0 >= 1 ;
+u 1 ~iv2_eq_2 1 ~flag0_t0 >= 1 ;
 u >= 1 ;
 u >= 1 ;
-c 98 0
+c 103 0
 
 * no of proof steps: 22
-* no of short proof steps: 2
-* % of proof steps kept: 0.09090909090909091
+* no of short proof steps: 7
+* % of proof steps kept: 31.818181818181817

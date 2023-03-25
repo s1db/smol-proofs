@@ -3,11 +3,12 @@ f 218 0
 u 1 ~iv0_eq_-1 >= 1 ;
 u 1 ~iv0_eq_0 >= 1 ;
 u 1 ~iv0_eq_1 >= 1 ;
+u 1 ~iv0_eq_2 1 ~flag0_t0 >= 1 ;
 u 1 ~iv0_eq_2 >= 1 ;
 u >= 1 ;
 u >= 1 ;
-c 224 0
+c 225 0
 
 * no of proof steps: 92
-* no of short proof steps: 6
-* % of proof steps kept: 0.06521739130434782
+* no of short proof steps: 7
+* % of proof steps kept: 7.608695652173914

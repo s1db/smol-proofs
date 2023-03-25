@@ -1,6 +1,6 @@
 import pprint as pp
 
-def make_smol(file_name, read_dir, save_dir):
+def make_smol(file_name, read_dir, save_dir, loud=False):
     graph_dict = {}
     with open("rup/"+file_name+".rup", "r") as f:
         for line in f.readlines():
@@ -8,7 +8,7 @@ def make_smol(file_name, read_dir, save_dir):
             proof_step_id = int(proof_step_id)
             antecedent = [int(x) for x in antecedent.split()]
             graph_dict[proof_step_id] = antecedent
-
+    # print(graph_dict)
 
     small_graph = {}
 
@@ -23,7 +23,11 @@ def make_smol(file_name, read_dir, save_dir):
                 queue.extend(graph_dict[node])
             else:
                 small_graph[node] = []
-    PROOF_FILE = f"{read_dir}{file_name}.veripb"
+    if "stack" not in file_name:
+        PROOF_FILE = f"{read_dir}{file_name}.veripb"
+    else:
+        PROOF_FILE = f"{read_dir}{file_name[6:]}.veripb"
+    print(PROOF_FILE)
     with open(PROOF_FILE, "r") as f:
         with open(f"{save_dir}smol_{file_name}.veripb", "w") as g:
             model_step = 0
@@ -31,6 +35,7 @@ def make_smol(file_name, read_dir, save_dir):
             short_proof_step = 0
             new_numbering = {}
             for line in f.readlines():
+                print(line, short_proof_step, proof_step)
                 if "pseudo" in line:
                     g.write(line[:-1])
                 elif line[0] == "f":
@@ -72,8 +77,13 @@ def make_smol(file_name, read_dir, save_dir):
                     line = " ".join(reformulated_line)
                     g.write("\n"+line)
                 elif line[0] == "v":
+                    short_proof_step += 1
+                    new_numbering[proof_step] = short_proof_step
                     g.write("\n"+line[:-1])
             g.write("\n* no of proof steps: "+ str(proof_step-model_step))
             g.write("\n* no of short proof steps: "+str(short_proof_step-model_step))
-            g.write("\n* % of proof steps kept: "+ str((short_proof_step-model_step)/(proof_step-model_step)))
+            g.write("\n* % of proof steps kept: "+ str((short_proof_step-model_step)/(proof_step-model_step)*100))
             return (proof_step-model_step, short_proof_step-model_step)
+
+if "__main__" == __name__:
+    make_smol("stack_smol_proof", "proofs/", "proofs/", loud=True)

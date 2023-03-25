@@ -1,9 +1,10 @@
 pseudo-Boolean proof version 1.2
 f 100 0
+u 1 ~iv0_eq_0 1 ~flag0_t0 >= 1 ;
 u >= 1 ;
 u >= 1 ;
-c 102 0
+c 103 0
 
 * no of proof steps: 32
-* no of short proof steps: 2
-* % of proof steps kept: 0.0625
+* no of short proof steps: 3
+* % of proof steps kept: 9.375

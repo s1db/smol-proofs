@@ -1,0 +1,6 @@
+pseudo-Boolean proof version 1.0
+f 230 0
+v x9 x12 x30 x34 x41 x56 x65 x78 x87 x93
+* no of proof steps: 1000
+* no of short proof steps: 1
+* % of proof steps kept: 0.1

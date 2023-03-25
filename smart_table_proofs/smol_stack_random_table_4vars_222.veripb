@@ -1,0 +1,13 @@
+pseudo-Boolean proof version 1.2
+f 157 0
+u 1 ~flag1_t1 1 iv2_ge_0 >= 1 ;
+u 1 ~flag1_t1 1 ~iv1_ge_-1 >= 1 ;
+u 1 ~iv0_eq_-1 1 ~flag2_t2 >= 1 ;
+u 1 ~iv0_eq_-1 >= 1 ;
+u >= 1 ;
+u >= 1 ;
+c 163 0
+
+* no of proof steps: 96
+* no of short proof steps: 6
+* % of proof steps kept: 6.25

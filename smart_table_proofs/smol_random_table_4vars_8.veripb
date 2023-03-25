@@ -1,11 +1,12 @@
 pseudo-Boolean proof version 1.2
 f 169 0
 u 1 ~iv0_eq_-1 >= 1 ;
+u 1 ~iv0_eq_0 1 ~flag0_t0 >= 1 ;
 u 1 ~iv0_eq_0 >= 1 ;
 u >= 1 ;
 u >= 1 ;
-c 173 0
+c 174 0
 
 * no of proof steps: 65
-* no of short proof steps: 4
-* % of proof steps kept: 0.06153846153846154
+* no of short proof steps: 5
+* % of proof steps kept: 7.6923076923076925

@@ -13,7 +13,7 @@ class Constraint:
     """
     Pseudo Boolean Constraint Class 
     """
-    def __init__(self, literals, coefficients, degree):
+    def __init__(self, literals, coefficients, degree, type=None, antecedents=None, time_of_death=None):
         self.literals = set(literals)
         self.coefficients = defaultdict(int)
         self.degree = degree  # of falsity
@@ -23,6 +23,15 @@ class Constraint:
         if self.no_of_literals != len(self.coefficients):
             raise ValueError("unequal number of literals and coefficients.")
         self.coefficient_normalized_form()
+        self.type = None
+        self.antecedents = None
+        self.time_of_death = -1
+        if type is not None and type in ['v', 'u', 'j', 'p']:
+            self.type = type
+        if antecedents is not None:
+            self.antecedents = antecedents
+        if time_of_death is not None:
+            self.time_of_death = time_of_death
 
     def is_unsatisfied(self, assignment: Iterable) -> bool:
         """

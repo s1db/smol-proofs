@@ -76,5 +76,5 @@ class Proof:
 
 
 if "__main__" == __name__:
-    FILE = "proof2"
+    FILE = "rup_php65"
     proof = Proof("proofs/"+FILE, loud=True)

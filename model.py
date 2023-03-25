@@ -124,19 +124,21 @@ class Model:
         line = line.split()[1:]
         assignment = [self.literal_id_map[i] if i[0] != "~" else -1 *
                       self.literal_id_map[i[1:]] for i in line]
-        tau = copy.deepcopy(assignment)
-        fired_constraints = []
+        new_constraint = Constraint([-i for i in assignment], [1 for i in assignment], 1, type="v")
+        new_constraint.negation()
+        if self.is_solution(new_constraint):
+            new_constraint.negation()
+            self.add_constraint(new_constraint)
+        else:
+            raise Exception("INVALID SOLUTION CLAIMED")
+    def is_solution(self, constraint: Constraint):
+        tau = constraint.propagate([])
         if self.loud:
             print("    ASSIGNMENT: ", tau)
+        fired_constraints = []
         while True:
             unit_propagated = False
-            for i in range(1, self.no_of_constraints+1):
-                if i not in self.dead_constraints:
-                    constraint = self.get_constraint(i)
-                    if constraint.is_unsatisfied(tau):
-                        raise Exception(
-                            "INVALID SOLUTION CLAIMED, FALSIFYING CONSTRAINT: " + str(i))
-            for i in range(1, self.no_of_constraints+1):
+            for i in self.constraints_known_to_propagate:
                 if i not in self.dead_constraints:
                     constraint = self.get_constraint(i)
                     constraint_propagates = constraint.propagate(tau)
@@ -146,16 +148,24 @@ class Model:
                         unit_propagated = True
                         break
             if not unit_propagated:
+                for i in range(1, self.no_of_constraints+1):
+                    if i not in self.constraints_known_to_propagate and i not in self.dead_constraints:
+                        constraint = self.get_constraint(i)
+                        constraint_propagates = constraint.propagate(tau)
+                        if constraint_propagates != []:
+                            fired_constraints.append(i)
+                            tau += constraint_propagates
+                            unit_propagated = True
+                            break
+            if not unit_propagated:
                 if len(tau) != self.no_of_literals:
                     raise Exception(
                         "INVALID SOLUTION CLAIMED, NOT ALL VARIABLES ASSIGNED")
                 else:
                     if self.loud:
                         print("    VALID SOLUTION FOUND")
-                    new_constraint = Constraint(
-                        [-i for i in assignment], [1 for i in assignment], 1)
-                    self.add_constraint(new_constraint)
-                break
+                    self.logger.warning(str(self.no_of_constraints+1)+":"+" ".join([str(i) for i in fired_constraints]))
+                    return True
 
     def admit_pol_step(self, statement: str) -> None:
         """
@@ -241,6 +251,7 @@ class Model:
                             print("    FIRED CONSTRAINTS: ", fired_constraints)
                         self.logger.warning(
                             str(self.no_of_constraints+1)+":"+" ".join([str(i) for i in fired_constraints]))
+                        self.constraints_known_to_propagate.update(fired_constraints)
                         return True
             for i in self.constraints_known_to_propagate:
                 if i not in self.dead_constraints:
