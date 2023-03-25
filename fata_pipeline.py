@@ -47,7 +47,7 @@ for file in files:
         print("    3️⃣  kept:", str(round(i[1]/i[0],4)*100)+"%")
     file = "stack_"+file
     if not os.path.exists("rup/"+file+".rup"):
-        proof = Proof(OPB_LOCATION+file)
+        proof = StackProof(OPB_LOCATION+file[6:])
         print("    1️⃣  rup file created")
     else:
         print("    1️⃣  rup file already exists")
