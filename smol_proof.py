@@ -22,11 +22,10 @@ def make_smol(file_name, read_dir, save_dir, loud=False):
                 queue.extend(graph_dict[node])
             else:
                 small_graph[node] = []
-    if "stack" not in file_name:
+    if "stack_" not in file_name:
         PROOF_FILE = f"{read_dir}{file_name}.veripb"
     else:
         PROOF_FILE = f"{read_dir}{file_name[6:]}.veripb"
-    # print(PROOF_FILE)
     with open(PROOF_FILE, "r") as f:
         with open(f"{save_dir}smol_{file_name}.veripb", "w") as g:
             model_step = 0
