@@ -8,7 +8,6 @@ def make_smol(file_name, read_dir, save_dir, loud=False):
             proof_step_id = int(proof_step_id)
             antecedent = [int(x) for x in antecedent.split()]
             graph_dict[proof_step_id] = antecedent
-    # print(graph_dict)
 
     small_graph = {}
 
@@ -27,7 +26,7 @@ def make_smol(file_name, read_dir, save_dir, loud=False):
         PROOF_FILE = f"{read_dir}{file_name}.veripb"
     else:
         PROOF_FILE = f"{read_dir}{file_name[6:]}.veripb"
-    print(PROOF_FILE)
+    # print(PROOF_FILE)
     with open(PROOF_FILE, "r") as f:
         with open(f"{save_dir}smol_{file_name}.veripb", "w") as g:
             model_step = 0
@@ -35,7 +34,7 @@ def make_smol(file_name, read_dir, save_dir, loud=False):
             short_proof_step = 0
             new_numbering = {}
             for line in f.readlines():
-                print(line, short_proof_step, proof_step)
+                # print(line, short_proof_step, proof_step)
                 if "pseudo" in line:
                     g.write(line[:-1])
                 elif line[0] == "f":

@@ -18,6 +18,8 @@ files = [f for f in files if f.endswith(".opb") and not f.startswith("smol_")]
 for file in files:
     file = file[:-4]
     print(file)
+    if file == "proof":
+        continue
     start = time.process_time()
     proof = Proof(OPB_LOCATION+file)
     print("    1️⃣  normal rup file created", time.process_time() - start)

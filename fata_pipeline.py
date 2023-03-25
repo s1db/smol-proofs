@@ -7,15 +7,18 @@ OPB_LOCATION = "../../ciaran/20230301-sip-proof-logs/"
 files = os.listdir(OPB_LOCATION)
 
 
-file_sizes = {}
+all_file_sizes = {}
 for file in files:
-    file_sizes[file] = os.stat(OPB_LOCATION+file).st_size
+    all_file_sizes[file] = os.stat(OPB_LOCATION+file).st_size
 
 
 
 # Sort the file names by size
-files = sorted(file_sizes, key=file_sizes.get)
+files = sorted(all_file_sizes, key=all_file_sizes.get)
 files = [f for f in files if f.endswith(".veripb")]
+
+avg_file_size = {f:((all_file_sizes[f+".opb"]+all_file_sizes[f+".veripb"])/2) for f in files}
+files = sorted(all_file_sizes, key=avg_file_size.get)
 files = [f[:-7]+".opb" for f in files]
 files = [f for f in files if not f.startswith("all-meshes")]
 
@@ -37,8 +40,3 @@ for file in files:
     except Exception as e: 
         print("    🔴  failed")
         print(e)
-    # output = subprocess.check_output(f"veripb {OPB_LOCATION}{file}.opb {SMOL_PROOF_LOCATION}smol_{file}.veripb", shell=True)
-    # if "succeeded":
-    #     print("    🟢", str(output, "utf-8"))
-    # else:
-    #     print("    🔴", str(output, "utf-8"))

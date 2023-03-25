@@ -208,7 +208,7 @@ class Model:
         temp.type = "p"
         if not blind:
             self.logger.warning(
-                str(self.no_of_constraints+1)+":"+" ".join([str(i) for i in antecedents]))
+                str(self.no_of_constraints)+":"+" ".join([str(i) for i in antecedents]))
             self.add_constraint(stack.pop())
         else:
             temp : Constraint = copy.deepcopy(stack.pop())
