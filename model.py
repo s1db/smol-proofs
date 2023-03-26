@@ -218,7 +218,9 @@ class Model:
         If the constraint is redundant, then it is added to the model.
         """
         constraint = self.constraint_parser(line[1:-1])
+        print("⭐", self.constraint_str(constraint))
         constraint.negation()
+        print("⭐", self.constraint_str(constraint))
         if not self.rup(constraint):
             if self.loud:
                 print("    RUP Failed -- cannot add constraint")
@@ -237,7 +239,6 @@ class Model:
             print("⭐", self.constraint_str(rup_constraint))
         tau = rup_constraint.propagate([])
         fired_constraints = []
-        has_to_be_true = set()
         if self.loud:
             print("    ASSIGNMENT: ", tau)
         while True:
@@ -259,7 +260,6 @@ class Model:
                     constraint_propagates = constraint.propagate(tau)
                     if constraint_propagates != []:
                         fired_constraints.append(i)
-                        has_to_be_true.add(i)
                         tau += constraint_propagates
                         unit_propagated = True
                         break
@@ -270,7 +270,6 @@ class Model:
                         constraint_propagates = constraint.propagate(tau)
                         if constraint_propagates != []:
                             fired_constraints.append(i)
-                            has_to_be_true.add(i)
                             tau += constraint_propagates
                             unit_propagated = True
                             break
