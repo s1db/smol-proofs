@@ -48,7 +48,6 @@ def make_smol(file_name, read_dir, save_dir, loud=False):
                     if proof_step in steps_to_keep:
                         short_proof_step += 1
                         new_numbering[proof_step] = short_proof_step
-                        print(new_numbering[proof_step], proof_step)
                         g.write("\n"+line[:-1])
                 elif line[0] == "j":
                     # print(line[:-1])

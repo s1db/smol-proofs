@@ -138,7 +138,7 @@ class Model:
         else:
             self.add_constraint(new_constraint)
     def is_solution(self, constraint: Constraint):
-        print("yoyo", self.constraint_str(constraint))
+        # print("yoyo", self.constraint_str(constraint))
         tau = constraint.propagate([])
         if self.loud:
             print("    ASSIGNMENT: ", tau)
@@ -149,6 +149,9 @@ class Model:
             for i in reversed(check_core_first):
                 i = -i
                 if i not in self.dead_constraints:
+                    tod = self.get_constraint(i).time_of_death
+                    if tod < self.no_of_constraints and tod != -1:
+                        continue
                     constraint = self.get_constraint(i)
                     constraint_propagates = constraint.propagate(tau)
                     if constraint_propagates != []:
@@ -216,8 +219,7 @@ class Model:
             self.add_constraint(stack.pop())
         else:
             temp : Constraint = copy.deepcopy(stack.pop())
-            self.add_constraint(temp)
-            
+            self.add_constraint(temp)        
     def admit_j_step(self, line: str, blind=False) -> None:
         """
         Adds the implication constraint to the model
