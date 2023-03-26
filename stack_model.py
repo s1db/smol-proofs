@@ -146,7 +146,8 @@ class Model:
         check_core_first = sorted(copy.deepcopy(self.constraints_known_to_propagate.heap))
         while True:
             unit_propagated = False
-            for i in check_core_first:
+            for i in reversed(check_core_first):
+                i = -i
                 if i not in self.dead_constraints:
                     constraint = self.get_constraint(i)
                     constraint_propagates = constraint.propagate(tau)
