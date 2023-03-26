@@ -41,6 +41,8 @@ def make_smol(file_name, read_dir, save_dir, loud=False):
                     short_proof_step = model_step
                     proof_step = model_step
                     g.write("\n"+line[:-1])
+                    for i in range(1, model_step+1):
+                        new_numbering[i] = i
                 elif line[0] == "u":
                     proof_step += 1
                     if proof_step in steps_to_keep:
