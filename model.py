@@ -68,6 +68,7 @@ class Model:
         :param: line: the line to be parsed
         :return: the constraint object
         """
+        line = line.strip()
         line = line[:-1].split(">=")
         degree = int(line[1])
         line = line[0].split()
@@ -85,6 +86,7 @@ class Model:
             raise Exception(
                 "unequal number of literals and coefficients")
         temp = Constraint(literal_ids, coefficients, degree)
+        print(temp)
         return temp
 
     def parse(self) -> None:
