@@ -361,8 +361,5 @@ class Model:
                 constraint.negation()
                 self.rup(constraint)
             elif constraint.type == "v":
-                constraint.negation()
-                self.is_solution(constraint)
-            elif constraint.type == "v":
                 self.is_solution(constraint)
             # print(constraint_id, len(self.constraints_known_to_propagate.heap))
