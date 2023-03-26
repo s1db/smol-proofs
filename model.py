@@ -265,6 +265,8 @@ class Model:
                         fired_constraints.append(i)
                         tau += constraint_propagates
                         unit_propagated = True
+                        if self.loud:
+                            print("    FIRED CONSTRAINT: ", i)
                         break
             if not unit_propagated:
                 for i in range(1, self.no_of_constraints+1):
@@ -275,6 +277,8 @@ class Model:
                             fired_constraints.append(i)
                             tau += constraint_propagates
                             unit_propagated = True
+                            if self.loud:
+                                print("    FIRED CONSTRAINT: ", i)
                             break
             if not unit_propagated:
                 return False
