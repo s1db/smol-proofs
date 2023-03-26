@@ -221,9 +221,9 @@ class Model:
         """
         print("LINE: ", line[1:-1])
         constraint = self.constraint_parser(line[1:-1])
-        print("⭐", self.constraint_str(constraint))
+        print("⭐", self.constraint_str(constraint), constraint)
         constraint.negation()
-        print("⭐", self.constraint_str(constraint))
+        print("⭐", self.constraint_str(constraint), constraint)
         if not self.rup(constraint):
             if self.loud:
                 print("    RUP Failed -- cannot add constraint")
@@ -239,7 +239,7 @@ class Model:
         Else returns False.
         """
         if self.loud:
-            print("⭐", self.constraint_str(rup_constraint))
+            print("⭐", self.constraint_str(rup_constraint), rup_constraint)
         tau = rup_constraint.propagate([])
         fired_constraints = []
         if self.loud:
