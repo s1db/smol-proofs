@@ -285,6 +285,9 @@ class Model:
             for i in reversed(check_core_first):
                 i = -i
                 if i not in self.dead_constraints:
+                    tod = self.get_constraint(i).time_of_death
+                    if tod < self.no_of_constraints and tod != -1:
+                        continue
                     constraint = self.get_constraint(i)
                     constraint_propagates = constraint.propagate(tau)
                     if constraint_propagates != []:
@@ -295,12 +298,16 @@ class Model:
             if not unit_propagated:
                 for i in range(1, self.no_of_constraints+1):
                     if i not in self.constraints_known_to_propagate.set and i not in self.dead_constraints:
+                        tod = self.get_constraint(i).time_of_death
+                        if tod < self.no_of_constraints and tod != -1:
+                            continue
                         constraint = self.get_constraint(i)
                         constraint_propagates = constraint.propagate(tau)
                         if constraint_propagates != []:
                             fired_constraints.append(i)
                             tau += constraint_propagates
                             unit_propagated = True
+                            break
             if not unit_propagated:
                 return False
     def constraint_str(self, constraint:Constraint) -> str:

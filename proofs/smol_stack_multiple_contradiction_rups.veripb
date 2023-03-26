@@ -1,19 +1,12 @@
 pseudo-Boolean proof version 1.2
 f 84 0
-u 1 ~iv0_eq_0 1 iv3_b_0 >= 1 ;
 p 20 37 + 81 + 82 + 0
 u 1 ~iv0_eq_0 >= 1 ;
-u 3 ~iv0_eq_1 1 iv1_b_0 2 iv1_b_1 >= 2 ;
-u 3 ~iv0_eq_1 -1 iv1_b_0 -2 iv1_b_1 >= -2 ;
-u 1 ~iv0_eq_1 1 ~iv2_eq_2 >= 1 ;
-u 3 ~iv0_eq_1 -1 iv2_b_0 -2 iv2_b_1 >= 0 ;
-u 1 ~iv0_eq_1 -1 iv3_b_0 >= 0 ;
 u 1 ~iv0_eq_1 >= 1 ;
-u 1 iv0_b_0 >= 1 ;
 u >= 1 ;
 u >= 1 ;
-c 96 0
+c 89 0
 
 * no of proof steps: 39
-* no of short proof steps: 12
-* % of proof steps kept: 30.76923076923077
+* no of short proof steps: 5
+* % of proof steps kept: 12.82051282051282
