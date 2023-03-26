@@ -50,6 +50,7 @@ def make_smol(file_name, read_dir, save_dir, loud=False):
                         new_numbering[proof_step] = short_proof_step
                         g.write("\n"+line[:-1])
                 elif line[0] == "j":
+                    print(line[:-1])
                     proof_step += 1
                     if proof_step in steps_to_keep:
                         reformulated_line = line.split(" ")
