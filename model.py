@@ -217,6 +217,7 @@ class Model:
         """
         If the constraint is redundant, then it is added to the model.
         """
+        print("LINE: ", line[1:-1])
         constraint = self.constraint_parser(line[1:-1])
         print("⭐", self.constraint_str(constraint))
         constraint.negation()
