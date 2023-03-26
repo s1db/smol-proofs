@@ -78,5 +78,5 @@ class Proof:
 
 
 if "__main__" == __name__:
-    FILE = "smol_proof"
-    proof = Proof("proofs/"+FILE, loud=False, backwards=True)
+    FILE = "proof2"
+    proof = Proof("proofs/"+FILE, loud=True, backwards=True)

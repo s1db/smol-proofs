@@ -126,6 +126,8 @@ class Model:
         assignment = [self.literal_id_map[i] if i[0] != "~" else -1 *
                       self.literal_id_map[i[1:]] for i in line]
         new_constraint = Constraint([-i for i in assignment], [1 for i in assignment], 1, type="v")
+        if self.loud:
+            self.constraint_str(new_constraint)
         if not blind:
             new_constraint.negation()
             if self.is_solution(new_constraint):
@@ -136,6 +138,7 @@ class Model:
         else:
             self.add_constraint(new_constraint)
     def is_solution(self, constraint: Constraint):
+        print("yoyo", self.constraint_str(constraint))
         tau = constraint.propagate([])
         if self.loud:
             print("    ASSIGNMENT: ", tau)
@@ -169,7 +172,7 @@ class Model:
                 else:
                     if self.loud:
                         print("    VALID SOLUTION FOUND")
-                    map(self.constraints_known_to_propagate.set, fired_constraints)
+                    self.constraints_known_to_propagate.add(fired_constraints)
                     self.logger.warning(str(self.no_of_constraints)+":"+" ".join([str(i) for i in fired_constraints]))
                     return True
 
@@ -330,7 +333,6 @@ class Model:
         constraint_id = self.no_of_constraints
         self.constraints_known_to_propagate.add(self.no_of_constraints)
         while self.constraints_known_to_propagate.empty() == False:
-            old_constraint_id = constraint_id
             constraint_id = self.constraints_known_to_propagate.pop()
             if constraint_id < self.no_of_model_constraints:
                 break
@@ -339,14 +341,18 @@ class Model:
             constraint = self.get_constraint(constraint_id)
             if constraint.type == "p":
                 antecedents = constraint.antecedents
+                self.constraints_known_to_propagate.add(antecedents)
                 self.logger.warning(str(constraint_id)+":"+" ".join([str(i) for i in antecedents]))
             elif constraint.type == "j":
                 antecedents = constraint.antecedents
+                self.constraints_known_to_propagate.add(antecedents)
                 self.logger.warning(str(constraint_id)+":"+" ".join([str(i) for i in antecedents]))
             elif constraint.type == "u":
                 constraint.negation()
                 self.rup(constraint)
-            elif constraint.type == "c":
+            elif constraint.type == "v":
                 constraint.negation()
+                self.is_solution(constraint)
+            elif constraint.type == "v":
                 self.is_solution(constraint)
             # print(constraint_id, len(self.constraints_known_to_propagate.heap))
