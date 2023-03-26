@@ -40,11 +40,14 @@ for file in files:
         print("    3️⃣  kept:", str(round(i[1]/i[0],4)*100)+"%")
     except Exception as e: 
         print("    🔴  failed, retrying")
-        proof = Proof(OPB_LOCATION+file)
-        print("    1️⃣  rup file created")
-        i = make_smol(file,OPB_LOCATION, "20230301-sip-proof-logs/")
-        print("    2️⃣  smol file created")
-        print("    3️⃣  kept:", str(round(i[1]/i[0],4)*100)+"%")
+        try:
+            proof = Proof(OPB_LOCATION+file)
+            print("    1️⃣  rup file created")
+            i = make_smol(file,OPB_LOCATION, "20230301-sip-proof-logs/")
+            print("    2️⃣  smol file created")
+            print("    3️⃣  kept:", str(round(i[1]/i[0],4)*100)+"%")
+        except:
+            pass
     file = "stack_"+file
     print(file)
     if not os.path.exists("rup/"+file+".rup"):
@@ -59,8 +62,11 @@ for file in files:
     except Exception as e: 
         # raise e
         print("    🔴  failed, retrying")
-        proof = StackProof(OPB_LOCATION+file[6:])
-        print("    1️⃣  rup file created")
-        i = make_smol(file,OPB_LOCATION, "20230301-sip-proof-logs/")
-        print("    2️⃣  smol file created")
-        print("    3️⃣  kept:", str(round(i[1]/i[0],4)*100)+"%")
+        try:
+            proof = StackProof(OPB_LOCATION+file[6:])
+            print("    1️⃣  rup file created")
+            i = make_smol(file,OPB_LOCATION, "20230301-sip-proof-logs/")
+            print("    2️⃣  smol file created")
+            print("    3️⃣  kept:", str(round(i[1]/i[0],4)*100)+"%")
+        except:
+            pass
