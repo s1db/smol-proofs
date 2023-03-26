@@ -48,7 +48,7 @@ for file in files:
     file = "stack_"+file
     print(file)
     if not os.path.exists("rup/"+file+".rup"):
-        proof = StackProof(OPB_LOCATION+file[6:])
+        proof = StackProof(OPB_LOCATION+file[6:], backwards=True)
         print("    1️⃣  rup file created")
     else:
         print("    1️⃣  rup file already exists")

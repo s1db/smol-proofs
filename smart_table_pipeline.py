@@ -24,7 +24,7 @@ for file in files:
     proof = Proof(OPB_LOCATION+file)
     print("    1️⃣  normal rup file created", time.process_time() - start)
     start = time.process_time()
-    stack_proof = StackProof(OPB_LOCATION+file)
+    stack_proof = StackProof(OPB_LOCATION+file, backwards=True)
     print("    1️⃣  stack rup file created", time.process_time() - start)
     SMOL_PROOF_LOCATION = OPB_LOCATION
     i = make_smol(file,OPB_LOCATION, OPB_LOCATION)
