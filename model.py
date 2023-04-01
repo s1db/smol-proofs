@@ -43,7 +43,8 @@ class Model:
         id: the id of the constraint to be deleted
         """
         if id <= self.no_of_model_constraints:
-            del self.model_constraint_db[id]
+            raise ValueError("Cannot delete a constraint from the proof")
+            # del self.model_constraint_db[id]
         else:
             del self.proof_constraint_db[id]
         self.dead_constraints.add(id)
@@ -61,7 +62,7 @@ class Model:
         else:
             self.proof_constraint_db[self.no_of_constraints] = constraint
         if self.loud:
-            print("    constraint " +"{:04d}".format(self.no_of_constraints) + " added: ", constraint)
+            print("    ConstraintId " +"{:03d}".format(self.no_of_constraints) + ":", self.constraint_str(constraint))
 
     def constraint_parser(self, line: str) -> Constraint:
         """
@@ -86,7 +87,6 @@ class Model:
             raise Exception(
                 "unequal number of literals and coefficients")
         temp = Constraint(literal_ids, coefficients, degree)
-        print(temp)
         return temp
 
     def parse(self) -> None:
@@ -111,10 +111,10 @@ class Model:
         #     print(list(self.literal_id_map.keys()))
         #     raise Exception(
         #         "NUMBER OF LITERALS IN MODEL FILE DOES NOT MATCH WITH THE NUMBER OF LITERALS IN THE CONSTRAINTS")
-        if self.expected_no_of_constraints != self.no_of_constraints:
-            print("WARNING: NUMBER OF CONSTRAINTS IN MODEL FILE DOES NOT MATCH WITH THE NUMBER OF CONSTRAINTS IN THE CONSTRAINTS")
-            raise Exception(
-                "NUMBER OF CONSTRAINTS IN MODEL FILE DOES NOT MATCH WITH THE NUMBER OF CONSTRAINTS IN THE CONSTRAINTS")
+        # if self.expected_no_of_constraints != self.no_of_constraints:
+        #     print("WARNING: NUMBER OF CONSTRAINTS IN MODEL FILE DOES NOT MATCH WITH THE NUMBER OF CONSTRAINTS IN THE CONSTRAINTS")
+        #     raise Exception(
+        #         "NUMBER OF CONSTRAINTS IN MODEL FILE DOES NOT MATCH WITH THE NUMBER OF CONSTRAINTS IN THE CONSTRAINTS")
         if self.loud:
             print("NO OF LITERALS   : ", self.no_of_literals)
             print("NO OF CONSTRAINTS: ", self.no_of_constraints)
@@ -133,6 +133,7 @@ class Model:
             self.add_constraint(new_constraint)
         else:
             raise Exception("INVALID SOLUTION CLAIMED")
+
     def is_solution(self, constraint: Constraint):
         tau = constraint.propagate([])
         if self.loud:
@@ -174,30 +175,32 @@ class Model:
         Processes the polish notation statement on the constraints
         and adds the new constraint to the model
         """
-        statement = statement.split(" ")[1:-1]
+        statement = statement.strip().split(" ")[1:]
         antecedents = []
         stack = []
-        operations = ["+", "-", "*", "/"]
+        operations = ["+", "-", "*", "d"]
         if len(statement) == 1:
             id = int(statement[0])
             temp = copy.deepcopy(self.get_constraint(id))
             stack.append(temp)
-        for i in statement:
-            if i not in operations:
-                antecedents.append(int(i))
-                temp = copy.deepcopy(self.get_constraint(int(i)))
+        for i in range(len(statement)):
+            if statement[i] not in operations:
+                antecedents.append(int(statement[i]))
+                temp = copy.deepcopy(self.get_constraint(int(statement[i])))
                 stack.append(temp)
             else:
-                constraint_1 = stack.pop()
                 constraint_2 = stack.pop()
+                constraint_1 = stack.pop()
                 temp = None
-                if i == '+':
+                if statement[i] == '+':
                     temp = constraint_1 + constraint_2
-                if i == '-':
+                if statement[i] == '-':
                     temp = constraint_1 - constraint_2
-                if i == '*':
+                if statement[i] == '*':
+                    constraint_2 = int(statement[i-1])
                     temp = constraint_1 * constraint_2
-                if i == '/':
+                if statement[i] == 'd':
+                    constraint_2 = int(statement[i-1])
                     temp = constraint_1 / constraint_2
                 stack.append(temp)
         self.logger.warning(
@@ -219,11 +222,11 @@ class Model:
         """
         If the constraint is redundant, then it is added to the model.
         """
-        print("LINE: ", line[1:-1])
+        # print("LINE: ", line[1:-1])
         constraint = self.constraint_parser(line[1:-1])
-        print("⭐", self.constraint_str(constraint), constraint)
+        # print("⭐", self.constraint_str(constraint), constraint)
         constraint.negation()
-        print("⭐", self.constraint_str(constraint), constraint)
+        # print("⭐", self.constraint_str(constraint), constraint)
         if not self.rup(constraint):
             if self.loud:
                 print("    RUP Failed -- cannot add constraint")
@@ -238,14 +241,13 @@ class Model:
         Returns True if the constraint is redundant to the model.
         Else returns False.
         """
-        if self.loud:
-            print("⭐", self.constraint_str(rup_constraint), rup_constraint)
+        # if self.loud:
+        #     print("⭐", self.constraint_str(rup_constraint),"⭐", rup_constraint)
         tau = rup_constraint.propagate([])
         fired_constraints = []
         if self.loud:
             print("    ASSIGNMENT: ", tau)
         while True:
-            unit_propagated = False
             for i in range(1, self.no_of_constraints+1):
                 if i not in self.dead_constraints:
                     constraint = self.get_constraint(i)
@@ -257,8 +259,19 @@ class Model:
                             str(self.no_of_constraints+1)+":"+" ".join([str(i) for i in fired_constraints]))
                         self.constraints_known_to_propagate.update(fired_constraints)
                         return True
-            for i in self.constraints_known_to_propagate:
-                if i not in self.dead_constraints:
+            unit_propagated = False
+            # for i in self.constraints_known_to_propagate:
+            #     constraint = self.get_constraint(i)
+            #     constraint_propagates = constraint.propagate(tau)
+            #     if constraint_propagates != []:
+            #         fired_constraints.append(i)
+            #         tau += constraint_propagates
+            #         unit_propagated = True
+            #         if self.loud:
+            #             print("    FIRED CONSTRAINT: ", i)
+            #         break
+            if not unit_propagated:
+                for i in range(1, self.no_of_constraints+1):
                     constraint = self.get_constraint(i)
                     constraint_propagates = constraint.propagate(tau)
                     if constraint_propagates != []:
@@ -269,33 +282,26 @@ class Model:
                             print("    FIRED CONSTRAINT: ", i)
                         break
             if not unit_propagated:
-                for i in range(1, self.no_of_constraints+1):
-                    if i not in self.constraints_known_to_propagate and i not in self.dead_constraints:
-                        constraint = self.get_constraint(i)
-                        constraint_propagates = constraint.propagate(tau)
-                        if constraint_propagates != []:
-                            fired_constraints.append(i)
-                            tau += constraint_propagates
-                            unit_propagated = True
-                            if self.loud:
-                                print("    FIRED CONSTRAINT: ", i)
-                            break
-            if not unit_propagated:
+                if self.loud:
+                    print("    NOT RUP BUT PREVIOUSLY FIRED FIRED CONSTRAINTS: ", fired_constraints)
                 return False
+
     def constraint_str(self, constraint:Constraint) -> str:
         """
         Returns the string representation of the constraint
         """
         id_literal_map = {v: k for k, v in self.literal_id_map.items()}
         constraint_string = ""
+        # print(constraint.coefficients)
         for i in constraint.literals:
             if i < 0:
-                constraint_string += " "+ str(constraint.coefficients[abs(i)]) + " ~" + str(id_literal_map[abs(i)])
+                constraint_string += " "+ str(constraint.coefficients[i]) + " ~" + str(id_literal_map[abs(i)])
             else:
-                constraint_string += " "+ str(constraint.coefficients[abs(i)]) + " " + str(id_literal_map[abs(i)])
+                constraint_string += " "+ str(constraint.coefficients[i]) + " " + str(id_literal_map[abs(i)])
         constraint_string += " >= "
         constraint_string += str(constraint.degree)
         return constraint_string
+
     def admit_check_contradiction(self, line: str) -> None:
         """
         Checks if the given contradiction is a contradiction

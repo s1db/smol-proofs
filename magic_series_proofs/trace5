@@ -1,0 +1,763 @@
+
+=== begin trace ===
+line 002: f 98
+  ConstraintId 001: 1 iv0_series0_b_0 2 iv0_series0_b_1 >= 0
+  ConstraintId 002: 1 ~iv0_series0_b_0 2 ~iv0_series0_b_1 >= 1
+  ConstraintId 003: 1 iv1_series1_b_0 2 iv1_series1_b_1 >= 0
+  ConstraintId 004: 1 ~iv1_series1_b_0 2 ~iv1_series1_b_1 >= 1
+  ConstraintId 005: 1 iv2_series2_b_0 2 iv2_series2_b_1 >= 0
+  ConstraintId 006: 1 ~iv2_series2_b_0 2 ~iv2_series2_b_1 >= 1
+  ConstraintId 007: 1 iv3_iv3_t >= 0
+  ConstraintId 008: 1 iv4_iv4_t >= 0
+  ConstraintId 009: 1 iv5_iv5_t >= 0
+  ConstraintId 010: 1 iv6_iv6_t >= 0
+  ConstraintId 011: 1 iv7_iv7_t >= 0
+  ConstraintId 012: 1 iv8_iv8_t >= 0
+  ConstraintId 013: 1 iv9_iv9_t >= 0
+  ConstraintId 014: 1 iv10_iv10_t >= 0
+  ConstraintId 015: 1 iv11_iv11_t >= 0
+  ConstraintId 016: 1 iv0_series0_b_0 2 iv0_series0_b_1 >= 0
+  ConstraintId 017: 4 iv0_ge_0 1 ~iv0_series0_b_0 2 ~iv0_series0_b_1 >= 4
+  ConstraintId 018: 1 iv0_ge_0 >= 1
+  ConstraintId 019: 1 ~iv0_ge_1 1 iv0_series0_b_0 2 iv0_series0_b_1 >= 1
+  ConstraintId 020: 3 iv0_ge_1 1 ~iv0_series0_b_0 2 ~iv0_series0_b_1 >= 3
+  ConstraintId 021: 1 iv0_ge_0 1 ~iv0_ge_1 >= 1
+  ConstraintId 022: 2 ~iv0_eq_0 1 iv0_ge_0 1 ~iv0_ge_1 >= 2
+  ConstraintId 023: 1 iv0_eq_0 1 ~iv0_ge_0 1 iv0_ge_1 >= 1
+  ConstraintId 024: 1 iv0_eq_0 1 ~iv3_iv3_t >= 1
+  ConstraintId 025: 1 ~iv0_eq_0 1 iv3_iv3_t >= 1
+  ConstraintId 026: 1 iv1_series1_b_0 2 iv1_series1_b_1 >= 0
+  ConstraintId 027: 4 iv1_ge_0 1 ~iv1_series1_b_0 2 ~iv1_series1_b_1 >= 4
+  ConstraintId 028: 1 iv1_ge_0 >= 1
+  ConstraintId 029: 1 ~iv1_ge_1 1 iv1_series1_b_0 2 iv1_series1_b_1 >= 1
+  ConstraintId 030: 3 iv1_ge_1 1 ~iv1_series1_b_0 2 ~iv1_series1_b_1 >= 3
+  ConstraintId 031: 1 iv1_ge_0 1 ~iv1_ge_1 >= 1
+  ConstraintId 032: 2 ~iv1_eq_0 1 iv1_ge_0 1 ~iv1_ge_1 >= 2
+  ConstraintId 033: 1 iv1_eq_0 1 ~iv1_ge_0 1 iv1_ge_1 >= 1
+  ConstraintId 034: 1 iv1_eq_0 1 ~iv4_iv4_t >= 1
+  ConstraintId 035: 1 ~iv1_eq_0 1 iv4_iv4_t >= 1
+  ConstraintId 036: 1 iv2_series2_b_0 2 iv2_series2_b_1 >= 0
+  ConstraintId 037: 4 iv2_ge_0 1 ~iv2_series2_b_0 2 ~iv2_series2_b_1 >= 4
+  ConstraintId 038: 1 iv2_ge_0 >= 1
+  ConstraintId 039: 1 ~iv2_ge_1 1 iv2_series2_b_0 2 iv2_series2_b_1 >= 1
+  ConstraintId 040: 3 iv2_ge_1 1 ~iv2_series2_b_0 2 ~iv2_series2_b_1 >= 3
+  ConstraintId 041: 1 iv2_ge_0 1 ~iv2_ge_1 >= 1
+  ConstraintId 042: 2 ~iv2_eq_0 1 iv2_ge_0 1 ~iv2_ge_1 >= 2
+  ConstraintId 043: 1 iv2_eq_0 1 ~iv2_ge_0 1 iv2_ge_1 >= 1
+  ConstraintId 044: 1 iv2_eq_0 1 ~iv5_iv5_t >= 1
+  ConstraintId 045: 1 ~iv2_eq_0 1 iv5_iv5_t >= 1
+  ConstraintId 046: 1 ~iv0_series0_b_0 2 ~iv0_series0_b_1 1 iv3_iv3_t 1 iv4_iv4_t 1 iv5_iv5_t >= 3
+  ConstraintId 047: 1 iv0_series0_b_0 2 iv0_series0_b_1 1 ~iv3_iv3_t 1 ~iv4_iv4_t 1 ~iv5_iv5_t >= 3
+  ConstraintId 048: 2 ~iv0_ge_2 1 iv0_series0_b_0 2 iv0_series0_b_1 >= 2
+  ConstraintId 049: 2 iv0_ge_2 1 ~iv0_series0_b_0 2 ~iv0_series0_b_1 >= 2
+  ConstraintId 050: 1 iv0_ge_1 1 ~iv0_ge_2 >= 1
+  ConstraintId 051: 2 ~iv0_eq_1 1 iv0_ge_1 1 ~iv0_ge_2 >= 2
+  ConstraintId 052: 1 iv0_eq_1 1 ~iv0_ge_1 1 iv0_ge_2 >= 1
+  ConstraintId 053: 1 iv0_eq_1 1 ~iv6_iv6_t >= 1
+  ConstraintId 054: 1 ~iv0_eq_1 1 iv6_iv6_t >= 1
+  ConstraintId 055: 2 ~iv1_ge_2 1 iv1_series1_b_0 2 iv1_series1_b_1 >= 2
+  ConstraintId 056: 2 iv1_ge_2 1 ~iv1_series1_b_0 2 ~iv1_series1_b_1 >= 2
+  ConstraintId 057: 1 iv1_ge_1 1 ~iv1_ge_2 >= 1
+  ConstraintId 058: 2 ~iv1_eq_1 1 iv1_ge_1 1 ~iv1_ge_2 >= 2
+  ConstraintId 059: 1 iv1_eq_1 1 ~iv1_ge_1 1 iv1_ge_2 >= 1
+  ConstraintId 060: 1 iv1_eq_1 1 ~iv7_iv7_t >= 1
+  ConstraintId 061: 1 ~iv1_eq_1 1 iv7_iv7_t >= 1
+  ConstraintId 062: 2 ~iv2_ge_2 1 iv2_series2_b_0 2 iv2_series2_b_1 >= 2
+  ConstraintId 063: 2 iv2_ge_2 1 ~iv2_series2_b_0 2 ~iv2_series2_b_1 >= 2
+  ConstraintId 064: 1 iv2_ge_1 1 ~iv2_ge_2 >= 1
+  ConstraintId 065: 2 ~iv2_eq_1 1 iv2_ge_1 1 ~iv2_ge_2 >= 2
+  ConstraintId 066: 1 iv2_eq_1 1 ~iv2_ge_1 1 iv2_ge_2 >= 1
+  ConstraintId 067: 1 iv2_eq_1 1 ~iv8_iv8_t >= 1
+  ConstraintId 068: 1 ~iv2_eq_1 1 iv8_iv8_t >= 1
+  ConstraintId 069: 1 ~iv1_series1_b_0 2 ~iv1_series1_b_1 1 iv6_iv6_t 1 iv7_iv7_t 1 iv8_iv8_t >= 3
+  ConstraintId 070: 1 iv1_series1_b_0 2 iv1_series1_b_1 1 ~iv6_iv6_t 1 ~iv7_iv7_t 1 ~iv8_iv8_t >= 3
+  ConstraintId 071: 3 ~iv0_ge_3 1 iv0_series0_b_0 2 iv0_series0_b_1 >= 3
+  ConstraintId 072: 1 iv0_ge_3 1 ~iv0_series0_b_0 2 ~iv0_series0_b_1 >= 1
+  ConstraintId 073: 1 ~iv0_ge_3 >= 1
+  ConstraintId 074: 1 iv0_ge_2 1 ~iv0_ge_3 >= 1
+  ConstraintId 075: 2 ~iv0_eq_2 1 iv0_ge_2 1 ~iv0_ge_3 >= 2
+  ConstraintId 076: 1 iv0_eq_2 1 ~iv0_ge_2 1 iv0_ge_3 >= 1
+  ConstraintId 077: 1 iv0_eq_2 1 ~iv9_iv9_t >= 1
+  ConstraintId 078: 1 ~iv0_eq_2 1 iv9_iv9_t >= 1
+  ConstraintId 079: 3 ~iv1_ge_3 1 iv1_series1_b_0 2 iv1_series1_b_1 >= 3
+  ConstraintId 080: 1 iv1_ge_3 1 ~iv1_series1_b_0 2 ~iv1_series1_b_1 >= 1
+  ConstraintId 081: 1 ~iv1_ge_3 >= 1
+  ConstraintId 082: 1 iv1_ge_2 1 ~iv1_ge_3 >= 1
+  ConstraintId 083: 2 ~iv1_eq_2 1 iv1_ge_2 1 ~iv1_ge_3 >= 2
+  ConstraintId 084: 1 iv1_eq_2 1 ~iv1_ge_2 1 iv1_ge_3 >= 1
+  ConstraintId 085: 1 iv1_eq_2 1 ~iv10_iv10_t >= 1
+  ConstraintId 086: 1 ~iv1_eq_2 1 iv10_iv10_t >= 1
+  ConstraintId 087: 3 ~iv2_ge_3 1 iv2_series2_b_0 2 iv2_series2_b_1 >= 3
+  ConstraintId 088: 1 iv2_ge_3 1 ~iv2_series2_b_0 2 ~iv2_series2_b_1 >= 1
+  ConstraintId 089: 1 ~iv2_ge_3 >= 1
+  ConstraintId 090: 1 iv2_ge_2 1 ~iv2_ge_3 >= 1
+  ConstraintId 091: 2 ~iv2_eq_2 1 iv2_ge_2 1 ~iv2_ge_3 >= 2
+  ConstraintId 092: 1 iv2_eq_2 1 ~iv2_ge_2 1 iv2_ge_3 >= 1
+  ConstraintId 093: 1 iv2_eq_2 1 ~iv11_iv11_t >= 1
+  ConstraintId 094: 1 ~iv2_eq_2 1 iv11_iv11_t >= 1
+  ConstraintId 095: 1 ~iv2_series2_b_0 2 ~iv2_series2_b_1 1 iv9_iv9_t 1 iv10_iv10_t 1 iv11_iv11_t >= 3
+  ConstraintId 096: 1 iv2_series2_b_0 2 iv2_series2_b_1 1 ~iv9_iv9_t 1 ~iv10_iv10_t 1 ~iv11_iv11_t >= 3
+  ConstraintId 097: 1 iv0_series0_b_0 2 iv0_series0_b_1 1 iv1_series1_b_0 2 iv1_series1_b_1 1 iv2_series2_b_0 2 iv2_series2_b_1 >= 3
+  ConstraintId 098: 1 ~iv0_series0_b_0 2 ~iv0_series0_b_1 1 ~iv1_series1_b_0 2 ~iv1_series1_b_1 1 ~iv2_series2_b_0 2 ~iv2_series2_b_1 >= 6
+line 003: red 4 ~iv0_eq_0 1 ~iv0_series0_b_0 2 ~iv0_series0_b_1 >= 3 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 4 ~iv0_eq_0 1 ~iv0_series0_b_0 2 ~iv0_series0_b_1 >= 3
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 099: 4 iv0_eq_0 1 iv0_series0_b_0 2 iv0_series0_b_1 >= 5
+line 004: 	pol  47 iv5_iv5_t + iv4_iv4_t + 3 d s 20 iv0_series0_b_0 + 3 d s + s 20 iv0_series0_b_1 2 * + 3 d s + s 22 ~iv0_ge_0 + 2 d s + s 25 + s 99 ~iv0_series0_b_0 + ~iv0_series0_b_1 2 * + 5 d s + s
+  ConstraintId 100: >= 1
+line 005: end 100
+  ConstraintId 101: 4 ~iv0_eq_0 1 ~iv0_series0_b_0 2 ~iv0_series0_b_1 >= 3
+  ConstraintId  - : deleting 99, 100
+line 006: red 2 ~iv0_eq_0 1 iv4_iv4_t >= 0 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 2 ~iv0_eq_0 1 iv4_iv4_t >= 0
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 102: 2 iv0_eq_0 1 ~iv4_iv4_t >= 4
+line 007: 	pol  102 iv4_iv4_t + ~iv0_eq_0 2 * + 4 d
+  ConstraintId 103: >= 1
+line 008: end 103
+  ConstraintId 104: 2 ~iv0_eq_0 1 iv4_iv4_t >= 0
+  ConstraintId  - : deleting 102, 103
+line 009: red 2 ~iv0_eq_0 1 iv5_iv5_t >= 0 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 2 ~iv0_eq_0 1 iv5_iv5_t >= 0
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 105: 2 iv0_eq_0 1 ~iv5_iv5_t >= 4
+line 010: 	pol  105 iv5_iv5_t + ~iv0_eq_0 2 * + 4 d
+  ConstraintId 106: >= 1
+line 011: end 106
+  ConstraintId 107: 2 ~iv0_eq_0 1 iv5_iv5_t >= 0
+  ConstraintId  - : deleting 105, 106
+line 012: pol 47 101 + 104 + 107 +
+  ConstraintId 108: 8 ~iv0_eq_0 1 ~iv3_iv3_t >= 1
+line 013: red 1 ~iv0_eq_0 1 ~iv3_iv3_t >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 1 ~iv0_eq_0 1 ~iv3_iv3_t >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 109: 1 iv0_eq_0 1 iv3_iv3_t >= 2
+line 014: 	pol  108 s 109 ~iv0_eq_0 + 2 d + s 109 ~iv3_iv3_t + 2 d + s
+  ConstraintId 110: >= 1
+line 015: end 110
+  ConstraintId 111: 1 ~iv0_eq_0 1 ~iv3_iv3_t >= 1
+  ConstraintId  - : deleting 109, 110
+line 016: deld 108
+line 017: red 2 ~iv0_eq_0 1 iv3_iv3_t >= 0 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 2 ~iv0_eq_0 1 iv3_iv3_t >= 0
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 112: 2 iv0_eq_0 1 ~iv3_iv3_t >= 4
+line 018: 	pol  112 iv3_iv3_t + ~iv0_eq_0 2 * + 4 d
+  ConstraintId 113: >= 1
+line 019: end 113
+  ConstraintId 114: 2 ~iv0_eq_0 1 iv3_iv3_t >= 0
+  ConstraintId  - : deleting 112, 113
+line 020: pol 47 101 + 114 + 107 +
+  ConstraintId 115: 8 ~iv0_eq_0 1 ~iv4_iv4_t >= 1
+line 021: red 1 ~iv0_eq_0 1 ~iv4_iv4_t >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 1 ~iv0_eq_0 1 ~iv4_iv4_t >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 116: 1 iv0_eq_0 1 iv4_iv4_t >= 2
+line 022: 	pol  115 s 116 ~iv0_eq_0 + 2 d + s 116 ~iv4_iv4_t + 2 d + s
+  ConstraintId 117: >= 1
+line 023: end 117
+  ConstraintId 118: 1 ~iv0_eq_0 1 ~iv4_iv4_t >= 1
+  ConstraintId  - : deleting 116, 117
+line 024: deld 115
+line 025: pol 47 101 + 114 + 104 +
+  ConstraintId 119: 8 ~iv0_eq_0 1 ~iv5_iv5_t >= 1
+line 026: red 1 ~iv0_eq_0 1 ~iv5_iv5_t >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 1 ~iv0_eq_0 1 ~iv5_iv5_t >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 120: 1 iv0_eq_0 1 iv5_iv5_t >= 2
+line 027: 	pol  119 s 120 ~iv0_eq_0 + 2 d + s 120 ~iv5_iv5_t + 2 d + s
+  ConstraintId 121: >= 1
+line 028: end 121
+  ConstraintId 122: 1 ~iv0_eq_0 1 ~iv5_iv5_t >= 1
+  ConstraintId  - : deleting 120, 121
+line 029: deld 119
+line 030: pol 97 101 + 6 +
+  ConstraintId 123: 4 ~iv0_eq_0 1 iv1_series1_b_0 2 iv1_series1_b_1 >= 1
+line 031: red 1 ~iv0_eq_0 1 iv1_ge_1 >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 1 ~iv0_eq_0 1 iv1_ge_1 >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 124: 1 iv0_eq_0 1 ~iv1_ge_1 >= 2
+line 032: 	pol  25 111 + s 124 iv1_ge_1 + 2 d + s
+  ConstraintId 125: >= 1
+line 033: end 125
+  ConstraintId 126: 1 ~iv0_eq_0 1 iv1_ge_1 >= 1
+  ConstraintId  - : deleting 124, 125
+line 034: deld 123
+line 035: pol 97 101 + 4 +
+  ConstraintId 127: 4 ~iv0_eq_0 1 iv2_series2_b_0 2 iv2_series2_b_1 >= 1
+line 036: red 1 ~iv0_eq_0 1 iv2_ge_1 >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 1 ~iv0_eq_0 1 iv2_ge_1 >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 128: 1 iv0_eq_0 1 ~iv2_ge_1 >= 2
+line 037: 	pol  25 111 + s 128 iv2_ge_1 + 2 d + s
+  ConstraintId 129: >= 1
+line 038: end 129
+  ConstraintId 130: 1 ~iv0_eq_0 1 iv2_ge_1 >= 1
+  ConstraintId  - : deleting 128, 129
+line 039: deld 127
+line 040: red 1 ~iv0_eq_0 >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 1 ~iv0_eq_0 >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 131: 1 iv0_eq_0 >= 1
+line 041: 	pol  25 111 + s 131 + s
+  ConstraintId 132: >= 1
+line 042: end 132
+  ConstraintId 133: 1 ~iv0_eq_0 >= 1
+  ConstraintId  - : deleting 131, 132
+line 043: red 2 iv0_eq_0 2 ~iv0_eq_1 1 iv6_iv6_t >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 2 iv0_eq_0 2 ~iv0_eq_1 1 iv6_iv6_t >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 134: 2 ~iv0_eq_0 2 iv0_eq_1 1 ~iv6_iv6_t >= 5
+line 044: 	pol  54 134 iv6_iv6_t + iv0_eq_0 2 * + 5 d s + s 134 iv0_eq_0 2 * + ~iv0_eq_1 2 * + 5 d + s
+  ConstraintId 135: >= 1
+line 045: end 135
+  ConstraintId 136: 2 iv0_eq_0 2 ~iv0_eq_1 1 iv6_iv6_t >= 1
+  ConstraintId  - : deleting 134, 135
+line 046: red 2 iv0_eq_0 2 ~iv0_eq_1 1 iv7_iv7_t >= 0 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 2 iv0_eq_0 2 ~iv0_eq_1 1 iv7_iv7_t >= 0
+  ** proofgoals from order **
+  ** proofgoals from objective **
+
+ConstraintId 137: 4 ~iv0_eq_0 4 iv0_eq_1  >= 10
+line 047: 	pol   + ~iv0_eq_1 2 * + 6 d
+
+
+
+  ConstraintId 138: >= 1
+line 048: end 138
+  ConstraintId 139: 2 iv0_eq_0 2 ~iv0_eq_1 1 iv7_iv7_t >= 0
+  ConstraintId  - : deleting 137, 138
+line 049: red 2 iv0_eq_0 2 ~iv0_eq_1 1 iv8_iv8_t >= 0 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 2 iv0_eq_0 2 ~iv0_eq_1 1 iv8_iv8_t >= 0
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 140: 2 ~iv0_eq_0 2 iv0_eq_1 1 ~iv8_iv8_t >= 6
+line 050: 	pol  140 iv8_iv8_t + iv0_eq_0 2 * + ~iv0_eq_1 2 * + 6 d
+  ConstraintId 141: >= 1
+line 051: end 141
+  ConstraintId 142: 2 iv0_eq_0 2 ~iv0_eq_1 1 iv8_iv8_t >= 0
+  ConstraintId  - : deleting 140, 141
+line 052: pol 70 136 + 139 + 142 +
+  ConstraintId 143: 6 iv0_eq_0 6 ~iv0_eq_1 1 iv1_series1_b_0 2 iv1_series1_b_1 >= 1
+line 053: red 1 iv0_eq_0 1 ~iv0_eq_1 1 iv1_ge_1 >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 1 iv0_eq_0 1 ~iv0_eq_1 1 iv1_ge_1 >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 144: 1 ~iv0_eq_0 1 iv0_eq_1 1 ~iv1_ge_1 >= 3
+line 054: 	pol  70 iv8_iv8_t + iv7_iv7_t + 3 d s 30 iv1_series1_b_0 + 3 d s + s 30 iv1_series1_b_1 2 * + 3 d s + s 136 s + s 144 iv0_eq_0 + ~iv0_eq_1 + 3 d + s 144 iv0_eq_0 + iv1_ge_1 + 3 d + s 133 + s
+  ConstraintId 145: >= 1
+line 055: end 145
+  ConstraintId 146: 1 iv0_eq_0 1 ~iv0_eq_1 1 iv1_ge_1 >= 1
+  ConstraintId  - : deleting 144, 145
+line 056: deld 143
+line 057: red 4 iv0_eq_0 4 ~iv0_eq_1 1 iv0_series0_b_0 2 iv0_series0_b_1 >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 4 iv0_eq_0 4 ~iv0_eq_1 1 iv0_series0_b_0 2 iv0_series0_b_1 >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 147: 4 ~iv0_eq_0 4 iv0_eq_1 1 ~iv0_series0_b_0 2 ~iv0_series0_b_1 >= 11
+line 058: 	pol  19 s 23 + s 147 iv0_series0_b_0 + iv0_eq_0 4 * + ~iv0_eq_1 4 * + 11 d s + s 147 iv0_series0_b_1 2 * + iv0_eq_0 4 * + ~iv0_eq_1 4 * + 11 d + s 133 + s 18 + s
+  ConstraintId 148: >= 1
+line 059: end 148
+  ConstraintId 149: 4 iv0_eq_0 4 ~iv0_eq_1 1 iv0_series0_b_0 2 iv0_series0_b_1 >= 1
+  ConstraintId  - : deleting 147, 148
+line 060: red 4 iv0_eq_0 4 ~iv0_eq_1 1 iv1_series1_b_0 2 iv1_series1_b_1 >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 4 iv0_eq_0 4 ~iv0_eq_1 1 iv1_series1_b_0 2 iv1_series1_b_1 >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 150: 4 ~iv0_eq_0 4 iv0_eq_1 1 ~iv1_series1_b_0 2 ~iv1_series1_b_1 >= 11
+line 061: 	pol  70 iv8_iv8_t + iv7_iv7_t + 3 d s 136 s + s 150 iv1_series1_b_0 + iv1_series1_b_1 2 * + iv0_eq_0 4 * + 11 d s + s 150 iv1_series1_b_0 + iv0_eq_0 4 * + ~iv0_eq_1 4 * + 11 d s + s 150 iv1_series1_b_1 2 * + iv0_eq_0 4 * + ~iv0_eq_1 4 * + 11 d + s 133 + s
+  ConstraintId 151: >= 1
+line 062: end 151
+  ConstraintId 152: 4 iv0_eq_0 4 ~iv0_eq_1 1 iv1_series1_b_0 2 iv1_series1_b_1 >= 1
+  ConstraintId  - : deleting 150, 151
+line 063: pol 98 149 + 152 +
+  ConstraintId 153: 8 iv0_eq_0 8 ~iv0_eq_1 1 ~iv2_series2_b_0 2 ~iv2_series2_b_1 >= 2
+line 064: red 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv2_ge_2 >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv2_ge_2 >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 154: 1 ~iv0_eq_0 1 iv0_eq_1 1 iv2_ge_2 >= 3
+line 065: 	pol  62 ~iv2_series2_b_0 + 2 d s 153 iv2_series2_b_0 + 2 d s + s 154 iv0_eq_0 + ~iv0_eq_1 + 3 d + s 154 iv0_eq_0 + ~iv2_ge_2 + 3 d + s 133 + s
+  ConstraintId 155: >= 1
+line 066: end 155
+  ConstraintId 156: 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv2_ge_2 >= 1
+  ConstraintId  - : deleting 154, 155
+line 067: deld 153
+line 068: red 2 iv0_eq_0 2 ~iv0_eq_1 1 ~iv3_iv3_t >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 2 iv0_eq_0 2 ~iv0_eq_1 1 ~iv3_iv3_t >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 157: 2 ~iv0_eq_0 2 iv0_eq_1 1 iv3_iv3_t >= 5
+line 069: 	pol  24 157 iv0_eq_0 2 * + ~iv0_eq_1 2 * + 5 d + s 133 + s
+  ConstraintId 158: >= 1
+line 070: end 158
+  ConstraintId 159: 2 iv0_eq_0 2 ~iv0_eq_1 1 ~iv3_iv3_t >= 1
+  ConstraintId  - : deleting 157, 158
+line 071: red 2 iv0_eq_0 2 ~iv0_eq_1 1 ~iv4_iv4_t >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 2 iv0_eq_0 2 ~iv0_eq_1 1 ~iv4_iv4_t >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 160: 2 ~iv0_eq_0 2 iv0_eq_1 1 iv4_iv4_t >= 5
+line 072: 	pol  32 ~iv1_ge_0 + 2 d s 34 + s 146 + s 160 ~iv4_iv4_t + iv0_eq_0 2 * + 5 d s + s 160 iv0_eq_0 2 * + ~iv0_eq_1 2 * + 5 d + s 133 + s
+  ConstraintId 161: >= 1
+line 073: end 161
+  ConstraintId 162: 2 iv0_eq_0 2 ~iv0_eq_1 1 ~iv4_iv4_t >= 1
+  ConstraintId  - : deleting 160, 161
+line 074: pol 46 149 + 159 + 162 +
+  ConstraintId 163: 8 iv0_eq_0 8 ~iv0_eq_1 1 iv5_iv5_t >= 1
+line 075: red 1 iv0_eq_0 1 ~iv0_eq_1 1 iv5_iv5_t >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 1 iv0_eq_0 1 ~iv0_eq_1 1 iv5_iv5_t >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 164: 1 ~iv0_eq_0 1 iv0_eq_1 1 ~iv5_iv5_t >= 3
+line 076: 	pol  163 s 164 iv0_eq_0 + ~iv0_eq_1 + 3 d + s 164 iv0_eq_0 + iv5_iv5_t + 3 d + s 133 + s
+  ConstraintId 165: >= 1
+line 077: end 165
+  ConstraintId 166: 1 iv0_eq_0 1 ~iv0_eq_1 1 iv5_iv5_t >= 1
+  ConstraintId  - : deleting 164, 165
+line 078: deld 163
+line 079: red 1 iv0_eq_0 1 ~iv0_eq_1 1 iv2_eq_0 >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 1 iv0_eq_0 1 ~iv0_eq_1 1 iv2_eq_0 >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 167: 1 ~iv0_eq_0 1 iv0_eq_1 1 ~iv2_eq_0 >= 3
+line 080: 	pol  44 166 + s 167 iv0_eq_0 + ~iv0_eq_1 + 3 d + s 167 iv0_eq_0 + iv2_eq_0 + 3 d + s 133 + s
+  ConstraintId 168: >= 1
+line 081: end 168
+  ConstraintId 169: 1 iv0_eq_0 1 ~iv0_eq_1 1 iv2_eq_0 >= 1
+  ConstraintId  - : deleting 167, 168
+line 082: red 4 iv0_eq_0 4 ~iv0_eq_1 1 ~iv2_series2_b_0 2 ~iv2_series2_b_1 >= 3 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 4 iv0_eq_0 4 ~iv0_eq_1 1 ~iv2_series2_b_0 2 ~iv2_series2_b_1 >= 3
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 170: 4 ~iv0_eq_0 4 iv0_eq_1 1 iv2_series2_b_0 2 iv2_series2_b_1 >= 9
+line 083: 	pol  84 86 + s 56 iv1_series1_b_0 + 2 d s + s 96 iv11_iv11_t + iv9_iv9_t + 3 d s + s 97 ~iv0_series0_b_0 + ~iv1_series1_b_0 + 3 d s + s 40 iv2_series2_b_1 2 * + 3 d s + s 46 ~iv5_iv5_t + iv0_series0_b_0 + 3 d s + s 42 ~iv2_ge_0 + 2 d s + s 63 iv2_series2_b_0 + 2 d s + s 162 s + s 169 + s 156 + s 170 ~iv2_series2_b_0 + ~iv2_series2_b_1 2 * + iv0_eq_0 4 * + 9 d s + s 24 + s 133 + s 81 + s
+  ConstraintId 171: >= 1
+line 084: end 171
+  ConstraintId 172: 4 iv0_eq_0 4 ~iv0_eq_1 1 ~iv2_series2_b_0 2 ~iv2_series2_b_1 >= 3
+  ConstraintId  - : deleting 170, 171
+line 085: red 2 iv0_eq_0 2 ~iv0_eq_1 1 iv9_iv9_t >= 0 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 2 iv0_eq_0 2 ~iv0_eq_1 1 iv9_iv9_t >= 0
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 173: 2 ~iv0_eq_0 2 iv0_eq_1 1 ~iv9_iv9_t >= 6
+line 086: 	pol  173 iv9_iv9_t + iv0_eq_0 2 * + ~iv0_eq_1 2 * + 6 d
+  ConstraintId 174: >= 1
+line 087: end 174
+  ConstraintId 175: 2 iv0_eq_0 2 ~iv0_eq_1 1 iv9_iv9_t >= 0
+  ConstraintId  - : deleting 173, 174
+line 088: red 2 iv0_eq_0 2 ~iv0_eq_1 1 iv11_iv11_t >= 0 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 2 iv0_eq_0 2 ~iv0_eq_1 1 iv11_iv11_t >= 0
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 176: 2 ~iv0_eq_0 2 iv0_eq_1 1 ~iv11_iv11_t >= 6
+line 089: 	pol  176 iv11_iv11_t + iv0_eq_0 2 * + ~iv0_eq_1 2 * + 6 d
+  ConstraintId 177: >= 1
+line 090: end 177
+  ConstraintId 178: 2 iv0_eq_0 2 ~iv0_eq_1 1 iv11_iv11_t >= 0
+  ConstraintId  - : deleting 176, 177
+line 091: pol 96 172 + 175 + 178 +
+  ConstraintId 179: 8 iv0_eq_0 8 ~iv0_eq_1 1 ~iv10_iv10_t >= 1
+line 092: red 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv10_iv10_t >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv10_iv10_t >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 180: 1 ~iv0_eq_0 1 iv0_eq_1 1 iv10_iv10_t >= 3
+line 093: 	pol  179 s 180 iv0_eq_0 + ~iv0_eq_1 + 3 d + s 180 iv0_eq_0 + ~iv10_iv10_t + 3 d + s 133 + s
+  ConstraintId 181: >= 1
+line 094: end 181
+  ConstraintId 182: 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv10_iv10_t >= 1
+  ConstraintId  - : deleting 180, 181
+line 095: deld 179
+line 096: red 4 iv0_eq_0 4 ~iv0_eq_1 1 ~iv0_series0_b_0 2 ~iv0_series0_b_1 >= 2 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 4 iv0_eq_0 4 ~iv0_eq_1 1 ~iv0_series0_b_0 2 ~iv0_series0_b_1 >= 2
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 183: 4 ~iv0_eq_0 4 iv0_eq_1 1 iv0_series0_b_0 2 iv0_series0_b_1 >= 10
+line 097: 	pol  46 ~iv5_iv5_t + iv0_series0_b_0 + 3 d s 162 s + s 183 ~iv0_series0_b_0 + ~iv0_series0_b_1 2 * + iv0_eq_0 4 * + 10 d s + s 183 ~iv0_series0_b_0 + iv0_eq_0 4 * + ~iv0_eq_1 4 * + 10 d s + s 24 + s 133 + s
+  ConstraintId 184: >= 1
+line 098: end 184
+  ConstraintId 185: 4 iv0_eq_0 4 ~iv0_eq_1 1 ~iv0_series0_b_0 2 ~iv0_series0_b_1 >= 2
+  ConstraintId  - : deleting 183, 184
+line 099: pol 97 185 + 172 +
+  ConstraintId 186: 8 iv0_eq_0 8 ~iv0_eq_1 1 iv1_series1_b_0 2 iv1_series1_b_1 >= 2
+line 100: red 1 iv0_eq_0 1 ~iv0_eq_1 1 iv1_ge_2 >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 1 iv0_eq_0 1 ~iv0_eq_1 1 iv1_ge_2 >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 187: 1 ~iv0_eq_0 1 iv0_eq_1 1 ~iv1_ge_2 >= 3
+line 101: 	pol  56 iv1_series1_b_0 + 2 d s 186 ~iv1_series1_b_0 + 2 d s + s 187 iv0_eq_0 + ~iv0_eq_1 + 3 d + s 187 iv0_eq_0 + iv1_ge_2 + 3 d + s 133 + s
+  ConstraintId 188: >= 1
+line 102: end 188
+  ConstraintId 189: 1 iv0_eq_0 1 ~iv0_eq_1 1 iv1_ge_2 >= 1
+  ConstraintId  - : deleting 187, 188
+line 103: deld 186
+line 104: red 1 iv0_eq_0 1 ~iv0_eq_1 >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 1 iv0_eq_0 1 ~iv0_eq_1 >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 190: 1 ~iv0_eq_0 1 iv0_eq_1 >= 2
+line 105: 	pol  84 86 + s 189 + s 182 + s 190 iv0_eq_0 + 2 d + s 133 + s 81 + s
+  ConstraintId 191: >= 1
+line 106: end 191
+  ConstraintId 192: 1 iv0_eq_0 1 ~iv0_eq_1 >= 1
+  ConstraintId  - : deleting 190, 191
+line 107: red 5 iv0_eq_0 5 iv0_eq_1 1 iv0_series0_b_0 2 iv0_series0_b_1 >= 2 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 5 iv0_eq_0 5 iv0_eq_1 1 iv0_series0_b_0 2 iv0_series0_b_1 >= 2
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 193: 5 ~iv0_eq_0 5 ~iv0_eq_1 1 ~iv0_series0_b_0 2 ~iv0_series0_b_1 >= 12
+line 108: 	pol  48 ~iv0_series0_b_0 + 2 d s 52 + s 193 iv0_series0_b_0 + iv0_eq_0 5 * + iv0_eq_1 5 * + 12 d s + s 192 + s 23 + s 133 + s 18 + s
+  ConstraintId 194: >= 1
+line 109: end 194
+  ConstraintId 195: 5 iv0_eq_0 5 iv0_eq_1 1 iv0_series0_b_0 2 iv0_series0_b_1 >= 2
+  ConstraintId  - : deleting 193, 194
+line 110: red 2 iv0_eq_0 2 iv0_eq_1 1 ~iv3_iv3_t >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 2 iv0_eq_0 2 iv0_eq_1 1 ~iv3_iv3_t >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 196: 2 ~iv0_eq_0 2 ~iv0_eq_1 1 iv3_iv3_t >= 5
+line 111: 	pol  196 iv0_eq_0 2 * + iv0_eq_1 2 * + 5 d 24 + s 133 + s
+  ConstraintId 197: >= 1
+line 112: end 197
+  ConstraintId 198: 2 iv0_eq_0 2 iv0_eq_1 1 ~iv3_iv3_t >= 1
+  ConstraintId  - : deleting 196, 197
+line 113: red 2 iv0_eq_0 2 iv0_eq_1 1 ~iv5_iv5_t >= 0 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 2 iv0_eq_0 2 iv0_eq_1 1 ~iv5_iv5_t >= 0
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 199: 2 ~iv0_eq_0 2 ~iv0_eq_1 1 iv5_iv5_t >= 6
+line 114: 	pol  199 ~iv5_iv5_t + iv0_eq_0 2 * + iv0_eq_1 2 * + 6 d
+  ConstraintId 200: >= 1
+line 115: end 200
+  ConstraintId 201: 2 iv0_eq_0 2 iv0_eq_1 1 ~iv5_iv5_t >= 0
+  ConstraintId  - : deleting 199, 200
+line 116: pol 46 195 + 198 + 201 +
+  ConstraintId 202: 9 iv0_eq_0 9 iv0_eq_1 1 iv4_iv4_t >= 1
+line 117: red 1 iv0_eq_0 1 iv0_eq_1 1 iv4_iv4_t >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 1 iv0_eq_0 1 iv0_eq_1 1 iv4_iv4_t >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 203: 1 ~iv0_eq_0 1 ~iv0_eq_1 1 ~iv4_iv4_t >= 3
+line 118: 	pol  203 iv0_eq_0 + iv0_eq_1 + 3 d 202 s + s 192 + s 133 + s
+  ConstraintId 204: >= 1
+line 119: end 204
+  ConstraintId 205: 1 iv0_eq_0 1 iv0_eq_1 1 iv4_iv4_t >= 1
+  ConstraintId  - : deleting 203, 204
+line 120: deld 202
+line 121: red 2 iv0_eq_0 2 iv0_eq_1 1 ~iv4_iv4_t >= 0 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 2 iv0_eq_0 2 iv0_eq_1 1 ~iv4_iv4_t >= 0
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 206: 2 ~iv0_eq_0 2 ~iv0_eq_1 1 iv4_iv4_t >= 6
+line 122: 	pol  206 ~iv4_iv4_t + iv0_eq_0 2 * + iv0_eq_1 2 * + 6 d
+  ConstraintId 207: >= 1
+line 123: end 207
+  ConstraintId 208: 2 iv0_eq_0 2 iv0_eq_1 1 ~iv4_iv4_t >= 0
+  ConstraintId  - : deleting 206, 207
+line 124: pol 46 195 + 198 + 208 +
+  ConstraintId 209: 9 iv0_eq_0 9 iv0_eq_1 1 iv5_iv5_t >= 1
+line 125: red 1 iv0_eq_0 1 iv0_eq_1 1 iv5_iv5_t >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 1 iv0_eq_0 1 iv0_eq_1 1 iv5_iv5_t >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 210: 1 ~iv0_eq_0 1 ~iv0_eq_1 1 ~iv5_iv5_t >= 3
+line 126: 	pol  210 iv0_eq_0 + iv0_eq_1 + 3 d 209 s + s 192 + s 133 + s
+  ConstraintId 211: >= 1
+line 127: end 211
+  ConstraintId 212: 1 iv0_eq_0 1 iv0_eq_1 1 iv5_iv5_t >= 1
+  ConstraintId  - : deleting 210, 211
+line 128: deld 209
+line 129: pol 98 195 + 5 +
+  ConstraintId 213: 5 iv0_eq_0 5 iv0_eq_1 1 ~iv1_series1_b_0 2 ~iv1_series1_b_1 >= 2
+line 130: red 1 iv0_eq_0 1 iv0_eq_1 1 ~iv1_ge_2 >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 1 iv0_eq_0 1 iv0_eq_1 1 ~iv1_ge_2 >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 214: 1 ~iv0_eq_0 1 ~iv0_eq_1 1 iv1_ge_2 >= 3
+line 131: 	pol  55 ~iv1_series1_b_0 + 2 d s 214 iv0_eq_0 + iv0_eq_1 + 3 d + s 213 iv1_series1_b_0 + 2 d s + s 192 + s 133 + s
+  ConstraintId 215: >= 1
+line 132: end 215
+  ConstraintId 216: 1 iv0_eq_0 1 iv0_eq_1 1 ~iv1_ge_2 >= 1
+  ConstraintId  - : deleting 214, 215
+line 133: deld 213
+line 134: pol 98 195 + 3 +
+  ConstraintId 217: 5 iv0_eq_0 5 iv0_eq_1 1 ~iv2_series2_b_0 2 ~iv2_series2_b_1 >= 2
+line 135: red 1 iv0_eq_0 1 iv0_eq_1 1 ~iv2_ge_2 >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 1 iv0_eq_0 1 iv0_eq_1 1 ~iv2_ge_2 >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 218: 1 ~iv0_eq_0 1 ~iv0_eq_1 1 iv2_ge_2 >= 3
+line 136: 	pol  96 ~iv2_series2_b_0 + iv10_iv10_t + 3 d s 78 + s 94 + s 76 + s 92 + s 52 + s 218 iv0_eq_0 + iv0_eq_1 + 3 d + s 217 iv2_series2_b_0 + 2 d s + s 192 + s 23 + s 133 + s 18 + s 73 + s 89 + s
+  ConstraintId 219: >= 1
+line 137: end 219
+  ConstraintId 220: 1 iv0_eq_0 1 iv0_eq_1 1 ~iv2_ge_2 >= 1
+  ConstraintId  - : deleting 218, 219
+line 138: deld 217
+line 139: red 1 iv0_eq_0 1 iv0_eq_1 1 iv1_eq_0 >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 1 iv0_eq_0 1 iv0_eq_1 1 iv1_eq_0 >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 221: 1 ~iv0_eq_0 1 ~iv0_eq_1 1 ~iv1_eq_0 >= 3
+line 140: 	pol  34 221 iv0_eq_0 + iv0_eq_1 + 3 d + s 205 + s 192 + s 133 + s
+  ConstraintId 222: >= 1
+line 141: end 222
+  ConstraintId 223: 1 iv0_eq_0 1 iv0_eq_1 1 iv1_eq_0 >= 1
+  ConstraintId  - : deleting 221, 222
+line 142: red 1 iv0_eq_0 1 iv0_eq_1 1 iv2_eq_0 >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 1 iv0_eq_0 1 iv0_eq_1 1 iv2_eq_0 >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 224: 1 ~iv0_eq_0 1 ~iv0_eq_1 1 ~iv2_eq_0 >= 3
+line 143: 	pol  44 224 iv0_eq_0 + iv0_eq_1 + 3 d + s 212 + s 192 + s 133 + s
+  ConstraintId 225: >= 1
+line 144: end 225
+  ConstraintId 226: 1 iv0_eq_0 1 iv0_eq_1 1 iv2_eq_0 >= 1
+  ConstraintId  - : deleting 224, 225
+line 145: red 4 iv0_eq_0 4 iv0_eq_1 1 ~iv1_series1_b_0 2 ~iv1_series1_b_1 >= 3 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 4 iv0_eq_0 4 iv0_eq_1 1 ~iv1_series1_b_0 2 ~iv1_series1_b_1 >= 3
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 227: 4 ~iv0_eq_0 4 ~iv0_eq_1 1 iv1_series1_b_0 2 iv1_series1_b_1 >= 9
+line 146: 	pol  40 iv2_series2_b_1 2 * + 3 d s 96 iv11_iv11_t + iv10_iv10_t + 3 d s + s 42 ~iv2_ge_0 + 2 d s + s 98 iv2_series2_b_0 + iv1_series1_b_0 + iv0_series0_b_0 + iv1_series1_b_1 2 * + 6 d s + s 78 + s 76 + s 52 + s 226 + s 195 ~iv0_series0_b_0 + 2 d s + s 192 + s 23 + s 133 + s 18 + s 73 + s
+  ConstraintId 228: >= 1
+line 147: end 228
+  ConstraintId 229: 4 iv0_eq_0 4 iv0_eq_1 1 ~iv1_series1_b_0 2 ~iv1_series1_b_1 >= 3
+  ConstraintId  - : deleting 227, 228
+line 148: red 2 iv0_eq_0 2 iv0_eq_1 1 iv6_iv6_t >= 0 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 2 iv0_eq_0 2 iv0_eq_1 1 iv6_iv6_t >= 0
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 230: 2 ~iv0_eq_0 2 ~iv0_eq_1 1 ~iv6_iv6_t >= 6
+line 149: 	pol  230 iv6_iv6_t + iv0_eq_0 2 * + iv0_eq_1 2 * + 6 d
+  ConstraintId 231: >= 1
+line 150: end 231
+  ConstraintId 232: 2 iv0_eq_0 2 iv0_eq_1 1 iv6_iv6_t >= 0
+  ConstraintId  - : deleting 230, 231
+line 151: red 2 iv0_eq_0 2 iv0_eq_1 1 iv8_iv8_t >= 0 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 2 iv0_eq_0 2 iv0_eq_1 1 iv8_iv8_t >= 0
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 233: 2 ~iv0_eq_0 2 ~iv0_eq_1 1 ~iv8_iv8_t >= 6
+line 152: 	pol  40 iv2_series2_b_1 2 * + 3 d s 97 ~iv0_series0_b_1 2 * + 3 d s + s 42 ~iv2_ge_0 + 2 d s + s 98 iv2_series2_b_0 + iv1_series1_b_0 + iv0_series0_b_0 + iv1_series1_b_1 2 * + 6 d s + s 72 s + s 229 iv1_series1_b_0 + 3 d s + s 229 iv1_series1_b_1 2 * + 3 d s + s 226 + s 195 ~iv0_series0_b_0 + 2 d s + s 192 + s 133 + s 73 + s
+  ConstraintId 234: >= 1
+line 153: end 234
+  ConstraintId 235: 2 iv0_eq_0 2 iv0_eq_1 1 iv8_iv8_t >= 0
+  ConstraintId  - : deleting 233, 234
+line 154: pol 70 229 + 232 + 235 +
+  ConstraintId 236: 8 iv0_eq_0 8 iv0_eq_1 1 ~iv7_iv7_t >= 1
+line 155: red 1 iv0_eq_0 1 iv0_eq_1 1 ~iv7_iv7_t >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 1 iv0_eq_0 1 iv0_eq_1 1 ~iv7_iv7_t >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 237: 1 ~iv0_eq_0 1 ~iv0_eq_1 1 iv7_iv7_t >= 3
+line 156: 	pol  40 iv2_series2_b_1 2 * + 3 d s 97 ~iv0_series0_b_1 2 * + 3 d s + s 42 ~iv2_ge_0 + 2 d s + s 98 iv2_series2_b_0 + iv1_series1_b_0 + iv0_series0_b_0 + iv1_series1_b_1 2 * + 6 d s + s 72 s + s 229 iv1_series1_b_0 + 3 d s + s 229 iv1_series1_b_1 2 * + 3 d s + s 226 + s 195 ~iv0_series0_b_0 + 2 d s + s 192 + s 133 + s 73 + s
+  ConstraintId 238: >= 1
+line 157: end 238
+  ConstraintId 239: 1 iv0_eq_0 1 iv0_eq_1 1 ~iv7_iv7_t >= 1
+  ConstraintId  - : deleting 237, 238
+line 158: deld 236
+line 159: red 2 iv0_eq_0 2 iv0_eq_1 1 iv7_iv7_t >= 0 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 2 iv0_eq_0 2 iv0_eq_1 1 iv7_iv7_t >= 0
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 240: 2 ~iv0_eq_0 2 ~iv0_eq_1 1 ~iv7_iv7_t >= 6
+line 160: 	pol  40 iv2_series2_b_1 2 * + 3 d s 97 ~iv0_series0_b_1 2 * + 3 d s + s 42 ~iv2_ge_0 + 2 d s + s 98 iv2_series2_b_0 + iv1_series1_b_0 + iv0_series0_b_0 + iv1_series1_b_1 2 * + 6 d s + s 72 s + s 229 iv1_series1_b_0 + 3 d s + s 229 iv1_series1_b_1 2 * + 3 d s + s 226 + s 195 ~iv0_series0_b_0 + 2 d s + s 192 + s 133 + s 73 + s
+  ConstraintId 241: >= 1
+line 161: end 241
+  ConstraintId 242: 2 iv0_eq_0 2 iv0_eq_1 1 iv7_iv7_t >= 0
+  ConstraintId  - : deleting 240, 241
+line 162: pol 70 229 + 232 + 242 +
+  ConstraintId 243: 8 iv0_eq_0 8 iv0_eq_1 1 ~iv8_iv8_t >= 1
+line 163: red 1 iv0_eq_0 1 iv0_eq_1 1 ~iv8_iv8_t >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 1 iv0_eq_0 1 iv0_eq_1 1 ~iv8_iv8_t >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 244: 1 ~iv0_eq_0 1 ~iv0_eq_1 1 iv8_iv8_t >= 3
+line 164: 	pol  40 iv2_series2_b_1 2 * + 3 d s 97 ~iv0_series0_b_1 2 * + 3 d s + s 42 ~iv2_ge_0 + 2 d s + s 98 iv2_series2_b_0 + iv1_series1_b_0 + iv0_series0_b_0 + iv1_series1_b_1 2 * + 6 d s + s 72 s + s 229 iv1_series1_b_0 + 3 d s + s 229 iv1_series1_b_1 2 * + 3 d s + s 226 + s 195 ~iv0_series0_b_0 + 2 d s + s 192 + s 133 + s 73 + s
+  ConstraintId 245: >= 1
+line 165: end 245
+  ConstraintId 246: 1 iv0_eq_0 1 iv0_eq_1 1 ~iv8_iv8_t >= 1
+  ConstraintId  - : deleting 244, 245
+line 166: deld 243
+line 167: red 4 iv0_eq_0 4 iv0_eq_1 1 ~iv2_series2_b_0 2 ~iv2_series2_b_1 >= 3 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 4 iv0_eq_0 4 iv0_eq_1 1 ~iv2_series2_b_0 2 ~iv2_series2_b_1 >= 3
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 247: 4 ~iv0_eq_0 4 ~iv0_eq_1 1 iv2_series2_b_0 2 iv2_series2_b_1 >= 9
+line 168: 	pol  40 iv2_series2_b_1 2 * + 3 d s 97 ~iv0_series0_b_1 2 * + 3 d s + s 42 ~iv2_ge_0 + 2 d s + s 98 iv2_series2_b_0 + iv1_series1_b_0 + iv0_series0_b_0 + iv1_series1_b_1 2 * + 6 d s + s 72 s + s 229 iv1_series1_b_0 + 3 d s + s 229 iv1_series1_b_1 2 * + 3 d s + s 226 + s 195 ~iv0_series0_b_0 + 2 d s + s 192 + s 133 + s 73 + s
+  ConstraintId 248: >= 1
+line 169: end 248
+  ConstraintId 249: 4 iv0_eq_0 4 iv0_eq_1 1 ~iv2_series2_b_0 2 ~iv2_series2_b_1 >= 3
+  ConstraintId  - : deleting 247, 248
+line 170: pol 97 229 + 249 +
+  ConstraintId 250: 8 iv0_eq_0 8 iv0_eq_1 1 iv0_series0_b_0 2 iv0_series0_b_1 >= 3
+line 171: red 1 iv0_eq_0 1 iv0_eq_1 >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 1 iv0_eq_0 1 iv0_eq_1 >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 251: 1 ~iv0_eq_0 1 ~iv0_eq_1 >= 2
+line 172: 	pol  40 iv2_series2_b_1 2 * + 3 d s 97 ~iv0_series0_b_1 2 * + 3 d s + s 42 ~iv2_ge_0 + 2 d s + s 98 iv2_series2_b_0 + iv1_series1_b_0 + iv0_series0_b_0 + iv1_series1_b_1 2 * + 6 d s + s 72 s + s 229 iv1_series1_b_0 + 3 d s + s 229 iv1_series1_b_1 2 * + 3 d s + s 226 + s 195 ~iv0_series0_b_0 + 2 d s + s 192 + s 133 + s 73 + s
+  ConstraintId 252: >= 1
+line 173: end 252
+  ConstraintId 253: 1 iv0_eq_0 1 iv0_eq_1 >= 1
+  ConstraintId  - : deleting 251, 252
+line 174: deld 250
+line 175: red 1 iv0_eq_0 1 iv0_eq_1 >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 1 iv0_eq_0 1 iv0_eq_1 >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 254: 1 ~iv0_eq_0 1 ~iv0_eq_1 >= 2
+line 176: 	pol  40 iv2_series2_b_1 2 * + 3 d s 97 ~iv0_series0_b_1 2 * + 3 d s + s 42 ~iv2_ge_0 + 2 d s + s 98 iv2_series2_b_0 + iv1_series1_b_0 + iv0_series0_b_0 + iv1_series1_b_1 2 * + 6 d s + s 72 s + s 229 iv1_series1_b_0 + 3 d s + s 229 iv1_series1_b_1 2 * + 3 d s + s 226 + s 195 ~iv0_series0_b_0 + 2 d s + s 192 + s 133 + s 73 + s
+  ConstraintId 255: >= 1
+line 177: end 255
+  ConstraintId 256: 1 iv0_eq_0 1 iv0_eq_1 >= 1
+  ConstraintId  - : deleting 254, 255
+line 178: red 1 iv0_eq_0 >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: 1 iv0_eq_0 >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 257: 1 ~iv0_eq_0 >= 1
+line 179: 	pol  256 192 + s 133 + s
+  ConstraintId 258: >= 1
+line 180: end 258
+  ConstraintId 259: 1 iv0_eq_0 >= 1
+  ConstraintId  - : deleting 257, 258
+line 181: red >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 260: >= 0
+line 182: 	pol  259 133 + s
+  ConstraintId 261: >= 1
+line 183: end 261
+  ConstraintId 262: >= 1
+  ConstraintId  - : deleting 260, 261
+line 184: red >= 1 ; ; begin
+  ** proofgoals from formula **
+  ** proofgoal from satisfying added constraint **
+  proofgoal #1: >= 1
+  ** proofgoals from order **
+  ** proofgoals from objective **
+  ConstraintId 263: >= 0
+line 185: 	pol  262
+  ConstraintId 264: >= 1
+line 186: end 264
+  ConstraintId 265: >= 1
+  ConstraintId  - : deleting 263, 264
+line 187: c 265
+line 188: output NONE
+line 189: conclusion NONE
+line 190: end pseudo-Boolean proof
+=== end trace ===
+
+Verification succeeded.

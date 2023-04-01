@@ -1,0 +1,190 @@
+pseudo-Boolean proof version 2.0
+f 98
+red 4 ~iv0_eq_0 1 ~iv0_series0_b_0 2 ~iv0_series0_b_1 >= 3 ; ; begin
+	pol  47 iv5_iv5_t + iv4_iv4_t + 3 d s 20 iv0_series0_b_0 + 3 d s + s 20 iv0_series0_b_1 2 * + 3 d s + s 22 ~iv0_ge_0 + 2 d s + s 25 + s 99 ~iv0_series0_b_0 + ~iv0_series0_b_1 2 * + 5 d s + s
+end 100
+red 2 ~iv0_eq_0 1 iv4_iv4_t >= 0 ; ; begin
+	pol  102 iv4_iv4_t + ~iv0_eq_0 2 * + 4 d
+end 103
+red 2 ~iv0_eq_0 1 iv5_iv5_t >= 0 ; ; begin
+	pol  105 iv5_iv5_t + ~iv0_eq_0 2 * + 4 d
+end 106
+pol 47 101 + 104 + 107 + 
+red 1 ~iv0_eq_0 1 ~iv3_iv3_t >= 1 ; ; begin
+	pol  108 s 109 ~iv0_eq_0 + 2 d + s 109 ~iv3_iv3_t + 2 d + s
+end 110
+deld 108
+red 2 ~iv0_eq_0 1 iv3_iv3_t >= 0 ; ; begin
+	pol  112 iv3_iv3_t + ~iv0_eq_0 2 * + 4 d
+end 113
+pol 47 101 + 114 + 107 + 
+red 1 ~iv0_eq_0 1 ~iv4_iv4_t >= 1 ; ; begin
+	pol  115 s 116 ~iv0_eq_0 + 2 d + s 116 ~iv4_iv4_t + 2 d + s
+end 117
+deld 115
+pol 47 101 + 114 + 104 + 
+red 1 ~iv0_eq_0 1 ~iv5_iv5_t >= 1 ; ; begin
+	pol  119 s 120 ~iv0_eq_0 + 2 d + s 120 ~iv5_iv5_t + 2 d + s
+end 121
+deld 119
+pol 97 101 + 6 + 
+red 1 ~iv0_eq_0 1 iv1_ge_1 >= 1 ; ; begin
+	pol  25 111 + s 124 iv1_ge_1 + 2 d + s
+end 125
+deld 123
+pol 97 101 + 4 + 
+red 1 ~iv0_eq_0 1 iv2_ge_1 >= 1 ; ; begin
+	pol  25 111 + s 128 iv2_ge_1 + 2 d + s
+end 129
+deld 127
+red 1 ~iv0_eq_0 >= 1 ; ; begin
+	pol  25 111 + s 131 + s
+end 132
+red 2 iv0_eq_0 2 ~iv0_eq_1 1 iv6_iv6_t >= 1 ; ; begin
+	pol  54 134 iv6_iv6_t + iv0_eq_0 2 * + 5 d s + s 134 iv0_eq_0 2 * + ~iv0_eq_1 2 * + 5 d + s
+end 135
+red 2 iv0_eq_0 2 ~iv0_eq_1 1 iv7_iv7_t >= 0 ; ; begin
+	pol  137 iv7_iv7_t + iv0_eq_0 2 * + ~iv0_eq_1 2 * + 6 d
+end 138
+red 2 iv0_eq_0 2 ~iv0_eq_1 1 iv8_iv8_t >= 0 ; ; begin
+	pol  140 iv8_iv8_t + iv0_eq_0 2 * + ~iv0_eq_1 2 * + 6 d
+end 141
+pol 70 136 + 139 + 142 + 
+red 1 iv0_eq_0 1 ~iv0_eq_1 1 iv1_ge_1 >= 1 ; ; begin
+	pol  70 iv8_iv8_t + iv7_iv7_t + 3 d s 30 iv1_series1_b_0 + 3 d s + s 30 iv1_series1_b_1 2 * + 3 d s + s 136 s + s 144 iv0_eq_0 + ~iv0_eq_1 + 3 d + s 144 iv0_eq_0 + iv1_ge_1 + 3 d + s 133 + s
+end 145
+deld 143
+red 4 iv0_eq_0 4 ~iv0_eq_1 1 iv0_series0_b_0 2 iv0_series0_b_1 >= 1 ; ; begin
+	pol  19 s 23 + s 147 iv0_series0_b_0 + iv0_eq_0 4 * + ~iv0_eq_1 4 * + 11 d s + s 147 iv0_series0_b_1 2 * + iv0_eq_0 4 * + ~iv0_eq_1 4 * + 11 d + s 133 + s 18 + s
+end 148
+red 4 iv0_eq_0 4 ~iv0_eq_1 1 iv1_series1_b_0 2 iv1_series1_b_1 >= 1 ; ; begin
+	pol  70 iv8_iv8_t + iv7_iv7_t + 3 d s 136 s + s 150 iv1_series1_b_0 + iv1_series1_b_1 2 * + iv0_eq_0 4 * + 11 d s + s 150 iv1_series1_b_0 + iv0_eq_0 4 * + ~iv0_eq_1 4 * + 11 d s + s 150 iv1_series1_b_1 2 * + iv0_eq_0 4 * + ~iv0_eq_1 4 * + 11 d + s 133 + s
+end 151
+pol 98 149 + 152 + 
+red 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv2_ge_2 >= 1 ; ; begin
+	pol  62 ~iv2_series2_b_0 + 2 d s 153 iv2_series2_b_0 + 2 d s + s 154 iv0_eq_0 + ~iv0_eq_1 + 3 d + s 154 iv0_eq_0 + ~iv2_ge_2 + 3 d + s 133 + s
+end 155
+deld 153
+red 2 iv0_eq_0 2 ~iv0_eq_1 1 ~iv3_iv3_t >= 1 ; ; begin
+	pol  24 157 iv0_eq_0 2 * + ~iv0_eq_1 2 * + 5 d + s 133 + s
+end 158
+red 2 iv0_eq_0 2 ~iv0_eq_1 1 ~iv4_iv4_t >= 1 ; ; begin
+	pol  32 ~iv1_ge_0 + 2 d s 34 + s 146 + s 160 ~iv4_iv4_t + iv0_eq_0 2 * + 5 d s + s 160 iv0_eq_0 2 * + ~iv0_eq_1 2 * + 5 d + s 133 + s
+end 161
+pol 46 149 + 159 + 162 + 
+red 1 iv0_eq_0 1 ~iv0_eq_1 1 iv5_iv5_t >= 1 ; ; begin
+	pol  163 s 164 iv0_eq_0 + ~iv0_eq_1 + 3 d + s 164 iv0_eq_0 + iv5_iv5_t + 3 d + s 133 + s
+end 165
+deld 163
+red 1 iv0_eq_0 1 ~iv0_eq_1 1 iv2_eq_0 >= 1 ; ; begin
+	pol  44 166 + s 167 iv0_eq_0 + ~iv0_eq_1 + 3 d + s 167 iv0_eq_0 + iv2_eq_0 + 3 d + s 133 + s
+end 168
+red 4 iv0_eq_0 4 ~iv0_eq_1 1 ~iv2_series2_b_0 2 ~iv2_series2_b_1 >= 3 ; ; begin
+	pol  84 86 + s 56 iv1_series1_b_0 + 2 d s + s 96 iv11_iv11_t + iv9_iv9_t + 3 d s + s 97 ~iv0_series0_b_0 + ~iv1_series1_b_0 + 3 d s + s 40 iv2_series2_b_1 2 * + 3 d s + s 46 ~iv5_iv5_t + iv0_series0_b_0 + 3 d s + s 42 ~iv2_ge_0 + 2 d s + s 63 iv2_series2_b_0 + 2 d s + s 162 s + s 169 + s 156 + s 170 ~iv2_series2_b_0 + ~iv2_series2_b_1 2 * + iv0_eq_0 4 * + 9 d s + s 24 + s 133 + s 81 + s
+end 171
+red 2 iv0_eq_0 2 ~iv0_eq_1 1 iv9_iv9_t >= 0 ; ; begin
+	pol  173 iv9_iv9_t + iv0_eq_0 2 * + ~iv0_eq_1 2 * + 6 d
+end 174
+red 2 iv0_eq_0 2 ~iv0_eq_1 1 iv11_iv11_t >= 0 ; ; begin
+	pol  176 iv11_iv11_t + iv0_eq_0 2 * + ~iv0_eq_1 2 * + 6 d
+end 177
+pol 96 172 + 175 + 178 + 
+red 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv10_iv10_t >= 1 ; ; begin
+	pol  179 s 180 iv0_eq_0 + ~iv0_eq_1 + 3 d + s 180 iv0_eq_0 + ~iv10_iv10_t + 3 d + s 133 + s
+end 181
+deld 179
+red 4 iv0_eq_0 4 ~iv0_eq_1 1 ~iv0_series0_b_0 2 ~iv0_series0_b_1 >= 2 ; ; begin
+	pol  46 ~iv5_iv5_t + iv0_series0_b_0 + 3 d s 162 s + s 183 ~iv0_series0_b_0 + ~iv0_series0_b_1 2 * + iv0_eq_0 4 * + 10 d s + s 183 ~iv0_series0_b_0 + iv0_eq_0 4 * + ~iv0_eq_1 4 * + 10 d s + s 24 + s 133 + s
+end 184
+pol 97 185 + 172 + 
+red 1 iv0_eq_0 1 ~iv0_eq_1 1 iv1_ge_2 >= 1 ; ; begin
+	pol  56 iv1_series1_b_0 + 2 d s 186 ~iv1_series1_b_0 + 2 d s + s 187 iv0_eq_0 + ~iv0_eq_1 + 3 d + s 187 iv0_eq_0 + iv1_ge_2 + 3 d + s 133 + s
+end 188
+deld 186
+red 1 iv0_eq_0 1 ~iv0_eq_1 >= 1 ; ; begin
+	pol  84 86 + s 189 + s 182 + s 190 iv0_eq_0 + 2 d + s 133 + s 81 + s
+end 191
+red 5 iv0_eq_0 5 iv0_eq_1 1 iv0_series0_b_0 2 iv0_series0_b_1 >= 2 ; ; begin
+	pol  48 ~iv0_series0_b_0 + 2 d s 52 + s 193 iv0_series0_b_0 + iv0_eq_0 5 * + iv0_eq_1 5 * + 12 d s + s 192 + s 23 + s 133 + s 18 + s
+end 194
+red 2 iv0_eq_0 2 iv0_eq_1 1 ~iv3_iv3_t >= 1 ; ; begin
+	pol  196 iv0_eq_0 2 * + iv0_eq_1 2 * + 5 d 24 + s 133 + s
+end 197
+red 2 iv0_eq_0 2 iv0_eq_1 1 ~iv5_iv5_t >= 0 ; ; begin
+	pol  199 ~iv5_iv5_t + iv0_eq_0 2 * + iv0_eq_1 2 * + 6 d
+end 200
+pol 46 195 + 198 + 201 + 
+red 1 iv0_eq_0 1 iv0_eq_1 1 iv4_iv4_t >= 1 ; ; begin
+	pol  203 iv0_eq_0 + iv0_eq_1 + 3 d 202 s + s 192 + s 133 + s
+end 204
+deld 202
+red 2 iv0_eq_0 2 iv0_eq_1 1 ~iv4_iv4_t >= 0 ; ; begin
+	pol  206 ~iv4_iv4_t + iv0_eq_0 2 * + iv0_eq_1 2 * + 6 d
+end 207
+pol 46 195 + 198 + 208 + 
+red 1 iv0_eq_0 1 iv0_eq_1 1 iv5_iv5_t >= 1 ; ; begin
+	pol  210 iv0_eq_0 + iv0_eq_1 + 3 d 209 s + s 192 + s 133 + s
+end 211
+deld 209
+pol 98 195 + 5 + 
+red 1 iv0_eq_0 1 iv0_eq_1 1 ~iv1_ge_2 >= 1 ; ; begin
+	pol  55 ~iv1_series1_b_0 + 2 d s 214 iv0_eq_0 + iv0_eq_1 + 3 d + s 213 iv1_series1_b_0 + 2 d s + s 192 + s 133 + s
+end 215
+deld 213
+pol 98 195 + 3 + 
+red 1 iv0_eq_0 1 iv0_eq_1 1 ~iv2_ge_2 >= 1 ; ; begin
+	pol  96 ~iv2_series2_b_0 + iv10_iv10_t + 3 d s 78 + s 94 + s 76 + s 92 + s 52 + s 218 iv0_eq_0 + iv0_eq_1 + 3 d + s 217 iv2_series2_b_0 + 2 d s + s 192 + s 23 + s 133 + s 18 + s 73 + s 89 + s
+end 219
+deld 217
+red 1 iv0_eq_0 1 iv0_eq_1 1 iv1_eq_0 >= 1 ; ; begin
+	pol  34 221 iv0_eq_0 + iv0_eq_1 + 3 d + s 205 + s 192 + s 133 + s
+end 222
+red 1 iv0_eq_0 1 iv0_eq_1 1 iv2_eq_0 >= 1 ; ; begin
+	pol  44 224 iv0_eq_0 + iv0_eq_1 + 3 d + s 212 + s 192 + s 133 + s
+end 225
+red 4 iv0_eq_0 4 iv0_eq_1 1 ~iv1_series1_b_0 2 ~iv1_series1_b_1 >= 3 ; ; begin
+	pol  40 iv2_series2_b_1 2 * + 3 d s 96 iv11_iv11_t + iv10_iv10_t + 3 d s + s 42 ~iv2_ge_0 + 2 d s + s 98 iv2_series2_b_0 + iv1_series1_b_0 + iv0_series0_b_0 + iv1_series1_b_1 2 * + 6 d s + s 78 + s 76 + s 52 + s 226 + s 195 ~iv0_series0_b_0 + 2 d s + s 192 + s 23 + s 133 + s 18 + s 73 + s
+end 228
+red 2 iv0_eq_0 2 iv0_eq_1 1 iv6_iv6_t >= 0 ; ; begin
+	pol  230 iv6_iv6_t + iv0_eq_0 2 * + iv0_eq_1 2 * + 6 d
+end 231
+red 2 iv0_eq_0 2 iv0_eq_1 1 iv8_iv8_t >= 0 ; ; begin
+	pol  40 iv2_series2_b_1 2 * + 3 d s 97 ~iv0_series0_b_1 2 * + 3 d s + s 42 ~iv2_ge_0 + 2 d s + s 98 iv2_series2_b_0 + iv1_series1_b_0 + iv0_series0_b_0 + iv1_series1_b_1 2 * + 6 d s + s 72 s + s 229 iv1_series1_b_0 + 3 d s + s 229 iv1_series1_b_1 2 * + 3 d s + s 226 + s 195 ~iv0_series0_b_0 + 2 d s + s 192 + s 133 + s 73 + s
+end 234
+pol 70 229 + 232 + 235 + 
+red 1 iv0_eq_0 1 iv0_eq_1 1 ~iv7_iv7_t >= 1 ; ; begin
+	pol  40 iv2_series2_b_1 2 * + 3 d s 97 ~iv0_series0_b_1 2 * + 3 d s + s 42 ~iv2_ge_0 + 2 d s + s 98 iv2_series2_b_0 + iv1_series1_b_0 + iv0_series0_b_0 + iv1_series1_b_1 2 * + 6 d s + s 72 s + s 229 iv1_series1_b_0 + 3 d s + s 229 iv1_series1_b_1 2 * + 3 d s + s 226 + s 195 ~iv0_series0_b_0 + 2 d s + s 192 + s 133 + s 73 + s
+end 238
+deld 236
+red 2 iv0_eq_0 2 iv0_eq_1 1 iv7_iv7_t >= 0 ; ; begin
+	pol  40 iv2_series2_b_1 2 * + 3 d s 97 ~iv0_series0_b_1 2 * + 3 d s + s 42 ~iv2_ge_0 + 2 d s + s 98 iv2_series2_b_0 + iv1_series1_b_0 + iv0_series0_b_0 + iv1_series1_b_1 2 * + 6 d s + s 72 s + s 229 iv1_series1_b_0 + 3 d s + s 229 iv1_series1_b_1 2 * + 3 d s + s 226 + s 195 ~iv0_series0_b_0 + 2 d s + s 192 + s 133 + s 73 + s
+end 241
+pol 70 229 + 232 + 242 + 
+red 1 iv0_eq_0 1 iv0_eq_1 1 ~iv8_iv8_t >= 1 ; ; begin
+	pol  40 iv2_series2_b_1 2 * + 3 d s 97 ~iv0_series0_b_1 2 * + 3 d s + s 42 ~iv2_ge_0 + 2 d s + s 98 iv2_series2_b_0 + iv1_series1_b_0 + iv0_series0_b_0 + iv1_series1_b_1 2 * + 6 d s + s 72 s + s 229 iv1_series1_b_0 + 3 d s + s 229 iv1_series1_b_1 2 * + 3 d s + s 226 + s 195 ~iv0_series0_b_0 + 2 d s + s 192 + s 133 + s 73 + s
+end 245
+deld 243
+red 4 iv0_eq_0 4 iv0_eq_1 1 ~iv2_series2_b_0 2 ~iv2_series2_b_1 >= 3 ; ; begin
+	pol  40 iv2_series2_b_1 2 * + 3 d s 97 ~iv0_series0_b_1 2 * + 3 d s + s 42 ~iv2_ge_0 + 2 d s + s 98 iv2_series2_b_0 + iv1_series1_b_0 + iv0_series0_b_0 + iv1_series1_b_1 2 * + 6 d s + s 72 s + s 229 iv1_series1_b_0 + 3 d s + s 229 iv1_series1_b_1 2 * + 3 d s + s 226 + s 195 ~iv0_series0_b_0 + 2 d s + s 192 + s 133 + s 73 + s
+end 248
+pol 97 229 + 249 + 
+red 1 iv0_eq_0 1 iv0_eq_1 >= 1 ; ; begin
+	pol  40 iv2_series2_b_1 2 * + 3 d s 97 ~iv0_series0_b_1 2 * + 3 d s + s 42 ~iv2_ge_0 + 2 d s + s 98 iv2_series2_b_0 + iv1_series1_b_0 + iv0_series0_b_0 + iv1_series1_b_1 2 * + 6 d s + s 72 s + s 229 iv1_series1_b_0 + 3 d s + s 229 iv1_series1_b_1 2 * + 3 d s + s 226 + s 195 ~iv0_series0_b_0 + 2 d s + s 192 + s 133 + s 73 + s
+end 252
+deld 250
+red 1 iv0_eq_0 1 iv0_eq_1 >= 1 ; ; begin
+	pol  40 iv2_series2_b_1 2 * + 3 d s 97 ~iv0_series0_b_1 2 * + 3 d s + s 42 ~iv2_ge_0 + 2 d s + s 98 iv2_series2_b_0 + iv1_series1_b_0 + iv0_series0_b_0 + iv1_series1_b_1 2 * + 6 d s + s 72 s + s 229 iv1_series1_b_0 + 3 d s + s 229 iv1_series1_b_1 2 * + 3 d s + s 226 + s 195 ~iv0_series0_b_0 + 2 d s + s 192 + s 133 + s 73 + s
+end 255
+red 1 iv0_eq_0 >= 1 ; ; begin
+	pol  256 192 + s 133 + s
+end 258
+red >= 1 ; ; begin
+	pol  259 133 + s
+end 261
+red >= 1 ; ; begin
+	pol  262
+end 264
+c 265
+output NONE
+conclusion NONE
+end pseudo-Boolean proof

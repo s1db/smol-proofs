@@ -1,0 +1,431 @@
+* #variable= 96 #constraint= 338
+* variable iv0_series0 0 .. 5 bits encoding
+1 iv0_series0_b_0 2 iv0_series0_b_1 4 iv0_series0_b_2 >= 0 ;
+-1 iv0_series0_b_0 -2 iv0_series0_b_1 -4 iv0_series0_b_2 >= -5 ;
+* variable iv1_series1 0 .. 5 bits encoding
+1 iv1_series1_b_0 2 iv1_series1_b_1 4 iv1_series1_b_2 >= 0 ;
+-1 iv1_series1_b_0 -2 iv1_series1_b_1 -4 iv1_series1_b_2 >= -5 ;
+* variable iv2_series2 0 .. 5 bits encoding
+1 iv2_series2_b_0 2 iv2_series2_b_1 4 iv2_series2_b_2 >= 0 ;
+-1 iv2_series2_b_0 -2 iv2_series2_b_1 -4 iv2_series2_b_2 >= -5 ;
+* variable iv3_series3 0 .. 5 bits encoding
+1 iv3_series3_b_0 2 iv3_series3_b_1 4 iv3_series3_b_2 >= 0 ;
+-1 iv3_series3_b_0 -2 iv3_series3_b_1 -4 iv3_series3_b_2 >= -5 ;
+* variable iv4_series4 0 .. 5 bits encoding
+1 iv4_series4_b_0 2 iv4_series4_b_1 4 iv4_series4_b_2 >= 0 ;
+-1 iv4_series4_b_0 -2 iv4_series4_b_1 -4 iv4_series4_b_2 >= -5 ;
+* variable iv5_series5 0 .. 5 bits encoding
+1 iv5_series5_b_0 2 iv5_series5_b_1 4 iv5_series5_b_2 >= 0 ;
+-1 iv5_series5_b_0 -2 iv5_series5_b_1 -4 iv5_series5_b_2 >= -5 ;
+* variable iv6_iv6 0 .. 1 direct encoding
+1 iv6_iv6_t >= 0 ;
+* variable iv7_iv7 0 .. 1 direct encoding
+1 iv7_iv7_t >= 0 ;
+* variable iv8_iv8 0 .. 1 direct encoding
+1 iv8_iv8_t >= 0 ;
+* variable iv9_iv9 0 .. 1 direct encoding
+1 iv9_iv9_t >= 0 ;
+* variable iv10_iv10 0 .. 1 direct encoding
+1 iv10_iv10_t >= 0 ;
+* variable iv11_iv11 0 .. 1 direct encoding
+1 iv11_iv11_t >= 0 ;
+* variable iv12_iv12 0 .. 1 direct encoding
+1 iv12_iv12_t >= 0 ;
+* variable iv13_iv13 0 .. 1 direct encoding
+1 iv13_iv13_t >= 0 ;
+* variable iv14_iv14 0 .. 1 direct encoding
+1 iv14_iv14_t >= 0 ;
+* variable iv15_iv15 0 .. 1 direct encoding
+1 iv15_iv15_t >= 0 ;
+* variable iv16_iv16 0 .. 1 direct encoding
+1 iv16_iv16_t >= 0 ;
+* variable iv17_iv17 0 .. 1 direct encoding
+1 iv17_iv17_t >= 0 ;
+* variable iv18_iv18 0 .. 1 direct encoding
+1 iv18_iv18_t >= 0 ;
+* variable iv19_iv19 0 .. 1 direct encoding
+1 iv19_iv19_t >= 0 ;
+* variable iv20_iv20 0 .. 1 direct encoding
+1 iv20_iv20_t >= 0 ;
+* variable iv21_iv21 0 .. 1 direct encoding
+1 iv21_iv21_t >= 0 ;
+* variable iv22_iv22 0 .. 1 direct encoding
+1 iv22_iv22_t >= 0 ;
+* variable iv23_iv23 0 .. 1 direct encoding
+1 iv23_iv23_t >= 0 ;
+* variable iv24_iv24 0 .. 1 direct encoding
+1 iv24_iv24_t >= 0 ;
+* variable iv25_iv25 0 .. 1 direct encoding
+1 iv25_iv25_t >= 0 ;
+* variable iv26_iv26 0 .. 1 direct encoding
+1 iv26_iv26_t >= 0 ;
+* variable iv27_iv27 0 .. 1 direct encoding
+1 iv27_iv27_t >= 0 ;
+* variable iv28_iv28 0 .. 1 direct encoding
+1 iv28_iv28_t >= 0 ;
+* variable iv29_iv29 0 .. 1 direct encoding
+1 iv29_iv29_t >= 0 ;
+* variable iv30_iv30 0 .. 1 direct encoding
+1 iv30_iv30_t >= 0 ;
+* variable iv31_iv31 0 .. 1 direct encoding
+1 iv31_iv31_t >= 0 ;
+* variable iv32_iv32 0 .. 1 direct encoding
+1 iv32_iv32_t >= 0 ;
+* variable iv33_iv33 0 .. 1 direct encoding
+1 iv33_iv33_t >= 0 ;
+* variable iv34_iv34 0 .. 1 direct encoding
+1 iv34_iv34_t >= 0 ;
+* variable iv35_iv35 0 .. 1 direct encoding
+1 iv35_iv35_t >= 0 ;
+* variable iv36_iv36 0 .. 1 direct encoding
+1 iv36_iv36_t >= 0 ;
+* variable iv37_iv37 0 .. 1 direct encoding
+1 iv37_iv37_t >= 0 ;
+* variable iv38_iv38 0 .. 1 direct encoding
+1 iv38_iv38_t >= 0 ;
+* variable iv39_iv39 0 .. 1 direct encoding
+1 iv39_iv39_t >= 0 ;
+* variable iv40_iv40 0 .. 1 direct encoding
+1 iv40_iv40_t >= 0 ;
+* variable iv41_iv41 0 .. 1 direct encoding
+1 iv41_iv41_t >= 0 ;
+* constraint equals iff
+1 iv0_series0_b_0 2 iv0_series0_b_1 4 iv0_series0_b_2 0 ~iv0_ge_0 >= 0 ;
+-1 iv0_series0_b_0 -2 iv0_series0_b_1 -4 iv0_series0_b_2 8 iv0_ge_0 >= 1 ;
+1 iv0_ge_0 >= 1 ;
+1 iv0_series0_b_0 2 iv0_series0_b_1 4 iv0_series0_b_2 1 ~iv0_ge_1 >= 1 ;
+-1 iv0_series0_b_0 -2 iv0_series0_b_1 -4 iv0_series0_b_2 7 iv0_ge_1 >= 0 ;
+-1 iv0_ge_1 1 iv0_ge_0 >= 0 ;
+1 iv0_ge_0 1 ~iv0_ge_1 2 ~iv0_eq_0 >= 2 ;
+-1 iv0_ge_0 -1 ~iv0_ge_1 1 iv0_eq_0 >= -1 ;
+1 iv0_eq_0 1 ~iv6_iv6_t >= 1 ;
+1 ~iv0_eq_0 1 iv6_iv6_t >= 1 ;
+* constraint equals iff
+1 iv1_series1_b_0 2 iv1_series1_b_1 4 iv1_series1_b_2 0 ~iv1_ge_0 >= 0 ;
+-1 iv1_series1_b_0 -2 iv1_series1_b_1 -4 iv1_series1_b_2 8 iv1_ge_0 >= 1 ;
+1 iv1_ge_0 >= 1 ;
+1 iv1_series1_b_0 2 iv1_series1_b_1 4 iv1_series1_b_2 1 ~iv1_ge_1 >= 1 ;
+-1 iv1_series1_b_0 -2 iv1_series1_b_1 -4 iv1_series1_b_2 7 iv1_ge_1 >= 0 ;
+-1 iv1_ge_1 1 iv1_ge_0 >= 0 ;
+1 iv1_ge_0 1 ~iv1_ge_1 2 ~iv1_eq_0 >= 2 ;
+-1 iv1_ge_0 -1 ~iv1_ge_1 1 iv1_eq_0 >= -1 ;
+1 iv1_eq_0 1 ~iv7_iv7_t >= 1 ;
+1 ~iv1_eq_0 1 iv7_iv7_t >= 1 ;
+* constraint equals iff
+1 iv2_series2_b_0 2 iv2_series2_b_1 4 iv2_series2_b_2 0 ~iv2_ge_0 >= 0 ;
+-1 iv2_series2_b_0 -2 iv2_series2_b_1 -4 iv2_series2_b_2 8 iv2_ge_0 >= 1 ;
+1 iv2_ge_0 >= 1 ;
+1 iv2_series2_b_0 2 iv2_series2_b_1 4 iv2_series2_b_2 1 ~iv2_ge_1 >= 1 ;
+-1 iv2_series2_b_0 -2 iv2_series2_b_1 -4 iv2_series2_b_2 7 iv2_ge_1 >= 0 ;
+-1 iv2_ge_1 1 iv2_ge_0 >= 0 ;
+1 iv2_ge_0 1 ~iv2_ge_1 2 ~iv2_eq_0 >= 2 ;
+-1 iv2_ge_0 -1 ~iv2_ge_1 1 iv2_eq_0 >= -1 ;
+1 iv2_eq_0 1 ~iv8_iv8_t >= 1 ;
+1 ~iv2_eq_0 1 iv8_iv8_t >= 1 ;
+* constraint equals iff
+1 iv3_series3_b_0 2 iv3_series3_b_1 4 iv3_series3_b_2 0 ~iv3_ge_0 >= 0 ;
+-1 iv3_series3_b_0 -2 iv3_series3_b_1 -4 iv3_series3_b_2 8 iv3_ge_0 >= 1 ;
+1 iv3_ge_0 >= 1 ;
+1 iv3_series3_b_0 2 iv3_series3_b_1 4 iv3_series3_b_2 1 ~iv3_ge_1 >= 1 ;
+-1 iv3_series3_b_0 -2 iv3_series3_b_1 -4 iv3_series3_b_2 7 iv3_ge_1 >= 0 ;
+-1 iv3_ge_1 1 iv3_ge_0 >= 0 ;
+1 iv3_ge_0 1 ~iv3_ge_1 2 ~iv3_eq_0 >= 2 ;
+-1 iv3_ge_0 -1 ~iv3_ge_1 1 iv3_eq_0 >= -1 ;
+1 iv3_eq_0 1 ~iv9_iv9_t >= 1 ;
+1 ~iv3_eq_0 1 iv9_iv9_t >= 1 ;
+* constraint equals iff
+1 iv4_series4_b_0 2 iv4_series4_b_1 4 iv4_series4_b_2 0 ~iv4_ge_0 >= 0 ;
+-1 iv4_series4_b_0 -2 iv4_series4_b_1 -4 iv4_series4_b_2 8 iv4_ge_0 >= 1 ;
+1 iv4_ge_0 >= 1 ;
+1 iv4_series4_b_0 2 iv4_series4_b_1 4 iv4_series4_b_2 1 ~iv4_ge_1 >= 1 ;
+-1 iv4_series4_b_0 -2 iv4_series4_b_1 -4 iv4_series4_b_2 7 iv4_ge_1 >= 0 ;
+-1 iv4_ge_1 1 iv4_ge_0 >= 0 ;
+1 iv4_ge_0 1 ~iv4_ge_1 2 ~iv4_eq_0 >= 2 ;
+-1 iv4_ge_0 -1 ~iv4_ge_1 1 iv4_eq_0 >= -1 ;
+1 iv4_eq_0 1 ~iv10_iv10_t >= 1 ;
+1 ~iv4_eq_0 1 iv10_iv10_t >= 1 ;
+* constraint equals iff
+1 iv5_series5_b_0 2 iv5_series5_b_1 4 iv5_series5_b_2 0 ~iv5_ge_0 >= 0 ;
+-1 iv5_series5_b_0 -2 iv5_series5_b_1 -4 iv5_series5_b_2 8 iv5_ge_0 >= 1 ;
+1 iv5_ge_0 >= 1 ;
+1 iv5_series5_b_0 2 iv5_series5_b_1 4 iv5_series5_b_2 1 ~iv5_ge_1 >= 1 ;
+-1 iv5_series5_b_0 -2 iv5_series5_b_1 -4 iv5_series5_b_2 7 iv5_ge_1 >= 0 ;
+-1 iv5_ge_1 1 iv5_ge_0 >= 0 ;
+1 iv5_ge_0 1 ~iv5_ge_1 2 ~iv5_eq_0 >= 2 ;
+-1 iv5_ge_0 -1 ~iv5_ge_1 1 iv5_eq_0 >= -1 ;
+1 iv5_eq_0 1 ~iv11_iv11_t >= 1 ;
+1 ~iv5_eq_0 1 iv11_iv11_t >= 1 ;
+* constraint linear equality
+* linear eq -1*varidx 0 1*varidx 6 1*varidx 7 1*varidx 8 1*varidx 9 1*varidx 10 1*varidx 11 <= 0
+-1 iv0_series0_b_0 -2 iv0_series0_b_1 -4 iv0_series0_b_2 1 iv6_iv6_t 1 iv7_iv7_t 1 iv8_iv8_t 1 iv9_iv9_t 1 iv10_iv10_t 1 iv11_iv11_t >= 0 ;
+1 iv0_series0_b_0 2 iv0_series0_b_1 4 iv0_series0_b_2 -1 iv6_iv6_t -1 iv7_iv7_t -1 iv8_iv8_t -1 iv9_iv9_t -1 iv10_iv10_t -1 iv11_iv11_t >= 0 ;
+* constraint equals iff
+1 iv0_series0_b_0 2 iv0_series0_b_1 4 iv0_series0_b_2 2 ~iv0_ge_2 >= 2 ;
+-1 iv0_series0_b_0 -2 iv0_series0_b_1 -4 iv0_series0_b_2 6 iv0_ge_2 >= -1 ;
+-1 iv0_ge_2 1 iv0_ge_1 >= 0 ;
+1 iv0_ge_1 1 ~iv0_ge_2 2 ~iv0_eq_1 >= 2 ;
+-1 iv0_ge_1 -1 ~iv0_ge_2 1 iv0_eq_1 >= -1 ;
+1 iv0_eq_1 1 ~iv12_iv12_t >= 1 ;
+1 ~iv0_eq_1 1 iv12_iv12_t >= 1 ;
+* constraint equals iff
+1 iv1_series1_b_0 2 iv1_series1_b_1 4 iv1_series1_b_2 2 ~iv1_ge_2 >= 2 ;
+-1 iv1_series1_b_0 -2 iv1_series1_b_1 -4 iv1_series1_b_2 6 iv1_ge_2 >= -1 ;
+-1 iv1_ge_2 1 iv1_ge_1 >= 0 ;
+1 iv1_ge_1 1 ~iv1_ge_2 2 ~iv1_eq_1 >= 2 ;
+-1 iv1_ge_1 -1 ~iv1_ge_2 1 iv1_eq_1 >= -1 ;
+1 iv1_eq_1 1 ~iv13_iv13_t >= 1 ;
+1 ~iv1_eq_1 1 iv13_iv13_t >= 1 ;
+* constraint equals iff
+1 iv2_series2_b_0 2 iv2_series2_b_1 4 iv2_series2_b_2 2 ~iv2_ge_2 >= 2 ;
+-1 iv2_series2_b_0 -2 iv2_series2_b_1 -4 iv2_series2_b_2 6 iv2_ge_2 >= -1 ;
+-1 iv2_ge_2 1 iv2_ge_1 >= 0 ;
+1 iv2_ge_1 1 ~iv2_ge_2 2 ~iv2_eq_1 >= 2 ;
+-1 iv2_ge_1 -1 ~iv2_ge_2 1 iv2_eq_1 >= -1 ;
+1 iv2_eq_1 1 ~iv14_iv14_t >= 1 ;
+1 ~iv2_eq_1 1 iv14_iv14_t >= 1 ;
+* constraint equals iff
+1 iv3_series3_b_0 2 iv3_series3_b_1 4 iv3_series3_b_2 2 ~iv3_ge_2 >= 2 ;
+-1 iv3_series3_b_0 -2 iv3_series3_b_1 -4 iv3_series3_b_2 6 iv3_ge_2 >= -1 ;
+-1 iv3_ge_2 1 iv3_ge_1 >= 0 ;
+1 iv3_ge_1 1 ~iv3_ge_2 2 ~iv3_eq_1 >= 2 ;
+-1 iv3_ge_1 -1 ~iv3_ge_2 1 iv3_eq_1 >= -1 ;
+1 iv3_eq_1 1 ~iv15_iv15_t >= 1 ;
+1 ~iv3_eq_1 1 iv15_iv15_t >= 1 ;
+* constraint equals iff
+1 iv4_series4_b_0 2 iv4_series4_b_1 4 iv4_series4_b_2 2 ~iv4_ge_2 >= 2 ;
+-1 iv4_series4_b_0 -2 iv4_series4_b_1 -4 iv4_series4_b_2 6 iv4_ge_2 >= -1 ;
+-1 iv4_ge_2 1 iv4_ge_1 >= 0 ;
+1 iv4_ge_1 1 ~iv4_ge_2 2 ~iv4_eq_1 >= 2 ;
+-1 iv4_ge_1 -1 ~iv4_ge_2 1 iv4_eq_1 >= -1 ;
+1 iv4_eq_1 1 ~iv16_iv16_t >= 1 ;
+1 ~iv4_eq_1 1 iv16_iv16_t >= 1 ;
+* constraint equals iff
+1 iv5_series5_b_0 2 iv5_series5_b_1 4 iv5_series5_b_2 2 ~iv5_ge_2 >= 2 ;
+-1 iv5_series5_b_0 -2 iv5_series5_b_1 -4 iv5_series5_b_2 6 iv5_ge_2 >= -1 ;
+-1 iv5_ge_2 1 iv5_ge_1 >= 0 ;
+1 iv5_ge_1 1 ~iv5_ge_2 2 ~iv5_eq_1 >= 2 ;
+-1 iv5_ge_1 -1 ~iv5_ge_2 1 iv5_eq_1 >= -1 ;
+1 iv5_eq_1 1 ~iv17_iv17_t >= 1 ;
+1 ~iv5_eq_1 1 iv17_iv17_t >= 1 ;
+* constraint linear equality
+* linear eq -1*varidx 1 1*varidx 12 1*varidx 13 1*varidx 14 1*varidx 15 1*varidx 16 1*varidx 17 <= 0
+-1 iv1_series1_b_0 -2 iv1_series1_b_1 -4 iv1_series1_b_2 1 iv12_iv12_t 1 iv13_iv13_t 1 iv14_iv14_t 1 iv15_iv15_t 1 iv16_iv16_t 1 iv17_iv17_t >= 0 ;
+1 iv1_series1_b_0 2 iv1_series1_b_1 4 iv1_series1_b_2 -1 iv12_iv12_t -1 iv13_iv13_t -1 iv14_iv14_t -1 iv15_iv15_t -1 iv16_iv16_t -1 iv17_iv17_t >= 0 ;
+* constraint equals iff
+1 iv0_series0_b_0 2 iv0_series0_b_1 4 iv0_series0_b_2 3 ~iv0_ge_3 >= 3 ;
+-1 iv0_series0_b_0 -2 iv0_series0_b_1 -4 iv0_series0_b_2 5 iv0_ge_3 >= -2 ;
+-1 iv0_ge_3 1 iv0_ge_2 >= 0 ;
+1 iv0_ge_2 1 ~iv0_ge_3 2 ~iv0_eq_2 >= 2 ;
+-1 iv0_ge_2 -1 ~iv0_ge_3 1 iv0_eq_2 >= -1 ;
+1 iv0_eq_2 1 ~iv18_iv18_t >= 1 ;
+1 ~iv0_eq_2 1 iv18_iv18_t >= 1 ;
+* constraint equals iff
+1 iv1_series1_b_0 2 iv1_series1_b_1 4 iv1_series1_b_2 3 ~iv1_ge_3 >= 3 ;
+-1 iv1_series1_b_0 -2 iv1_series1_b_1 -4 iv1_series1_b_2 5 iv1_ge_3 >= -2 ;
+-1 iv1_ge_3 1 iv1_ge_2 >= 0 ;
+1 iv1_ge_2 1 ~iv1_ge_3 2 ~iv1_eq_2 >= 2 ;
+-1 iv1_ge_2 -1 ~iv1_ge_3 1 iv1_eq_2 >= -1 ;
+1 iv1_eq_2 1 ~iv19_iv19_t >= 1 ;
+1 ~iv1_eq_2 1 iv19_iv19_t >= 1 ;
+* constraint equals iff
+1 iv2_series2_b_0 2 iv2_series2_b_1 4 iv2_series2_b_2 3 ~iv2_ge_3 >= 3 ;
+-1 iv2_series2_b_0 -2 iv2_series2_b_1 -4 iv2_series2_b_2 5 iv2_ge_3 >= -2 ;
+-1 iv2_ge_3 1 iv2_ge_2 >= 0 ;
+1 iv2_ge_2 1 ~iv2_ge_3 2 ~iv2_eq_2 >= 2 ;
+-1 iv2_ge_2 -1 ~iv2_ge_3 1 iv2_eq_2 >= -1 ;
+1 iv2_eq_2 1 ~iv20_iv20_t >= 1 ;
+1 ~iv2_eq_2 1 iv20_iv20_t >= 1 ;
+* constraint equals iff
+1 iv3_series3_b_0 2 iv3_series3_b_1 4 iv3_series3_b_2 3 ~iv3_ge_3 >= 3 ;
+-1 iv3_series3_b_0 -2 iv3_series3_b_1 -4 iv3_series3_b_2 5 iv3_ge_3 >= -2 ;
+-1 iv3_ge_3 1 iv3_ge_2 >= 0 ;
+1 iv3_ge_2 1 ~iv3_ge_3 2 ~iv3_eq_2 >= 2 ;
+-1 iv3_ge_2 -1 ~iv3_ge_3 1 iv3_eq_2 >= -1 ;
+1 iv3_eq_2 1 ~iv21_iv21_t >= 1 ;
+1 ~iv3_eq_2 1 iv21_iv21_t >= 1 ;
+* constraint equals iff
+1 iv4_series4_b_0 2 iv4_series4_b_1 4 iv4_series4_b_2 3 ~iv4_ge_3 >= 3 ;
+-1 iv4_series4_b_0 -2 iv4_series4_b_1 -4 iv4_series4_b_2 5 iv4_ge_3 >= -2 ;
+-1 iv4_ge_3 1 iv4_ge_2 >= 0 ;
+1 iv4_ge_2 1 ~iv4_ge_3 2 ~iv4_eq_2 >= 2 ;
+-1 iv4_ge_2 -1 ~iv4_ge_3 1 iv4_eq_2 >= -1 ;
+1 iv4_eq_2 1 ~iv22_iv22_t >= 1 ;
+1 ~iv4_eq_2 1 iv22_iv22_t >= 1 ;
+* constraint equals iff
+1 iv5_series5_b_0 2 iv5_series5_b_1 4 iv5_series5_b_2 3 ~iv5_ge_3 >= 3 ;
+-1 iv5_series5_b_0 -2 iv5_series5_b_1 -4 iv5_series5_b_2 5 iv5_ge_3 >= -2 ;
+-1 iv5_ge_3 1 iv5_ge_2 >= 0 ;
+1 iv5_ge_2 1 ~iv5_ge_3 2 ~iv5_eq_2 >= 2 ;
+-1 iv5_ge_2 -1 ~iv5_ge_3 1 iv5_eq_2 >= -1 ;
+1 iv5_eq_2 1 ~iv23_iv23_t >= 1 ;
+1 ~iv5_eq_2 1 iv23_iv23_t >= 1 ;
+* constraint linear equality
+* linear eq -1*varidx 2 1*varidx 18 1*varidx 19 1*varidx 20 1*varidx 21 1*varidx 22 1*varidx 23 <= 0
+-1 iv2_series2_b_0 -2 iv2_series2_b_1 -4 iv2_series2_b_2 1 iv18_iv18_t 1 iv19_iv19_t 1 iv20_iv20_t 1 iv21_iv21_t 1 iv22_iv22_t 1 iv23_iv23_t >= 0 ;
+1 iv2_series2_b_0 2 iv2_series2_b_1 4 iv2_series2_b_2 -1 iv18_iv18_t -1 iv19_iv19_t -1 iv20_iv20_t -1 iv21_iv21_t -1 iv22_iv22_t -1 iv23_iv23_t >= 0 ;
+* constraint equals iff
+1 iv0_series0_b_0 2 iv0_series0_b_1 4 iv0_series0_b_2 4 ~iv0_ge_4 >= 4 ;
+-1 iv0_series0_b_0 -2 iv0_series0_b_1 -4 iv0_series0_b_2 4 iv0_ge_4 >= -3 ;
+-1 iv0_ge_4 1 iv0_ge_3 >= 0 ;
+1 iv0_ge_3 1 ~iv0_ge_4 2 ~iv0_eq_3 >= 2 ;
+-1 iv0_ge_3 -1 ~iv0_ge_4 1 iv0_eq_3 >= -1 ;
+1 iv0_eq_3 1 ~iv24_iv24_t >= 1 ;
+1 ~iv0_eq_3 1 iv24_iv24_t >= 1 ;
+* constraint equals iff
+1 iv1_series1_b_0 2 iv1_series1_b_1 4 iv1_series1_b_2 4 ~iv1_ge_4 >= 4 ;
+-1 iv1_series1_b_0 -2 iv1_series1_b_1 -4 iv1_series1_b_2 4 iv1_ge_4 >= -3 ;
+-1 iv1_ge_4 1 iv1_ge_3 >= 0 ;
+1 iv1_ge_3 1 ~iv1_ge_4 2 ~iv1_eq_3 >= 2 ;
+-1 iv1_ge_3 -1 ~iv1_ge_4 1 iv1_eq_3 >= -1 ;
+1 iv1_eq_3 1 ~iv25_iv25_t >= 1 ;
+1 ~iv1_eq_3 1 iv25_iv25_t >= 1 ;
+* constraint equals iff
+1 iv2_series2_b_0 2 iv2_series2_b_1 4 iv2_series2_b_2 4 ~iv2_ge_4 >= 4 ;
+-1 iv2_series2_b_0 -2 iv2_series2_b_1 -4 iv2_series2_b_2 4 iv2_ge_4 >= -3 ;
+-1 iv2_ge_4 1 iv2_ge_3 >= 0 ;
+1 iv2_ge_3 1 ~iv2_ge_4 2 ~iv2_eq_3 >= 2 ;
+-1 iv2_ge_3 -1 ~iv2_ge_4 1 iv2_eq_3 >= -1 ;
+1 iv2_eq_3 1 ~iv26_iv26_t >= 1 ;
+1 ~iv2_eq_3 1 iv26_iv26_t >= 1 ;
+* constraint equals iff
+1 iv3_series3_b_0 2 iv3_series3_b_1 4 iv3_series3_b_2 4 ~iv3_ge_4 >= 4 ;
+-1 iv3_series3_b_0 -2 iv3_series3_b_1 -4 iv3_series3_b_2 4 iv3_ge_4 >= -3 ;
+-1 iv3_ge_4 1 iv3_ge_3 >= 0 ;
+1 iv3_ge_3 1 ~iv3_ge_4 2 ~iv3_eq_3 >= 2 ;
+-1 iv3_ge_3 -1 ~iv3_ge_4 1 iv3_eq_3 >= -1 ;
+1 iv3_eq_3 1 ~iv27_iv27_t >= 1 ;
+1 ~iv3_eq_3 1 iv27_iv27_t >= 1 ;
+* constraint equals iff
+1 iv4_series4_b_0 2 iv4_series4_b_1 4 iv4_series4_b_2 4 ~iv4_ge_4 >= 4 ;
+-1 iv4_series4_b_0 -2 iv4_series4_b_1 -4 iv4_series4_b_2 4 iv4_ge_4 >= -3 ;
+-1 iv4_ge_4 1 iv4_ge_3 >= 0 ;
+1 iv4_ge_3 1 ~iv4_ge_4 2 ~iv4_eq_3 >= 2 ;
+-1 iv4_ge_3 -1 ~iv4_ge_4 1 iv4_eq_3 >= -1 ;
+1 iv4_eq_3 1 ~iv28_iv28_t >= 1 ;
+1 ~iv4_eq_3 1 iv28_iv28_t >= 1 ;
+* constraint equals iff
+1 iv5_series5_b_0 2 iv5_series5_b_1 4 iv5_series5_b_2 4 ~iv5_ge_4 >= 4 ;
+-1 iv5_series5_b_0 -2 iv5_series5_b_1 -4 iv5_series5_b_2 4 iv5_ge_4 >= -3 ;
+-1 iv5_ge_4 1 iv5_ge_3 >= 0 ;
+1 iv5_ge_3 1 ~iv5_ge_4 2 ~iv5_eq_3 >= 2 ;
+-1 iv5_ge_3 -1 ~iv5_ge_4 1 iv5_eq_3 >= -1 ;
+1 iv5_eq_3 1 ~iv29_iv29_t >= 1 ;
+1 ~iv5_eq_3 1 iv29_iv29_t >= 1 ;
+* constraint linear equality
+* linear eq -1*varidx 3 1*varidx 24 1*varidx 25 1*varidx 26 1*varidx 27 1*varidx 28 1*varidx 29 <= 0
+-1 iv3_series3_b_0 -2 iv3_series3_b_1 -4 iv3_series3_b_2 1 iv24_iv24_t 1 iv25_iv25_t 1 iv26_iv26_t 1 iv27_iv27_t 1 iv28_iv28_t 1 iv29_iv29_t >= 0 ;
+1 iv3_series3_b_0 2 iv3_series3_b_1 4 iv3_series3_b_2 -1 iv24_iv24_t -1 iv25_iv25_t -1 iv26_iv26_t -1 iv27_iv27_t -1 iv28_iv28_t -1 iv29_iv29_t >= 0 ;
+* constraint equals iff
+1 iv0_series0_b_0 2 iv0_series0_b_1 4 iv0_series0_b_2 5 ~iv0_ge_5 >= 5 ;
+-1 iv0_series0_b_0 -2 iv0_series0_b_1 -4 iv0_series0_b_2 3 iv0_ge_5 >= -4 ;
+-1 iv0_ge_5 1 iv0_ge_4 >= 0 ;
+1 iv0_ge_4 1 ~iv0_ge_5 2 ~iv0_eq_4 >= 2 ;
+-1 iv0_ge_4 -1 ~iv0_ge_5 1 iv0_eq_4 >= -1 ;
+1 iv0_eq_4 1 ~iv30_iv30_t >= 1 ;
+1 ~iv0_eq_4 1 iv30_iv30_t >= 1 ;
+* constraint equals iff
+1 iv1_series1_b_0 2 iv1_series1_b_1 4 iv1_series1_b_2 5 ~iv1_ge_5 >= 5 ;
+-1 iv1_series1_b_0 -2 iv1_series1_b_1 -4 iv1_series1_b_2 3 iv1_ge_5 >= -4 ;
+-1 iv1_ge_5 1 iv1_ge_4 >= 0 ;
+1 iv1_ge_4 1 ~iv1_ge_5 2 ~iv1_eq_4 >= 2 ;
+-1 iv1_ge_4 -1 ~iv1_ge_5 1 iv1_eq_4 >= -1 ;
+1 iv1_eq_4 1 ~iv31_iv31_t >= 1 ;
+1 ~iv1_eq_4 1 iv31_iv31_t >= 1 ;
+* constraint equals iff
+1 iv2_series2_b_0 2 iv2_series2_b_1 4 iv2_series2_b_2 5 ~iv2_ge_5 >= 5 ;
+-1 iv2_series2_b_0 -2 iv2_series2_b_1 -4 iv2_series2_b_2 3 iv2_ge_5 >= -4 ;
+-1 iv2_ge_5 1 iv2_ge_4 >= 0 ;
+1 iv2_ge_4 1 ~iv2_ge_5 2 ~iv2_eq_4 >= 2 ;
+-1 iv2_ge_4 -1 ~iv2_ge_5 1 iv2_eq_4 >= -1 ;
+1 iv2_eq_4 1 ~iv32_iv32_t >= 1 ;
+1 ~iv2_eq_4 1 iv32_iv32_t >= 1 ;
+* constraint equals iff
+1 iv3_series3_b_0 2 iv3_series3_b_1 4 iv3_series3_b_2 5 ~iv3_ge_5 >= 5 ;
+-1 iv3_series3_b_0 -2 iv3_series3_b_1 -4 iv3_series3_b_2 3 iv3_ge_5 >= -4 ;
+-1 iv3_ge_5 1 iv3_ge_4 >= 0 ;
+1 iv3_ge_4 1 ~iv3_ge_5 2 ~iv3_eq_4 >= 2 ;
+-1 iv3_ge_4 -1 ~iv3_ge_5 1 iv3_eq_4 >= -1 ;
+1 iv3_eq_4 1 ~iv33_iv33_t >= 1 ;
+1 ~iv3_eq_4 1 iv33_iv33_t >= 1 ;
+* constraint equals iff
+1 iv4_series4_b_0 2 iv4_series4_b_1 4 iv4_series4_b_2 5 ~iv4_ge_5 >= 5 ;
+-1 iv4_series4_b_0 -2 iv4_series4_b_1 -4 iv4_series4_b_2 3 iv4_ge_5 >= -4 ;
+-1 iv4_ge_5 1 iv4_ge_4 >= 0 ;
+1 iv4_ge_4 1 ~iv4_ge_5 2 ~iv4_eq_4 >= 2 ;
+-1 iv4_ge_4 -1 ~iv4_ge_5 1 iv4_eq_4 >= -1 ;
+1 iv4_eq_4 1 ~iv34_iv34_t >= 1 ;
+1 ~iv4_eq_4 1 iv34_iv34_t >= 1 ;
+* constraint equals iff
+1 iv5_series5_b_0 2 iv5_series5_b_1 4 iv5_series5_b_2 5 ~iv5_ge_5 >= 5 ;
+-1 iv5_series5_b_0 -2 iv5_series5_b_1 -4 iv5_series5_b_2 3 iv5_ge_5 >= -4 ;
+-1 iv5_ge_5 1 iv5_ge_4 >= 0 ;
+1 iv5_ge_4 1 ~iv5_ge_5 2 ~iv5_eq_4 >= 2 ;
+-1 iv5_ge_4 -1 ~iv5_ge_5 1 iv5_eq_4 >= -1 ;
+1 iv5_eq_4 1 ~iv35_iv35_t >= 1 ;
+1 ~iv5_eq_4 1 iv35_iv35_t >= 1 ;
+* constraint linear equality
+* linear eq -1*varidx 4 1*varidx 30 1*varidx 31 1*varidx 32 1*varidx 33 1*varidx 34 1*varidx 35 <= 0
+-1 iv4_series4_b_0 -2 iv4_series4_b_1 -4 iv4_series4_b_2 1 iv30_iv30_t 1 iv31_iv31_t 1 iv32_iv32_t 1 iv33_iv33_t 1 iv34_iv34_t 1 iv35_iv35_t >= 0 ;
+1 iv4_series4_b_0 2 iv4_series4_b_1 4 iv4_series4_b_2 -1 iv30_iv30_t -1 iv31_iv31_t -1 iv32_iv32_t -1 iv33_iv33_t -1 iv34_iv34_t -1 iv35_iv35_t >= 0 ;
+* constraint equals iff
+1 iv0_series0_b_0 2 iv0_series0_b_1 4 iv0_series0_b_2 6 ~iv0_ge_6 >= 6 ;
+-1 iv0_series0_b_0 -2 iv0_series0_b_1 -4 iv0_series0_b_2 2 iv0_ge_6 >= -5 ;
+1 ~iv0_ge_6 >= 1 ;
+-1 iv0_ge_6 1 iv0_ge_5 >= 0 ;
+1 iv0_ge_5 1 ~iv0_ge_6 2 ~iv0_eq_5 >= 2 ;
+-1 iv0_ge_5 -1 ~iv0_ge_6 1 iv0_eq_5 >= -1 ;
+1 iv0_eq_5 1 ~iv36_iv36_t >= 1 ;
+1 ~iv0_eq_5 1 iv36_iv36_t >= 1 ;
+* constraint equals iff
+1 iv1_series1_b_0 2 iv1_series1_b_1 4 iv1_series1_b_2 6 ~iv1_ge_6 >= 6 ;
+-1 iv1_series1_b_0 -2 iv1_series1_b_1 -4 iv1_series1_b_2 2 iv1_ge_6 >= -5 ;
+1 ~iv1_ge_6 >= 1 ;
+-1 iv1_ge_6 1 iv1_ge_5 >= 0 ;
+1 iv1_ge_5 1 ~iv1_ge_6 2 ~iv1_eq_5 >= 2 ;
+-1 iv1_ge_5 -1 ~iv1_ge_6 1 iv1_eq_5 >= -1 ;
+1 iv1_eq_5 1 ~iv37_iv37_t >= 1 ;
+1 ~iv1_eq_5 1 iv37_iv37_t >= 1 ;
+* constraint equals iff
+1 iv2_series2_b_0 2 iv2_series2_b_1 4 iv2_series2_b_2 6 ~iv2_ge_6 >= 6 ;
+-1 iv2_series2_b_0 -2 iv2_series2_b_1 -4 iv2_series2_b_2 2 iv2_ge_6 >= -5 ;
+1 ~iv2_ge_6 >= 1 ;
+-1 iv2_ge_6 1 iv2_ge_5 >= 0 ;
+1 iv2_ge_5 1 ~iv2_ge_6 2 ~iv2_eq_5 >= 2 ;
+-1 iv2_ge_5 -1 ~iv2_ge_6 1 iv2_eq_5 >= -1 ;
+1 iv2_eq_5 1 ~iv38_iv38_t >= 1 ;
+1 ~iv2_eq_5 1 iv38_iv38_t >= 1 ;
+* constraint equals iff
+1 iv3_series3_b_0 2 iv3_series3_b_1 4 iv3_series3_b_2 6 ~iv3_ge_6 >= 6 ;
+-1 iv3_series3_b_0 -2 iv3_series3_b_1 -4 iv3_series3_b_2 2 iv3_ge_6 >= -5 ;
+1 ~iv3_ge_6 >= 1 ;
+-1 iv3_ge_6 1 iv3_ge_5 >= 0 ;
+1 iv3_ge_5 1 ~iv3_ge_6 2 ~iv3_eq_5 >= 2 ;
+-1 iv3_ge_5 -1 ~iv3_ge_6 1 iv3_eq_5 >= -1 ;
+1 iv3_eq_5 1 ~iv39_iv39_t >= 1 ;
+1 ~iv3_eq_5 1 iv39_iv39_t >= 1 ;
+* constraint equals iff
+1 iv4_series4_b_0 2 iv4_series4_b_1 4 iv4_series4_b_2 6 ~iv4_ge_6 >= 6 ;
+-1 iv4_series4_b_0 -2 iv4_series4_b_1 -4 iv4_series4_b_2 2 iv4_ge_6 >= -5 ;
+1 ~iv4_ge_6 >= 1 ;
+-1 iv4_ge_6 1 iv4_ge_5 >= 0 ;
+1 iv4_ge_5 1 ~iv4_ge_6 2 ~iv4_eq_5 >= 2 ;
+-1 iv4_ge_5 -1 ~iv4_ge_6 1 iv4_eq_5 >= -1 ;
+1 iv4_eq_5 1 ~iv40_iv40_t >= 1 ;
+1 ~iv4_eq_5 1 iv40_iv40_t >= 1 ;
+* constraint equals iff
+1 iv5_series5_b_0 2 iv5_series5_b_1 4 iv5_series5_b_2 6 ~iv5_ge_6 >= 6 ;
+-1 iv5_series5_b_0 -2 iv5_series5_b_1 -4 iv5_series5_b_2 2 iv5_ge_6 >= -5 ;
+1 ~iv5_ge_6 >= 1 ;
+-1 iv5_ge_6 1 iv5_ge_5 >= 0 ;
+1 iv5_ge_5 1 ~iv5_ge_6 2 ~iv5_eq_5 >= 2 ;
+-1 iv5_ge_5 -1 ~iv5_ge_6 1 iv5_eq_5 >= -1 ;
+1 iv5_eq_5 1 ~iv41_iv41_t >= 1 ;
+1 ~iv5_eq_5 1 iv41_iv41_t >= 1 ;
+* constraint linear equality
+* linear eq -1*varidx 5 1*varidx 36 1*varidx 37 1*varidx 38 1*varidx 39 1*varidx 40 1*varidx 41 <= 0
+-1 iv5_series5_b_0 -2 iv5_series5_b_1 -4 iv5_series5_b_2 1 iv36_iv36_t 1 iv37_iv37_t 1 iv38_iv38_t 1 iv39_iv39_t 1 iv40_iv40_t 1 iv41_iv41_t >= 0 ;
+1 iv5_series5_b_0 2 iv5_series5_b_1 4 iv5_series5_b_2 -1 iv36_iv36_t -1 iv37_iv37_t -1 iv38_iv38_t -1 iv39_iv39_t -1 iv40_iv40_t -1 iv41_iv41_t >= 0 ;
+* constraint linear equality
+* linear eq 1*varidx 0 1*varidx 1 1*varidx 2 1*varidx 3 1*varidx 4 1*varidx 5 <= 6
+1 iv0_series0_b_0 2 iv0_series0_b_1 4 iv0_series0_b_2 1 iv1_series1_b_0 2 iv1_series1_b_1 4 iv1_series1_b_2 1 iv2_series2_b_0 2 iv2_series2_b_1 4 iv2_series2_b_2 1 iv3_series3_b_0 2 iv3_series3_b_1 4 iv3_series3_b_2 1 iv4_series4_b_0 2 iv4_series4_b_1 4 iv4_series4_b_2 1 iv5_series5_b_0 2 iv5_series5_b_1 4 iv5_series5_b_2 >= 6 ;
+-1 iv0_series0_b_0 -2 iv0_series0_b_1 -4 iv0_series0_b_2 -1 iv1_series1_b_0 -2 iv1_series1_b_1 -4 iv1_series1_b_2 -1 iv2_series2_b_0 -2 iv2_series2_b_1 -4 iv2_series2_b_2 -1 iv3_series3_b_0 -2 iv3_series3_b_1 -4 iv3_series3_b_2 -1 iv4_series4_b_0 -2 iv4_series4_b_1 -4 iv4_series4_b_2 -1 iv5_series5_b_0 -2 iv5_series5_b_1 -4 iv5_series5_b_2 >= -6 ;

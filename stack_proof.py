@@ -75,8 +75,10 @@ class Proof:
                         self.model.get_constraint(i).time_of_death = self.model.no_of_constraints + 1
         self.model.check_backwards()
         logging.shutdown()
+        print("Proof parsed successfully")
 
 
 if "__main__" == __name__:
-    FILE = "proof2"
-    proof = Proof("proofs/"+FILE, loud=True, backwards=True)
+    FILE = "magic_series_3"
+    DIR = "magic_series_proofs/"
+    proof = Proof(DIR+FILE, loud=True, backwards=True)
