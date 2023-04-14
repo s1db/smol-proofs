@@ -1,0 +1,22 @@
+pseudo-Boolean proof version 1.2
+f 20 0
+# 1
+u -1 iv1_series1_t >= -1 ;
+p 19 21 + 1 d
+u 1 iv0_series0_t >= 1 ;
+d 22
+u -1 iv0_series0_t >= -1 ;
+p 19 24 + 1 d
+u 1 iv1_series1_t >= 1 ;
+d 25
+u 1 iv4_iv4_t >= 1 ;
+p 18 21 + 27 + 1 d
+u 1 ~iv5_iv5_t >= 1 ;
+d 28
+# 0
+* backtracking
+u >= 1 ;
+w 1
+* asserting contradiction
+u >= 1 ;
+c 31 0

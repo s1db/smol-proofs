@@ -1,0 +1,11 @@
+pseudo-Boolean proof version 1.2
+f 242 0
+u 1 ~iv0_eq_0 >= 1 ;
+u 1 iv10_iv10_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 1 ;
+p 124 244 + iv11_iv11_t + iv12_iv12_t + iv13_iv13_t + iv14_iv14_t + 1 d
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 iv1_ge_1 >= 1 ;
+u 1 iv0_series0_b_0 2 iv0_series0_b_1 4 iv0_series0_b_2 8 iv0_eq_0 8 ~iv0_eq_1 >= 1 ;
+u 1 iv1_series1_b_0 2 iv1_series1_b_1 4 iv1_series1_b_2 8 iv0_eq_0 8 ~iv0_eq_1 >= 1 ;
+p 242 247 + 248 + 7 + 9 +
+p 242 247 + 248 + 5 + 9 +
+u -1 iv0_series0_b_0 -2 iv0_series0_b_1 -4 iv0_series0_b_2 8 iv0_eq_0 8 ~iv0_eq_1 8 ~iv4_eq_0 >= -1 ;

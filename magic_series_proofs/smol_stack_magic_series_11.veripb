@@ -1,0 +1,24 @@
+pseudo-Boolean proof version 1.2
+f 1058 0
+u 1 ~iv0_eq_0 >= 1 ;
+u 1 iv22_iv22_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 1 ;
+p 334 1060 + iv23_iv23_t + iv24_iv24_t + iv25_iv25_t + iv26_iv26_t + iv27_iv27_t + iv28_iv28_t + iv29_iv29_t + iv30_iv30_t + iv31_iv31_t + iv32_iv32_t + 1 d
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 iv1_ge_1 >= 1 ;
+u 1 iv0_series0_b_0 2 iv0_series0_b_1 4 iv0_series0_b_2 8 iv0_series0_b_3 16 iv0_eq_0 16 ~iv0_eq_1 >= 1 ;
+u 1 iv1_series1_b_0 2 iv1_series1_b_1 4 iv1_series1_b_2 8 iv1_series1_b_3 16 iv0_eq_0 16 ~iv0_eq_1 >= 1 ;
+p 1058 1063 + 1064 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 21 +
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv2_ge_10 >= 1 ;
+p 1058 1063 + 1064 + 5 + 9 + 11 + 13 + 15 + 17 + 19 + 21 +
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv3_ge_10 >= 1 ;
+p 1058 1063 + 1064 + 5 + 7 + 11 + 13 + 15 + 17 + 19 + 21 +
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv4_ge_10 >= 1 ;
+p 1058 1063 + 1064 + 5 + 7 + 9 + 13 + 15 + 17 + 19 + 21 +
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv5_ge_10 >= 1 ;
+p 1058 1063 + 1064 + 5 + 7 + 9 + 11 + 15 + 17 + 19 + 21 +
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv6_ge_10 >= 1 ;
+p 1058 1063 + 1064 + 5 + 7 + 9 + 11 + 13 + 17 + 19 + 21 +
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv7_ge_10 >= 1 ;
+p 1058 1063 + 1064 + 5 + 7 + 9 + 11 + 13 + 15 + 19 + 21 +
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv8_ge_10 >= 1 ;
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv9_ge_10 >= 1 ;
+u -1 iv0_series0_b_0 -2 iv0_series0_b_1 -4 iv0_series0_b_2 -8 iv0_series0_b_3 16 iv0_eq_0 16 ~iv0_eq_1 16 ~iv10_eq_0 >= -1 ;

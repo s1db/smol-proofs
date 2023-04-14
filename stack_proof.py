@@ -72,11 +72,14 @@ class Proof:
                             to_delete |= wipeout[i]
                             wipeout[i] = set()
                     for i in to_delete:
+                        # print(i, self.model.get_constraint(i), type(self.model.get_constraint(i)))
                         self.model.get_constraint(i).time_of_death = self.model.no_of_constraints + 1
         self.model.check_backwards()
         logging.shutdown()
+        # print("Proof parsed successfully")
 
 
 if "__main__" == __name__:
-    FILE = "proof2"
-    proof = Proof("proofs/"+FILE, loud=True, backwards=True)
+    FILE = "g2-g3"
+    DIR = "sip_proofs/"
+    proof = Proof(DIR+FILE, loud=True, backwards=True)

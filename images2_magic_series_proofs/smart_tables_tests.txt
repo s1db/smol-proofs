@@ -1,0 +1,9 @@
+random_table_3vars_146
+    1️⃣  normal rup file created 0.015955076999999873
+    1️⃣  stack rup file created 0.0025396180000001323
+    2️⃣  smol files created
+    3️⃣  normal kept: 32 clauses in original proof 2 clauses in smol proof
+    3️⃣  stack kept : 32 clauses in original proof 2 clauses in smol proof
+    4️⃣  normal time: 0.04
+    4️⃣  forward time: 0.038
+    4️⃣  backward time: 0.038

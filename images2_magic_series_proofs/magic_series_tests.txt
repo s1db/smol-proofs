@@ -1,0 +1,60 @@
+magic_series_2
+    4️⃣  normal time: 0.03
+    4️⃣  forward time: 0.032
+    4️⃣  backward time: 0.032
+9 6
+images_magic_series_proofs/magic_series_2.png
+images_magic_series_proofs/stack_magic_series_2.png
+magic_series_4
+    4️⃣  normal time: 0.046
+    4️⃣  forward time: 0.04
+    4️⃣  backward time: 0.038
+169 131
+images_magic_series_proofs/magic_series_4.png
+images_magic_series_proofs/stack_magic_series_4.png
+magic_series_6
+    4️⃣  normal time: 0.05
+    4️⃣  forward time: 0.04
+    4️⃣  backward time: 0.038
+418 311
+images_magic_series_proofs/magic_series_6.png
+images_magic_series_proofs/stack_magic_series_6.png
+magic_series_8
+    4️⃣  normal time: 0.07
+    4️⃣  forward time: 0.042
+    4️⃣  backward time: 0.04
+675 567
+images_magic_series_proofs/magic_series_8.png
+images_magic_series_proofs/stack_magic_series_8.png
+magic_series_10
+    4️⃣  normal time: 0.11400000000000002
+    4️⃣  forward time: 0.07600000000000001
+    4️⃣  backward time: 0.062
+1306 881
+images_magic_series_proofs/magic_series_10.png
+images_magic_series_proofs/stack_magic_series_10.png
+magic_series_12
+    4️⃣  normal time: 0.158
+    4️⃣  forward time: 0.11000000000000001
+    4️⃣  backward time: 0.07600000000000001
+1894 1289
+images_magic_series_proofs/magic_series_12.png
+images_magic_series_proofs/stack_magic_series_12.png
+magic_series_14
+    4️⃣  normal time: 0.22600000000000003
+    4️⃣  forward time: 0.122
+    4️⃣  backward time: 0.1
+2299 1801
+images_magic_series_proofs/magic_series_14.png
+images_magic_series_proofs/stack_magic_series_14.png
+magic_series_16
+    4️⃣  normal time: 0.318
+    4️⃣  forward time: 0.194
+    4️⃣  backward time: 0.14200000000000002
+3019 2428
+images_magic_series_proofs/magic_series_16.png
+images_magic_series_proofs/stack_magic_series_16.png
+magic_series_18
+    4️⃣  normal time: 0.472
+    4️⃣  forward time: 0.318
+    4️⃣  backward time: 0.21200000000000002

@@ -1,0 +1,34 @@
+pseudo-Boolean proof version 1.2
+f 98 0
+u -1 iv0_series0_b_0 -2 iv0_series0_b_1 4 ~iv0_eq_0 >= 0 ;
+p 47 99 + iv4_iv4_t + iv5_iv5_t +
+p 47 99 + iv3_iv3_t + iv4_iv4_t +
+u 1 ~iv0_eq_0 >= 1 ;
+u 1 iv6_iv6_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 1 ;
+p 70 103 + iv7_iv7_t + iv8_iv8_t + 1 d
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 iv1_ge_1 >= 1 ;
+u 1 iv0_series0_b_0 2 iv0_series0_b_1 4 iv0_eq_0 4 ~iv0_eq_1 >= 1 ;
+u 1 iv1_series1_b_0 2 iv1_series1_b_1 4 iv0_eq_0 4 ~iv0_eq_1 >= 1 ;
+p 98 106 + 107 +
+u -1 iv3_iv3_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 0 ;
+u -1 iv4_iv4_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 0 ;
+p 46 106 + 109 + 110 +
+u -1 iv2_series2_b_0 -2 iv2_series2_b_1 4 iv0_eq_0 4 ~iv0_eq_1 >= 0 ;
+p 96 112 + iv9_iv9_t + iv11_iv11_t +
+u 1 iv0_eq_0 1 ~iv0_eq_1 >= 1 ;
+u 1 iv0_series0_b_0 2 iv0_series0_b_1 5 iv0_eq_0 5 iv0_eq_1 >= 2 ;
+u -1 iv3_iv3_t 2 iv0_eq_0 2 iv0_eq_1 >= 0 ;
+p 46 115 + 116 + ~iv5_iv5_t +
+p 46 115 + 116 + ~iv4_iv4_t +
+u -1 iv1_series1_b_0 -2 iv1_series1_b_1 4 iv0_eq_0 4 iv0_eq_1 >= 0 ;
+p 70 119 + iv6_iv6_t + iv8_iv8_t +
+p 70 119 + iv6_iv6_t + iv7_iv7_t +
+u 1 iv0_eq_0 1 iv0_eq_1 >= 1 ;
+u 1 iv0_eq_0 >= 1 ;
+u >= 1 ;
+u >= 1 ;
+c 125 0
+
+* no of proof steps: 55
+* no of short proof steps: 27
+* % of proof steps kept: 49.09090909090909

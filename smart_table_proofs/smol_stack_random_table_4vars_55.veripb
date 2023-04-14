@@ -16,15 +16,16 @@ u 1 ~iv0_eq_4 1 ~flag0_t0 >= 1 ;
 u 1 ~iv0_eq_4 1 ~flag2_t2 >= 1 ;
 u 1 ~iv0_eq_4 >= 1 ;
 u 1 ~iv1_eq_2 >= 1 ;
-u 1 ~iv1_eq_3 1 ~flag2_t2 >= 1 ;
+u 1 ~iv1_eq_3 1 ~flag0_t0 >= 1 ;
 u 1 ~iv1_eq_3 >= 1 ;
-u 1 ~iv1_eq_4 1 ~flag2_t2 >= 1 ;
+u 1 ~iv1_eq_4 1 ~flag1_t1 >= 1 ;
 u 1 ~iv1_eq_4 >= 1 ;
+u 1 ~iv2_eq_-1 1 ~flag0_t0 >= 1 ;
 u 1 ~iv2_eq_-1 >= 1 ;
 u >= 1 ;
 u >= 1 ;
-c 182 0
+c 183 0
 
 * no of proof steps: 64
-* no of short proof steps: 23
-* % of proof steps kept: 35.9375
+* no of short proof steps: 24
+* % of proof steps kept: 37.5

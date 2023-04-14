@@ -1,5 +1,5 @@
 from constraint import Constraint
-from typing import Iterable, Dict
+from typing import Iterable, Dict, List
 import copy
 import logging
 # from queue import PriorityQueue
@@ -110,10 +110,10 @@ class Model:
         #     print(list(self.literal_id_map.keys()))
         #     raise Exception(
         #         "NUMBER OF LITERALS IN MODEL FILE DOES NOT MATCH WITH THE NUMBER OF LITERALS IN THE CONSTRAINTS")
-        if self.expected_no_of_constraints != self.no_of_constraints:
-            print("WARNING: NUMBER OF CONSTRAINTS IN MODEL FILE DOES NOT MATCH WITH THE NUMBER OF CONSTRAINTS IN THE CONSTRAINTS")
-            raise Exception(
-                "NUMBER OF CONSTRAINTS IN MODEL FILE DOES NOT MATCH WITH THE NUMBER OF CONSTRAINTS IN THE CONSTRAINTS")
+        # if self.expected_no_of_constraints != self.no_of_constraints:
+        #     print("WARNING: NUMBER OF CONSTRAINTS IN MODEL FILE DOES NOT MATCH WITH THE NUMBER OF CONSTRAINTS IN THE CONSTRAINTS")
+        #     raise Exception(
+        #         "NUMBER OF CONSTRAINTS IN MODEL FILE DOES NOT MATCH WITH THE NUMBER OF CONSTRAINTS IN THE CONSTRAINTS")
         if self.loud:
             print("NO OF LITERALS   : ", self.no_of_literals)
             print("NO OF CONSTRAINTS: ", self.no_of_constraints)
@@ -125,33 +125,32 @@ class Model:
         line = line.split()[1:]
         assignment = [self.literal_id_map[i] if i[0] != "~" else -1 *
                       self.literal_id_map[i[1:]] for i in line]
+        # print(assignment)
         new_constraint = Constraint([-i for i in assignment], [1 for i in assignment], 1, type="v")
         if self.loud:
             self.constraint_str(new_constraint)
         if not blind:
             new_constraint.negation()
-            if self.is_solution(new_constraint):
+            if self.is_solution(new_constraint, assignment):
                 new_constraint.negation()
                 self.add_constraint(new_constraint)
             else:
                 raise Exception("INVALID SOLUTION CLAIMED")
         else:
             self.add_constraint(new_constraint)
-    def is_solution(self, constraint: Constraint):
+    def is_solution(self, constraint: Constraint, assignment: List[int] = []) -> bool:
         # print("yoyo", self.constraint_str(constraint))
-        tau = constraint.propagate([])
-        if self.loud:
-            print("    ASSIGNMENT: ", tau)
+        tau = assignment
+        # tau = constraint.propagate([])
+        # if self.loud:
+        # print("    ASSIGNMENT: ", tau)
         fired_constraints = []
         check_core_first = sorted(copy.deepcopy(self.constraints_known_to_propagate.heap))
+        check_core_first = [-i for i in check_core_first]
         while True:
             unit_propagated = False
-            for i in reversed(check_core_first):
-                i = -i
+            for i in check_core_first:
                 if i not in self.dead_constraints:
-                    tod = self.get_constraint(i).time_of_death
-                    if tod < self.no_of_constraints and tod != -1:
-                        continue
                     constraint = self.get_constraint(i)
                     constraint_propagates = constraint.propagate(tau)
                     if constraint_propagates != []:
@@ -161,7 +160,7 @@ class Model:
                         break
             if not unit_propagated:
                 for i in range(1, self.no_of_constraints+1):
-                    if i not in self.constraints_known_to_propagate.set and i not in self.dead_constraints:
+                    if i not in check_core_first and i not in self.dead_constraints:
                         constraint = self.get_constraint(i)
                         constraint_propagates = constraint.propagate(tau)
                         if constraint_propagates != []:
@@ -170,13 +169,13 @@ class Model:
                             unit_propagated = True
                             break
             if not unit_propagated:
+                # print(len(tau), self.no_of_literals)
                 if len(tau) != self.no_of_literals:
                     raise Exception(
                         "INVALID SOLUTION CLAIMED, NOT ALL VARIABLES ASSIGNED")
                 else:
                     if self.loud:
                         print("    VALID SOLUTION FOUND")
-                    self.constraints_known_to_propagate.add(fired_constraints)
                     self.logger.warning(str(self.no_of_constraints)+":"+" ".join([str(i) for i in fired_constraints]))
                     return True
 
@@ -188,38 +187,113 @@ class Model:
         statement = statement.split(" ")[1:-1]
         antecedents = []
         stack = []
-        operations = ["+", "-", "*", "/"]
+        operations = ["+", "-", "*", "d"]
+        # print(statement)
         if len(statement) == 1:
             id = int(statement[0])
-            temp = copy.deepcopy(self.get_constraint(id))
-            stack.append(temp)
-        for i in statement:
-            if i not in operations:
-                antecedents.append(int(i))
-                temp = copy.deepcopy(self.get_constraint(int(i)))
-                stack.append(temp)
+            stack.append(id)
+        for i in range(len(statement)):
+            if statement[i] not in operations:
+                id = statement[i]
+                stack.append(id)
             else:
-                constraint_1 = stack.pop()
-                constraint_2 = stack.pop()
                 temp = None
-                if i == '+':
+                if statement[i] == '+':
+                    # print("ADDING CONSTRAINT")
+                    # print("STACK: ", stack)
+                    constraint_2 = stack.pop()
+                    if not isinstance(constraint_2, Constraint):
+                        # print(constraint_2, "CONSTRAINT 2 IS NOT A CONSTRAINT")
+                        if constraint_2.isdigit():
+                            # print(constraint_2)
+                            # print("CONSTRAINT 2 IS A DIGIT")
+                            antecedents.append(int(constraint_2))
+                            constraint_2 = self.get_constraint(int(constraint_2))
+                        else:
+                            # print("CONSTRAINT 2 IS A LITERAL")
+                            if constraint_2[0] == "~":
+                                constraint_2 = Constraint([-self.literal_id_map[constraint_2[1:]]], [1], 0)
+                            else:
+                                constraint_2 = Constraint([self.literal_id_map[constraint_2]], [1], 0)
+                    constraint_1 = stack.pop()
+                    if not isinstance(constraint_1, Constraint):
+                        if constraint_1.isdigit():
+                            antecedents.append(int(constraint_1))
+                            constraint_1 = self.get_constraint(int(constraint_1))
+                        else:
+                            if constraint_1[0] == "~":
+                                constraint_1 = Constraint([-self.literal_id_map[constraint_1[1:]]], [1], 0)
+                            else:
+                                constraint_1 = Constraint([self.literal_id_map[constraint_1]], [1], 0)
                     temp = constraint_1 + constraint_2
-                if i == '-':
+                    if self.loud:
+                        print("adding", constraint_1, constraint_2, temp)
+                elif statement[i] == '-':
+                    constraint_2 = stack.pop()
+                    if not isinstance(constraint_2, Constraint):
+                        if constraint_2.isdigit():
+                            constraint_2 = self.get_constraint(int(constraint_2))
+                        else:
+                            if constraint_2[0] == "~":
+                                constraint_2 = Constraint([-self.literal_id_map[constraint_2[1:]]], [1], 0)
+                            else:
+                                constraint_2 = Constraint([self.literal_id_map[constraint_2]], [1], 0)
+                    constraint_1 = stack.pop()
+                    if not isinstance(constraint_1, Constraint):
+                        if constraint_1.isdigit():
+                            constraint_1 = self.get_constraint(int(constraint_1))
+                        else:
+                            if constraint_1[0] == "~":
+                                constraint_1 = Constraint([-self.literal_id_map[constraint_1[1:]]], [1], 0)
+                            else:
+                                constraint_1 = Constraint([self.literal_id_map[constraint_1]], [1], 0)
                     temp = constraint_1 - constraint_2
-                if i == '*':
+                elif statement[i] == '*':
+                    constraint_2 = stack.pop()
+                    constraint_2 = int(constraint_2)
+                    constraint_1 = stack.pop()
+                    if not isinstance(constraint_1, Constraint):
+                        if constraint_1.isdigit():
+                            constraint_1 = self.get_constraint(int(constraint_1))
+                            antecedents.append(int(constraint_1))
+                        else:
+                            if constraint_1[0] == "~":
+                                constraint_1 = Constraint([-self.literal_id_map[constraint_1[1:]]], [1], 0)
+                            else:
+                                constraint_1 = Constraint([self.literal_id_map[constraint_1]], [1], 0)
                     temp = constraint_1 * constraint_2
-                if i == '/':
+                elif statement[i] == 'd':
+                    # print("DIVIDING CONSTRAINT")
+                    constraint_2 = stack.pop()
+                    constraint_2 = int(constraint_2)
+                    constraint_1 = stack.pop()
+                    if not isinstance(constraint_1, Constraint):
+                        if constraint_1.isdigit():
+                            constraint_1 = self.get_constraint(int(constraint_1))
+                            antecedents.append(int(constraint_1))
+                        else:
+                            if constraint_1[0] == "~":
+                                constraint_1 = Constraint([-self.literal_id_map[constraint_1[1:]]], [1], 0)
+                            else:
+                                constraint_1 = Constraint([self.literal_id_map[constraint_1]], [1], 0)
                     temp = constraint_1 / constraint_2
-                stack.append(temp)
-        temp.antecedents = antecedents
-        temp.type = "p"
+                    if self.loud:
+                        print("dividing", constraint_1, constraint_2, temp)
+                temp.antecedents = antecedents
+                # print(antecedents)
+                temp.type = "p"
+                # print("TEMP: ", temp)
+                constr = copy.deepcopy(temp)
+                stack.append(constr)
+                # print("STACK: ", stack)
         if not blind:
             self.logger.warning(
                 str(self.no_of_constraints)+":"+" ".join([str(i) for i in antecedents]))
             self.add_constraint(stack.pop())
         else:
-            temp : Constraint = copy.deepcopy(stack.pop())
-            self.add_constraint(temp)        
+            temp = stack.pop()
+            constr : Constraint = copy.deepcopy(temp)
+            self.add_constraint(constr)        
     def admit_j_step(self, line: str, blind=False) -> None:
         """
         Adds the implication constraint to the model
@@ -282,6 +356,13 @@ class Model:
                         self.logger.warning(
                             str(self.no_of_constraints)+":"+" ".join([str(i) for i in fired_constraints]))
                         return True
+            if rup_constraint.is_unsatisfied(tau):
+                if self.loud:
+                    print("    FIRED CONSTRAINTS: ", fired_constraints)
+                self.constraints_known_to_propagate.add(fired_constraints)
+                self.logger.warning(
+                    str(self.no_of_constraints)+":"+" ".join([str(i) for i in fired_constraints]))
+                return True
             for i in reversed(check_core_first):
                 i = -i
                 if i not in self.dead_constraints:
@@ -361,5 +442,5 @@ class Model:
                 constraint.negation()
                 self.rup(constraint)
             elif constraint.type == "v":
-                self.is_solution(constraint)
+                self.is_solution(constraint, assignment=[-i for i in constraint.literals])
             # print(constraint_id, len(self.constraints_known_to_propagate.heap))

@@ -1,0 +1,17 @@
+pseudo-Boolean proof version 1.2
+f 450 0
+u 1 ~iv0_eq_0 >= 1 ;
+u 1 iv14_iv14_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 1 ;
+p 186 452 + iv15_iv15_t + iv16_iv16_t + iv17_iv17_t + iv18_iv18_t + iv19_iv19_t + iv20_iv20_t + 1 d
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 iv1_ge_1 >= 1 ;
+u 1 iv0_series0_b_0 2 iv0_series0_b_1 4 iv0_series0_b_2 8 iv0_eq_0 8 ~iv0_eq_1 >= 1 ;
+u 1 iv1_series1_b_0 2 iv1_series1_b_1 4 iv1_series1_b_2 8 iv0_eq_0 8 ~iv0_eq_1 >= 1 ;
+p 450 455 + 456 + 7 + 9 + 11 + 13 +
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv2_ge_6 >= 1 ;
+p 450 455 + 456 + 5 + 9 + 11 + 13 +
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv3_ge_6 >= 1 ;
+p 450 455 + 456 + 5 + 7 + 11 + 13 +
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv4_ge_6 >= 1 ;
+p 450 455 + 456 + 5 + 7 + 9 + 13 +
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv5_ge_6 >= 1 ;
+u -1 iv0_series0_b_0 -2 iv0_series0_b_1 -4 iv0_series0_b_2 8 iv0_eq_0 8 ~iv0_eq_1 8 ~iv6_eq_0 >= -1 ;

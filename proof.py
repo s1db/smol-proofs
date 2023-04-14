@@ -64,17 +64,20 @@ class Proof:
                 elif line[0] == 'w':
                     lvl = int(line.split()[1])
                     to_delete = set()
-                    if self.loud:
-                        print("WIPING OUT LEVELS: ", lvl)
-                    for i in wipeout.keys():
-                        if i >= lvl:
-                            to_delete |= wipeout[i]
-                            wipeout[i] = set()
-                    for i in to_delete:
-                        self.model.delete_constraint(i)
+                    # if self.loud:
+                    #     print("WIPING OUT LEVELS: ", lvl)
+                    # print(wipeout)
+                    # for i in wipeout.keys():
+                    #     if i >= lvl:
+                    #         to_delete |= wipeout[i]
+                    #         wipeout[i] = set()
+                    # print("deleting: ", to_delete)
+                    # for i in to_delete:
+                    #     self.model.delete_constraint(i)
         logging.shutdown()
 
 
 if "__main__" == __name__:
-    FILE = "rup_php65"
-    proof = Proof("proofs/"+FILE, loud=True)
+    FILE = "magic_series_20"
+    DIR = "magic_series_proofs/"
+    proof = Proof(DIR+FILE, loud=True)

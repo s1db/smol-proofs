@@ -1,0 +1,49 @@
+pseudo-Boolean proof version 1.2
+f 162 0
+u 1 ~iv0_eq_0 >= 1 ;
+u 1 iv8_iv8_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 1 ;
+u 1 iv9_iv9_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 0 ;
+u 1 iv10_iv10_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 0 ;
+u 1 iv11_iv11_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 0 ;
+p 96 164 + 165 + 166 + 167 + 1 d
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 iv1_ge_1 >= 1 ;
+u 1 iv0_series0_b_0 2 iv0_series0_b_1 4 iv0_eq_0 4 ~iv0_eq_1 >= 1 ;
+u 1 iv1_series1_b_0 2 iv1_series1_b_1 4 iv0_eq_0 4 ~iv0_eq_1 >= 1 ;
+p 162 170 + 171 + 7 + 1 d
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv2_ge_3 >= 1 ;
+p 162 170 + 171 + 5 + 1 d
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv3_ge_3 >= 1 ;
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv3_eq_0 1 ~iv1_eq_1 >= 1 ;
+v iv0_eq_1 iv1_eq_2 iv2_eq_1 iv3_eq_0 ~iv4_iv4_t ~iv5_iv5_t ~iv6_iv6_t iv7_iv7_t iv8_iv8_t ~iv9_iv9_t iv10_iv10_t ~iv11_iv11_t ~iv12_iv12_t iv13_iv13_t ~iv14_iv14_t ~iv15_iv15_t ~iv16_iv16_t ~iv17_iv17_t ~iv18_iv18_t ~iv19_iv19_t
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv3_eq_0 1 iv1_eq_1 >= 1 ;
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv3_eq_0 >= 1 ;
+u 1 iv3_series3_b_0 2 iv3_series3_b_1 4 iv0_eq_0 4 ~iv0_eq_1 4 iv3_eq_0 >= 1 ;
+p 162 170 + 5 + 180 + 1 d
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 iv3_eq_0 1 ~iv1_ge_3 >= 1 ;
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 iv3_eq_0 >= 1 ;
+u 1 iv0_eq_0 1 ~iv0_eq_1 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv1_ge_3 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv2_ge_3 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv3_ge_3 >= 1 ;
+u 1 iv12_iv12_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv0_eq_2 >= 1 ;
+u 1 iv13_iv13_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv0_eq_2 >= 0 ;
+u 1 iv14_iv14_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv0_eq_2 >= 0 ;
+u 1 iv15_iv15_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv0_eq_2 >= 0 ;
+p 126 188 + 189 + 190 + 191 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv0_eq_2 1 iv2_ge_1 >= 1 ;
+v iv0_eq_2 iv1_eq_0 iv2_eq_2 iv3_eq_0 ~iv4_iv4_t iv5_iv5_t ~iv6_iv6_t iv7_iv7_t ~iv8_iv8_t ~iv9_iv9_t ~iv10_iv10_t ~iv11_iv11_t iv12_iv12_t ~iv13_iv13_t iv14_iv14_t ~iv15_iv15_t ~iv16_iv16_t ~iv17_iv17_t ~iv18_iv18_t ~iv19_iv19_t
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv0_eq_2 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 iv0_eq_2 1 iv3_eq_0 >= 1 ;
+u -1 iv1_series1_b_0 -2 iv1_series1_b_1 4 iv0_eq_0 4 iv0_eq_1 4 iv0_eq_2 >= 0 ;
+u -1 iv2_series2_b_0 -2 iv2_series2_b_1 4 iv0_eq_0 4 iv0_eq_1 4 iv0_eq_2 >= 0 ;
+u -1 iv3_series3_b_0 -2 iv3_series3_b_1 4 iv0_eq_0 4 iv0_eq_1 4 iv0_eq_2 >= 0 ;
+p 161 197 + 198 + 199 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 >= 1 ;
+u 1 iv0_eq_0 >= 1 ;
+u >= 1 ;
+u >= 1 ;
+c 204 0
+
+* no of proof steps: 167
+* no of short proof steps: 42
+* % of proof steps kept: 25.149700598802394

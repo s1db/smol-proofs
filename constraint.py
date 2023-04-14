@@ -39,6 +39,7 @@ class Constraint:
         :return: True if the constraint is satisfied in the `assignment`,
             i.e. one of its literals is True.
         """
+        # print(self.slack(assignment), self, sorted(assignment, key=lambda x: abs(x)))
         return self.slack(assignment) < 0
 
     def flip_literal(self, literal):
@@ -127,31 +128,6 @@ class Constraint:
         self.degree = -self.degree + 1
         self.coefficient_normalized_form()
 
-    # def implies(self, constraint) -> int:
-    #     """
-    #     TODO: check if self semantically implies other constraint
-    #     :param: constraint
-    #     :return: True if self semantically implies other constraint
-    #     """
-    #     weaken_cost = 0
-    #     for i in constraint.literals:
-    #         if i not in self.literals:
-    #             return False
-    #         else:
-    #             if self.coefficients[i] < constraint.coefficients[i]:
-    #                 return False
-    #             else:
-    #                 weaken_cost += self.coefficients[i] - \
-    #                     constraint.coefficients[i]
-    #     if self.degree < constraint.degree:
-    #         return False
-    #     else:
-    #         weaken_cost += self.degree - constraint.degree
-    #     return weaken_cost
-
-    # def saturation(self):
-    #     for i in self.literals:
-    #         self.coefficients[i] = min(self.coefficients[i], self.degree)
 
     def __add__(self, other: 'Constraint'):
         self.literal_normalized_form()
@@ -184,9 +160,11 @@ class Constraint:
 
     def __truediv__(self, other: int):
         div = copy.deepcopy(self)
+        if type(other) != int:
+            raise TypeError("other must be an integer")
         for i in div.literals:
-            div.coefficients[i] = ceil(div.coefficients[i] / other)
-        div.degree = ceil(div.degree / other)
+            div.coefficients[i] = int(ceil(div.coefficients[i] / other))
+        div.degree = int(ceil(div.degree / other))
         div.coefficient_normalized_form()
         return div
 
@@ -232,3 +210,20 @@ class Constraint:
                 temp += str(self.coefficients[i]) + " ~x" + str(-i) + " "
         temp = temp[:-1] + " >= " + str(self.degree)
         return temp
+
+
+# if "__main__" == __name__:
+#     -1 a 
+#     -2 b 
+#     -4 c 
+#      9 d 
+#      9 e 
+#      9 ~f 
+#      9 ~g 
+#      9 ~h >= -2
+#     p = Constraint([1,2,3,4,5,-6, -7,-8], [-1, -2, -4, 9,9,9,9,9,9,9,9], -2)
+#     print(p)
+#     p.negation()
+#     print(p)
+#     print(p.propagate([]))
+#     print(p.is_unsatisfied([]))
