@@ -1,0 +1,16 @@
+pseudo-Boolean proof version 1.2
+f 98 0
+u 1 ~iv0_eq_0 >= 1 ;
+u 1 iv6_iv6_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 1 ;
+p 70 100 + iv7_iv7_t + iv8_iv8_t + 1 d
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 iv1_ge_1 >= 1 ;
+u 1 iv0_eq_0 1 ~iv0_eq_1 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 >= 1 ;
+u 1 iv0_eq_0 >= 1 ;
+u >= 1 ;
+u >= 1 ;
+c 107 0
+
+* no of proof steps: 55
+* no of short proof steps: 9
+* % of proof steps kept: 16.363636363636363

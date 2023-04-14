@@ -61,23 +61,23 @@ class Proof:
                     self.model.admit_v_step(line)
                 elif line[0] == 'c':
                     self.model.admit_check_contradiction(line)
-                # elif line[0] == 'w':
-                #     lvl = int(line.split()[1])
-                #     to_delete = set()
-                #     if self.loud:
-                #         print("WIPING OUT LEVELS: ", lvl)
-                #     print(wipeout)
-                #     for i in wipeout.keys():
-                #         if i >= lvl:
-                #             to_delete |= wipeout[i]
-                #             wipeout[i] = set()
-                #     print("deleting: ", to_delete)
-                #     for i in to_delete:
-                #         self.model.delete_constraint(i)
+                elif line[0] == 'w':
+                    lvl = int(line.split()[1])
+                    to_delete = set()
+                    # if self.loud:
+                    #     print("WIPING OUT LEVELS: ", lvl)
+                    # print(wipeout)
+                    # for i in wipeout.keys():
+                    #     if i >= lvl:
+                    #         to_delete |= wipeout[i]
+                    #         wipeout[i] = set()
+                    # print("deleting: ", to_delete)
+                    # for i in to_delete:
+                    #     self.model.delete_constraint(i)
         logging.shutdown()
 
 
 if "__main__" == __name__:
-    FILE = "magic_series_3"
+    FILE = "magic_series_20"
     DIR = "magic_series_proofs/"
     proof = Proof(DIR+FILE, loud=True)

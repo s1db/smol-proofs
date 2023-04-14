@@ -1,0 +1,37 @@
+* #variable= 6 #constraint= 20
+* variable iv0_series0 0 .. 1 direct encoding
+1 iv0_series0_t >= 0 ;
+* variable iv1_series1 0 .. 1 direct encoding
+1 iv1_series1_t >= 0 ;
+* variable iv2_iv2 0 .. 1 direct encoding
+1 iv2_iv2_t >= 0 ;
+* variable iv3_iv3 0 .. 1 direct encoding
+1 iv3_iv3_t >= 0 ;
+* variable iv4_iv4 0 .. 1 direct encoding
+1 iv4_iv4_t >= 0 ;
+* variable iv5_iv5 0 .. 1 direct encoding
+1 iv5_iv5_t >= 0 ;
+* constraint equals iff
+1 ~iv0_series0_t 1 ~iv2_iv2_t >= 1 ;
+1 iv0_series0_t 1 iv2_iv2_t >= 1 ;
+* constraint equals iff
+1 ~iv1_series1_t 1 ~iv3_iv3_t >= 1 ;
+1 iv1_series1_t 1 iv3_iv3_t >= 1 ;
+* constraint linear equality
+* linear eq -1*varidx 0 1*varidx 2 1*varidx 3 <= 0
+-1 iv0_series0_t 1 iv2_iv2_t 1 iv3_iv3_t >= 0 ;
+1 iv0_series0_t -1 iv2_iv2_t -1 iv3_iv3_t >= 0 ;
+* constraint equals iff
+1 iv0_series0_t 1 ~iv4_iv4_t >= 1 ;
+1 ~iv0_series0_t 1 iv4_iv4_t >= 1 ;
+* constraint equals iff
+1 iv1_series1_t 1 ~iv5_iv5_t >= 1 ;
+1 ~iv1_series1_t 1 iv5_iv5_t >= 1 ;
+* constraint linear equality
+* linear eq -1*varidx 1 1*varidx 4 1*varidx 5 <= 0
+-1 iv1_series1_t 1 iv4_iv4_t 1 iv5_iv5_t >= 0 ;
+1 iv1_series1_t -1 iv4_iv4_t -1 iv5_iv5_t >= 0 ;
+* constraint linear equality
+* linear eq 1*varidx 0 1*varidx 1 <= 2
+1 iv0_series0_t 1 iv1_series1_t >= 2 ;
+-1 iv0_series0_t -1 iv1_series1_t >= -2 ;

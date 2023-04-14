@@ -1,0 +1,351 @@
+random_table_3vars_146
+    1️⃣  normal rup file created 0.008434626999999972
+    1️⃣  stack rup file created 0.0035345239999999833
+    2️⃣  smol files created
+    3️⃣  normal kept: 32 clauses in original proof 4 clauses in smol proof
+    3️⃣  stack kept : 32 clauses in original proof 2 clauses in smol proof
+    4️⃣  normal time: 0.034
+    4️⃣  forward time: 0.036000000000000004
+    4️⃣  backward time: 0.034
+random_table_3vars_211
+    1️⃣  normal rup file created 0.011093946000000132
+    1️⃣  stack rup file created 0.0032296620000000775
+    2️⃣  smol files created
+    3️⃣  normal kept: 22 clauses in original proof 7 clauses in smol proof
+    3️⃣  stack kept : 22 clauses in original proof 2 clauses in smol proof
+    4️⃣  normal time: 0.036
+    4️⃣  forward time: 0.03
+    4️⃣  backward time: 0.03
+random_table_3vars_144
+    1️⃣  normal rup file created 0.007409876999999954
+    1️⃣  stack rup file created 0.005780499999999966
+    2️⃣  smol files created
+    3️⃣  normal kept: 18 clauses in original proof 3 clauses in smol proof
+    3️⃣  stack kept : 18 clauses in original proof 4 clauses in smol proof
+    4️⃣  normal time: 0.04
+    4️⃣  forward time: 0.038000000000000006
+    4️⃣  backward time: 0.036
+random_table_3vars_22
+    1️⃣  normal rup file created 0.019265927000000183
+    1️⃣  stack rup file created 0.003212421999999826
+    2️⃣  smol files created
+    3️⃣  normal kept: 32 clauses in original proof 2 clauses in smol proof
+    3️⃣  stack kept : 32 clauses in original proof 2 clauses in smol proof
+    4️⃣  normal time: 0.05600000000000001
+    4️⃣  forward time: 0.048
+    4️⃣  backward time: 0.046
+random_table_3vars_174
+    1️⃣  normal rup file created 0.033567724000000077
+    1️⃣  stack rup file created 0.03518616800000007
+    2️⃣  smol files created
+    3️⃣  normal kept: 38 clauses in original proof 12 clauses in smol proof
+    3️⃣  stack kept : 38 clauses in original proof 13 clauses in smol proof
+    4️⃣  normal time: 0.036000000000000004
+    4️⃣  forward time: 0.03
+    4️⃣  backward time: 0.032
+random_table_3vars_159
+    1️⃣  normal rup file created 0.020160784999999848
+    1️⃣  stack rup file created 0.0036864190000001074
+    2️⃣  smol files created
+    3️⃣  normal kept: 26 clauses in original proof 2 clauses in smol proof
+    3️⃣  stack kept : 26 clauses in original proof 2 clauses in smol proof
+    4️⃣  normal time: 0.032
+    4️⃣  forward time: 0.032
+    4️⃣  backward time: 0.032
+random_table_3vars_260
+    1️⃣  normal rup file created 0.008392713000000107
+    1️⃣  stack rup file created 0.003452607000000274
+    2️⃣  smol files created
+    3️⃣  normal kept: 32 clauses in original proof 2 clauses in smol proof
+    3️⃣  stack kept : 32 clauses in original proof 2 clauses in smol proof
+    4️⃣  normal time: 0.04
+    4️⃣  forward time: 0.04
+    4️⃣  backward time: 0.04
+random_table_3vars_201
+    1️⃣  normal rup file created 0.014632676999999816
+    1️⃣  stack rup file created 0.006877216999999991
+    2️⃣  smol files created
+    3️⃣  normal kept: 22 clauses in original proof 4 clauses in smol proof
+    3️⃣  stack kept : 22 clauses in original proof 3 clauses in smol proof
+    4️⃣  normal time: 0.04
+    4️⃣  forward time: 0.04
+    4️⃣  backward time: 0.04
+random_table_3vars_253
+    1️⃣  normal rup file created 0.011884101000000147
+    1️⃣  stack rup file created 0.0034576039999998365
+    2️⃣  smol files created
+    3️⃣  normal kept: 30 clauses in original proof 2 clauses in smol proof
+    3️⃣  stack kept : 30 clauses in original proof 2 clauses in smol proof
+    4️⃣  normal time: 0.04
+    4️⃣  forward time: 0.04
+    4️⃣  backward time: 0.04
+random_table_3vars_244
+    1️⃣  normal rup file created 0.01930938400000004
+    1️⃣  stack rup file created 0.006505705000000361
+    2️⃣  smol files created
+    3️⃣  normal kept: 34 clauses in original proof 3 clauses in smol proof
+    3️⃣  stack kept : 34 clauses in original proof 3 clauses in smol proof
+    4️⃣  normal time: 0.04
+    4️⃣  forward time: 0.04
+    4️⃣  backward time: 0.04
+random_table_3vars_385
+    1️⃣  normal rup file created 0.027667686999999663
+    1️⃣  stack rup file created 0.005714645000000296
+    2️⃣  smol files created
+    3️⃣  normal kept: 32 clauses in original proof 2 clauses in smol proof
+    3️⃣  stack kept : 32 clauses in original proof 2 clauses in smol proof
+    4️⃣  normal time: 0.04
+    4️⃣  forward time: 0.04
+    4️⃣  backward time: 0.04
+random_table_3vars_386
+    1️⃣  normal rup file created 0.01034789400000058
+    1️⃣  stack rup file created 0.0033781580000002975
+    2️⃣  smol files created
+    3️⃣  normal kept: 32 clauses in original proof 2 clauses in smol proof
+    3️⃣  stack kept : 32 clauses in original proof 2 clauses in smol proof
+    4️⃣  normal time: 0.04
+    4️⃣  forward time: 0.04
+    4️⃣  backward time: 0.04
+random_table_3vars_18
+    1️⃣  normal rup file created 0.04714910299999975
+    1️⃣  stack rup file created 0.006595836999999882
+    2️⃣  smol files created
+    3️⃣  normal kept: 26 clauses in original proof 2 clauses in smol proof
+    3️⃣  stack kept : 26 clauses in original proof 2 clauses in smol proof
+    4️⃣  normal time: 0.04
+    4️⃣  forward time: 0.04
+    4️⃣  backward time: 0.04
+random_table_3vars_161
+    1️⃣  normal rup file created 0.01095123399999931
+    1️⃣  stack rup file created 0.0036651870000001807
+    2️⃣  smol files created
+    3️⃣  normal kept: 32 clauses in original proof 3 clauses in smol proof
+    3️⃣  stack kept : 32 clauses in original proof 2 clauses in smol proof
+    4️⃣  normal time: 0.042
+    4️⃣  forward time: 0.042
+    4️⃣  backward time: 0.04
+random_table_3vars_129
+    1️⃣  normal rup file created 0.010520992000000007
+    1️⃣  stack rup file created 0.003491508999999837
+    2️⃣  smol files created
+    3️⃣  normal kept: 32 clauses in original proof 2 clauses in smol proof
+    3️⃣  stack kept : 32 clauses in original proof 2 clauses in smol proof
+    4️⃣  normal time: 0.04
+    4️⃣  forward time: 0.04
+    4️⃣  backward time: 0.04
+random_table_3vars_296
+    1️⃣  normal rup file created 0.023535513999999758
+    1️⃣  stack rup file created 0.003543967000000592
+    2️⃣  smol files created
+    3️⃣  normal kept: 32 clauses in original proof 2 clauses in smol proof
+    3️⃣  stack kept : 32 clauses in original proof 2 clauses in smol proof
+    4️⃣  normal time: 0.04
+    4️⃣  forward time: 0.04
+    4️⃣  backward time: 0.044
+random_table_3vars_68
+    1️⃣  normal rup file created 0.0222339250000001
+    1️⃣  stack rup file created 0.0035352909999994964
+    2️⃣  smol files created
+    3️⃣  normal kept: 34 clauses in original proof 2 clauses in smol proof
+    3️⃣  stack kept : 34 clauses in original proof 2 clauses in smol proof
+    4️⃣  normal time: 0.044000000000000004
+    4️⃣  forward time: 0.042
+    4️⃣  backward time: 0.04
+random_table_3vars_138
+    1️⃣  normal rup file created 0.01602173699999998
+    1️⃣  stack rup file created 0.017313147000000306
+    2️⃣  smol files created
+    3️⃣  normal kept: 43 clauses in original proof 4 clauses in smol proof
+    3️⃣  stack kept : 43 clauses in original proof 6 clauses in smol proof
+    4️⃣  normal time: 0.036000000000000004
+    4️⃣  forward time: 0.032
+    4️⃣  backward time: 0.03
+random_table_3vars_199
+    1️⃣  normal rup file created 0.016943010000000314
+    1️⃣  stack rup file created 0.008041415000000107
+    2️⃣  smol files created
+    3️⃣  normal kept: 34 clauses in original proof 4 clauses in smol proof
+    3️⃣  stack kept : 34 clauses in original proof 4 clauses in smol proof
+    4️⃣  normal time: 0.032
+    4️⃣  forward time: 0.03
+    4️⃣  backward time: 0.03
+random_table_3vars_399
+    1️⃣  normal rup file created 0.02302682899999997
+    1️⃣  stack rup file created 0.0036078280000007013
+    2️⃣  smol files created
+    3️⃣  normal kept: 32 clauses in original proof 2 clauses in smol proof
+    3️⃣  stack kept : 32 clauses in original proof 2 clauses in smol proof
+    4️⃣  normal time: 0.038000000000000006
+    4️⃣  forward time: 0.041999999999999996
+    4️⃣  backward time: 0.041999999999999996
+random_table_3vars_360
+    1️⃣  normal rup file created 0.045731320000000686
+    1️⃣  stack rup file created 0.019738542999999886
+    2️⃣  smol files created
+    3️⃣  normal kept: 47 clauses in original proof 6 clauses in smol proof
+    3️⃣  stack kept : 47 clauses in original proof 6 clauses in smol proof
+    4️⃣  normal time: 0.041999999999999996
+    4️⃣  forward time: 0.04
+    4️⃣  backward time: 0.042
+random_table_3vars_192
+    1️⃣  normal rup file created 0.040586649999999835
+    1️⃣  stack rup file created 0.03243710500000052
+    2️⃣  smol files created
+    3️⃣  normal kept: 38 clauses in original proof 12 clauses in smol proof
+    3️⃣  stack kept : 38 clauses in original proof 12 clauses in smol proof
+    4️⃣  normal time: 0.046
+    4️⃣  forward time: 0.04
+    4️⃣  backward time: 0.04
+random_table_3vars_124
+    1️⃣  normal rup file created 0.037907407000000504
+    1️⃣  stack rup file created 0.015030080000000723
+    2️⃣  smol files created
+    3️⃣  normal kept: 47 clauses in original proof 6 clauses in smol proof
+    3️⃣  stack kept : 47 clauses in original proof 6 clauses in smol proof
+    4️⃣  normal time: 0.034
+    4️⃣  forward time: 0.032
+    4️⃣  backward time: 0.032
+random_table_3vars_137
+    1️⃣  normal rup file created 0.04527395999999939
+    1️⃣  stack rup file created 0.020877944999998732
+    2️⃣  smol files created
+    3️⃣  normal kept: 62 clauses in original proof 7 clauses in smol proof
+    3️⃣  stack kept : 62 clauses in original proof 7 clauses in smol proof
+    4️⃣  normal time: 0.04
+    4️⃣  forward time: 0.034
+    4️⃣  backward time: 0.03
+random_table_3vars_78
+    1️⃣  normal rup file created 0.02044075099999887
+    1️⃣  stack rup file created 0.007192387999999994
+    2️⃣  smol files created
+    3️⃣  normal kept: 32 clauses in original proof 2 clauses in smol proof
+    3️⃣  stack kept : 32 clauses in original proof 2 clauses in smol proof
+    4️⃣  normal time: 0.042
+    4️⃣  forward time: 0.038
+    4️⃣  backward time: 0.038
+random_table_3vars_301
+    1️⃣  normal rup file created 0.020950709000000955
+    1️⃣  stack rup file created 0.014052464999998904
+    2️⃣  smol files created
+    3️⃣  normal kept: 34 clauses in original proof 4 clauses in smol proof
+    3️⃣  stack kept : 34 clauses in original proof 4 clauses in smol proof
+    4️⃣  normal time: 0.038000000000000006
+    4️⃣  forward time: 0.032
+    4️⃣  backward time: 0.034
+random_table_3vars_357
+    1️⃣  normal rup file created 0.020092321999999996
+    1️⃣  stack rup file created 0.003855509999999285
+    2️⃣  smol files created
+    3️⃣  normal kept: 34 clauses in original proof 2 clauses in smol proof
+    3️⃣  stack kept : 34 clauses in original proof 2 clauses in smol proof
+    4️⃣  normal time: 0.036
+    4️⃣  forward time: 0.034
+    4️⃣  backward time: 0.032
+random_table_4vars_204
+    1️⃣  normal rup file created 0.058466724000000525
+    1️⃣  stack rup file created 0.03149010799999985
+    2️⃣  smol files created
+    3️⃣  normal kept: 74 clauses in original proof 7 clauses in smol proof
+    3️⃣  stack kept : 74 clauses in original proof 7 clauses in smol proof
+    4️⃣  normal time: 0.041999999999999996
+    4️⃣  forward time: 0.036000000000000004
+    4️⃣  backward time: 0.038
+random_table_4vars_117
+    1️⃣  normal rup file created 0.07353334399999945
+    1️⃣  stack rup file created 0.053553072999999785
+    2️⃣  smol files created
+    3️⃣  normal kept: 44 clauses in original proof 11 clauses in smol proof
+    3️⃣  stack kept : 44 clauses in original proof 11 clauses in smol proof
+    4️⃣  normal time: 0.048
+    4️⃣  forward time: 0.042
+    4️⃣  backward time: 0.044
+random_table_4vars_240
+    1️⃣  normal rup file created 0.08100190899999937
+    1️⃣  stack rup file created 0.09423970699999984
+    2️⃣  smol files created
+    3️⃣  normal kept: 44 clauses in original proof 11 clauses in smol proof
+    3️⃣  stack kept : 44 clauses in original proof 12 clauses in smol proof
+    4️⃣  normal time: 0.04
+    4️⃣  forward time: 0.042
+    4️⃣  backward time: 0.04
+random_table_4vars_40
+    1️⃣  normal rup file created 0.0450670130000006
+    1️⃣  stack rup file created 0.026701525000000004
+    2️⃣  smol files created
+    3️⃣  normal kept: 71 clauses in original proof 6 clauses in smol proof
+    3️⃣  stack kept : 71 clauses in original proof 6 clauses in smol proof
+    4️⃣  normal time: 0.04
+    4️⃣  forward time: 0.04
+    4️⃣  backward time: 0.04
+random_table_4vars_253
+    1️⃣  normal rup file created 0.11873077300000112
+    1️⃣  stack rup file created 0.10438751300000071
+    2️⃣  smol files created
+    3️⃣  normal kept: 65 clauses in original proof 14 clauses in smol proof
+    3️⃣  stack kept : 65 clauses in original proof 14 clauses in smol proof
+    4️⃣  normal time: 0.044
+    4️⃣  forward time: 0.044000000000000004
+    4️⃣  backward time: 0.044000000000000004
+random_table_4vars_55
+    1️⃣  normal rup file created 0.2300770580000009
+    1️⃣  stack rup file created 0.22695216099999982
+    2️⃣  smol files created
+    3️⃣  normal kept: 64 clauses in original proof 25 clauses in smol proof
+    3️⃣  stack kept : 64 clauses in original proof 24 clauses in smol proof
+    4️⃣  normal time: 0.042
+    4️⃣  forward time: 0.042
+    4️⃣  backward time: 0.042
+random_table_4vars_222
+    1️⃣  normal rup file created 0.09740071899999947
+    1️⃣  stack rup file created 0.04754905900000139
+    2️⃣  smol files created
+    3️⃣  normal kept: 96 clauses in original proof 9 clauses in smol proof
+    3️⃣  stack kept : 96 clauses in original proof 6 clauses in smol proof
+    4️⃣  normal time: 0.042
+    4️⃣  forward time: 0.042
+    4️⃣  backward time: 0.04
+random_table_4vars_158
+    1️⃣  normal rup file created 0.04782815800000151
+    1️⃣  stack rup file created 0.027095827000000128
+    2️⃣  smol files created
+    3️⃣  normal kept: 32 clauses in original proof 7 clauses in smol proof
+    3️⃣  stack kept : 32 clauses in original proof 6 clauses in smol proof
+    4️⃣  normal time: 0.04
+    4️⃣  forward time: 0.04
+    4️⃣  backward time: 0.04
+random_table_4vars_93
+    1️⃣  normal rup file created 0.2745656919999995
+    1️⃣  stack rup file created 0.156094929
+    2️⃣  smol files created
+    3️⃣  normal kept: 69 clauses in original proof 17 clauses in smol proof
+    3️⃣  stack kept : 69 clauses in original proof 17 clauses in smol proof
+    4️⃣  normal time: 0.042
+    4️⃣  forward time: 0.04
+    4️⃣  backward time: 0.04
+random_table_4vars_8
+    1️⃣  normal rup file created 0.044881136000000765
+    1️⃣  stack rup file created 0.025189736999999823
+    2️⃣  smol files created
+    3️⃣  normal kept: 65 clauses in original proof 5 clauses in smol proof
+    3️⃣  stack kept : 65 clauses in original proof 6 clauses in smol proof
+    4️⃣  normal time: 0.04
+    4️⃣  forward time: 0.044
+    4️⃣  backward time: 0.044
+random_table_5vars_84
+    1️⃣  normal rup file created 0.22434314499999886
+    1️⃣  stack rup file created 0.056495047000002074
+    2️⃣  smol files created
+    3️⃣  normal kept: 92 clauses in original proof 7 clauses in smol proof
+    3️⃣  stack kept : 92 clauses in original proof 8 clauses in smol proof
+    4️⃣  normal time: 0.042
+    4️⃣  forward time: 0.04
+    4️⃣  backward time: 0.04
+random_table_5vars_114
+    1️⃣  normal rup file created 0.14611898000000068
+    1️⃣  stack rup file created 0.08059054199999949
+    2️⃣  smol files created
+    3️⃣  normal kept: 77 clauses in original proof 12 clauses in smol proof
+    3️⃣  stack kept : 77 clauses in original proof 12 clauses in smol proof
+    4️⃣  normal time: 0.048
+    4️⃣  forward time: 0.046
+    4️⃣  backward time: 0.046

@@ -210,3 +210,20 @@ class Constraint:
                 temp += str(self.coefficients[i]) + " ~x" + str(-i) + " "
         temp = temp[:-1] + " >= " + str(self.degree)
         return temp
+
+
+# if "__main__" == __name__:
+#     -1 a 
+#     -2 b 
+#     -4 c 
+#      9 d 
+#      9 e 
+#      9 ~f 
+#      9 ~g 
+#      9 ~h >= -2
+#     p = Constraint([1,2,3,4,5,-6, -7,-8], [-1, -2, -4, 9,9,9,9,9,9,9,9], -2)
+#     print(p)
+#     p.negation()
+#     print(p)
+#     print(p.propagate([]))
+#     print(p.is_unsatisfied([]))

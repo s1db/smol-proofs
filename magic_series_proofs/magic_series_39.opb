@@ -1,4 +1,4 @@
-* #variable= 3315 #constraint= 12482
+* #variable= 4836 #constraint= 12482
 * variable iv0_series0 0 .. 38 bits encoding
 1 iv0_series0_b_0 2 iv0_series0_b_1 4 iv0_series0_b_2 8 iv0_series0_b_3 16 iv0_series0_b_4 32 iv0_series0_b_5 >= 0 ;
 -1 iv0_series0_b_0 -2 iv0_series0_b_1 -4 iv0_series0_b_2 -8 iv0_series0_b_3 -16 iv0_series0_b_4 -32 iv0_series0_b_5 >= -38 ;

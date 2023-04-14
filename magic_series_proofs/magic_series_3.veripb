@@ -4,24 +4,21 @@ f 98 0
 * guessing iv0_eq_0, decision stack is [ ]
 # 2
 u -1 iv0_series0_b_0 -2 iv0_series0_b_1 4 ~iv0_eq_0 >= 0 ;
-u 1 iv4_iv4_t 2 ~iv0_eq_0 >= 0 ;
-u 1 iv5_iv5_t 2 ~iv0_eq_0 >= 0 ;
-p 47 99 + 100 + 101 +
+p 47 99 + iv4_iv4_t + iv5_iv5_t +
 u 1 ~iv0_eq_0 1 ~iv3_iv3_t >= 1 ;
-d 102
-u 1 iv3_iv3_t 2 ~iv0_eq_0 >= 0 ;
-p 47 99 + 104 + 101 +
+d 100
+p 47 99 + iv3_iv3_t + iv5_iv5_t +
 u 1 ~iv0_eq_0 1 ~iv4_iv4_t >= 1 ;
-d 105
-p 47 99 + 104 + 100 +
+d 102
+p 47 99 + iv3_iv3_t + iv4_iv4_t +
 u 1 ~iv0_eq_0 1 ~iv5_iv5_t >= 1 ;
-d 107
+d 104
 p 97 99 + 6 +
 u 1 ~iv0_eq_0 1 iv1_ge_1 >= 1 ;
-d 109
+d 106
 p 97 99 + 4 +
 u 1 ~iv0_eq_0 1 iv2_ge_1 >= 1 ;
-d 111
+d 108
 # 1
 * backtracking
 u 1 ~iv0_eq_0 >= 1 ;
@@ -31,32 +28,28 @@ w 2
 * guessing iv0_eq_1, decision stack is [ ~iv0_eq_0 ]
 # 3
 u 1 iv6_iv6_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 1 ;
-u 1 iv7_iv7_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 0 ;
-u 1 iv8_iv8_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 0 ;
-p 70 114 + 115 + 116 +
+p 70 111 + iv7_iv7_t + iv8_iv8_t + 1 d
 u 1 iv0_eq_0 1 ~iv0_eq_1 1 iv1_ge_1 >= 1 ;
-d 117
+d 112
 u 1 iv0_series0_b_0 2 iv0_series0_b_1 4 iv0_eq_0 4 ~iv0_eq_1 >= 1 ;
 u 1 iv1_series1_b_0 2 iv1_series1_b_1 4 iv0_eq_0 4 ~iv0_eq_1 >= 1 ;
-p 98 119 + 120 +
+p 98 114 + 115 +
 u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv2_ge_2 >= 1 ;
-d 121
+d 116
 u -1 iv3_iv3_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 0 ;
 u -1 iv4_iv4_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 0 ;
-p 46 119 + 123 + 124 +
+p 46 114 + 118 + 119 +
 u 1 iv0_eq_0 1 ~iv0_eq_1 1 iv5_iv5_t >= 1 ;
-d 125
+d 120
 u 1 iv0_eq_0 1 ~iv0_eq_1 1 iv2_eq_0 >= 1 ;
 u -1 iv2_series2_b_0 -2 iv2_series2_b_1 4 iv0_eq_0 4 ~iv0_eq_1 >= 0 ;
-u 1 iv9_iv9_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 0 ;
-u 1 iv11_iv11_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 0 ;
-p 96 128 + 129 + 130 +
+p 96 123 + iv9_iv9_t + iv11_iv11_t +
 u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv10_iv10_t >= 1 ;
-d 131
+d 124
 u -1 iv0_series0_b_0 -2 iv0_series0_b_1 4 iv0_eq_0 4 ~iv0_eq_1 >= -1 ;
-p 97 133 + 128 +
+p 97 126 + 123 +
 u 1 iv0_eq_0 1 ~iv0_eq_1 1 iv1_ge_2 >= 1 ;
-d 134
+d 127
 # 2
 * backtracking
 u 1 iv0_eq_0 1 ~iv0_eq_1 >= 1 ;
@@ -65,36 +58,31 @@ w 3
 # 3
 u 1 iv0_series0_b_0 2 iv0_series0_b_1 5 iv0_eq_0 5 iv0_eq_1 >= 2 ;
 u -1 iv3_iv3_t 2 iv0_eq_0 2 iv0_eq_1 >= 0 ;
-u -1 iv5_iv5_t 2 iv0_eq_0 2 iv0_eq_1 >= -1 ;
-p 46 137 + 138 + 139 +
+p 46 130 + 131 + ~iv5_iv5_t +
 u 1 iv0_eq_0 1 iv0_eq_1 1 iv4_iv4_t >= 1 ;
-d 140
-u -1 iv4_iv4_t 2 iv0_eq_0 2 iv0_eq_1 >= -1 ;
-p 46 137 + 138 + 142 +
+d 132
+p 46 130 + 131 + ~iv4_iv4_t +
 u 1 iv0_eq_0 1 iv0_eq_1 1 iv5_iv5_t >= 1 ;
-d 143
-p 98 137 + 5 +
+d 134
+p 98 130 + 5 +
 u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv1_ge_2 >= 1 ;
-d 145
-p 98 137 + 3 +
+d 136
+p 98 130 + 3 +
 u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv2_ge_2 >= 1 ;
-d 147
+d 138
 u 1 iv0_eq_0 1 iv0_eq_1 1 iv1_eq_0 >= 1 ;
 u 1 iv0_eq_0 1 iv0_eq_1 1 iv2_eq_0 >= 1 ;
 u -1 iv1_series1_b_0 -2 iv1_series1_b_1 4 iv0_eq_0 4 iv0_eq_1 >= 0 ;
-u 1 iv6_iv6_t 2 iv0_eq_0 2 iv0_eq_1 >= 0 ;
-u 1 iv8_iv8_t 2 iv0_eq_0 2 iv0_eq_1 >= 0 ;
-p 70 151 + 152 + 153 +
+p 70 142 + iv6_iv6_t + iv8_iv8_t +
 u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv7_iv7_t >= 1 ;
-d 154
-u 1 iv7_iv7_t 2 iv0_eq_0 2 iv0_eq_1 >= 0 ;
-p 70 151 + 152 + 156 +
+d 143
+p 70 142 + iv6_iv6_t + iv7_iv7_t +
 u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv8_iv8_t >= 1 ;
-d 157
+d 145
 u -1 iv2_series2_b_0 -2 iv2_series2_b_1 4 iv0_eq_0 4 iv0_eq_1 >= 0 ;
-p 97 151 + 159 +
+p 97 142 + 147 +
 u 1 iv0_eq_0 1 iv0_eq_1 >= 1 ;
-d 160
+d 148
 # 2
 * backtracking
 u 1 iv0_eq_0 1 iv0_eq_1 >= 1 ;
@@ -109,4 +97,4 @@ u >= 1 ;
 w 1
 * asserting contradiction
 u >= 1 ;
-c 165 0
+c 153 0

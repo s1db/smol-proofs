@@ -1,0 +1,1440 @@
+pseudo-Boolean proof version 1.2
+f 1682 0
+u -1 iv0_series0_b_0 -2 iv0_series0_b_1 -4 iv0_series0_b_2 -8 iv0_series0_b_3 16 ~iv0_eq_0 >= 0 ;
+u 1 iv15_iv15_t 2 ~iv0_eq_0 >= 0 ;
+u 1 iv16_iv16_t 2 ~iv0_eq_0 >= 0 ;
+u 1 iv17_iv17_t 2 ~iv0_eq_0 >= 0 ;
+u 1 iv18_iv18_t 2 ~iv0_eq_0 >= 0 ;
+u 1 iv19_iv19_t 2 ~iv0_eq_0 >= 0 ;
+u 1 iv20_iv20_t 2 ~iv0_eq_0 >= 0 ;
+u 1 iv21_iv21_t 2 ~iv0_eq_0 >= 0 ;
+u 1 iv22_iv22_t 2 ~iv0_eq_0 >= 0 ;
+u 1 iv23_iv23_t 2 ~iv0_eq_0 >= 0 ;
+u 1 iv24_iv24_t 2 ~iv0_eq_0 >= 0 ;
+u 1 iv25_iv25_t 2 ~iv0_eq_0 >= 0 ;
+u 1 iv26_iv26_t 2 ~iv0_eq_0 >= 0 ;
+u 1 iv27_iv27_t 2 ~iv0_eq_0 >= 0 ;
+p 366 1683 + 1684 + 1685 + 1686 + 1687 + 1688 + 1689 + 1690 + 1691 + 1692 + 1693 + 1694 + 1695 + 1696 + 1 d
+u 1 ~iv0_eq_0 >= 1 ;
+u 1 iv28_iv28_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 1 ;
+u 1 iv29_iv29_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 0 ;
+u 1 iv30_iv30_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 0 ;
+u 1 iv31_iv31_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 0 ;
+u 1 iv32_iv32_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 0 ;
+u 1 iv33_iv33_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 0 ;
+u 1 iv34_iv34_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 0 ;
+u 1 iv35_iv35_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 0 ;
+u 1 iv36_iv36_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 0 ;
+u 1 iv37_iv37_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 0 ;
+u 1 iv38_iv38_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 0 ;
+u 1 iv39_iv39_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 0 ;
+u 1 iv40_iv40_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 0 ;
+u 1 iv41_iv41_t 2 iv0_eq_0 2 ~iv0_eq_1 >= 0 ;
+p 466 1699 + 1700 + 1701 + 1702 + 1703 + 1704 + 1705 + 1706 + 1707 + 1708 + 1709 + 1710 + 1711 + 1712 + 1 d
+u 1 iv0_series0_b_0 2 iv0_series0_b_1 4 iv0_series0_b_2 8 iv0_series0_b_3 16 iv0_eq_0 16 ~iv0_eq_1 >= 1 ;
+u 1 iv1_series1_b_0 2 iv1_series1_b_1 4 iv1_series1_b_2 8 iv1_series1_b_3 16 iv0_eq_0 16 ~iv0_eq_1 >= 1 ;
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv2_ge_13 >= 1 ;
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv3_ge_13 >= 1 ;
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv4_ge_13 >= 1 ;
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv5_ge_13 >= 1 ;
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv6_ge_13 >= 1 ;
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv7_ge_13 >= 1 ;
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv8_ge_13 >= 1 ;
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv9_ge_13 >= 1 ;
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv10_ge_13 >= 1 ;
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv11_ge_13 >= 1 ;
+p 1682 1714 + 1715 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 21 + 23 + 27 + 1 d
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv12_ge_13 >= 1 ;
+u -1 iv13_series13_b_0 -2 iv13_series13_b_1 -4 iv13_series13_b_2 -8 iv13_series13_b_3 16 iv0_eq_0 16 ~iv0_eq_1 16 ~iv13_eq_0 >= 0 ;
+u 1 iv196_iv196_t 2 iv0_eq_0 2 ~iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv198_iv198_t 2 iv0_eq_0 2 ~iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv199_iv199_t 2 iv0_eq_0 2 ~iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv200_iv200_t 2 iv0_eq_0 2 ~iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv201_iv201_t 2 iv0_eq_0 2 ~iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv202_iv202_t 2 iv0_eq_0 2 ~iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv203_iv203_t 2 iv0_eq_0 2 ~iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv204_iv204_t 2 iv0_eq_0 2 ~iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv205_iv205_t 2 iv0_eq_0 2 ~iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv206_iv206_t 2 iv0_eq_0 2 ~iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv207_iv207_t 2 iv0_eq_0 2 ~iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv208_iv208_t 2 iv0_eq_0 2 ~iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv209_iv209_t 2 iv0_eq_0 2 ~iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+p 1680 1728 + 1729 + 1730 + 1731 + 1732 + 1733 + 1734 + 1735 + 1736 + 1737 + 1738 + 1739 + 1740 + 1741 + 1 d
+u -1 iv0_series0_b_0 -2 iv0_series0_b_1 -4 iv0_series0_b_2 -8 iv0_series0_b_3 16 iv0_eq_0 16 ~iv0_eq_1 16 ~iv13_eq_0 >= -1 ;
+u 1 iv14_iv14_t 2 iv0_eq_0 2 ~iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv15_iv15_t 2 iv0_eq_0 2 ~iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv17_iv17_t 2 iv0_eq_0 2 ~iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv18_iv18_t 2 iv0_eq_0 2 ~iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv19_iv19_t 2 iv0_eq_0 2 ~iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv20_iv20_t 2 iv0_eq_0 2 ~iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv21_iv21_t 2 iv0_eq_0 2 ~iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv22_iv22_t 2 iv0_eq_0 2 ~iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv23_iv23_t 2 iv0_eq_0 2 ~iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv24_iv24_t 2 iv0_eq_0 2 ~iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv25_iv25_t 2 iv0_eq_0 2 ~iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv26_iv26_t 2 iv0_eq_0 2 ~iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv27_iv27_t 2 iv0_eq_0 2 ~iv0_eq_1 2 ~iv13_eq_0 >= 1 ;
+p 366 1743 + 1744 + 1745 + 1746 + 1747 + 1748 + 1749 + 1750 + 1751 + 1752 + 1753 + 1754 + 1755 + 1756 + 1 d
+u 1 iv16_iv16_t 2 iv0_eq_0 2 ~iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+p 366 1743 + 1744 + 1745 + 1758 + 1747 + 1748 + 1749 + 1750 + 1751 + 1752 + 1753 + 1754 + 1755 + 1756 + 1 d
+p 366 1743 + 1744 + 1745 + 1758 + 1746 + 1748 + 1749 + 1750 + 1751 + 1752 + 1753 + 1754 + 1755 + 1756 + 1 d
+p 366 1743 + 1744 + 1745 + 1758 + 1746 + 1747 + 1749 + 1750 + 1751 + 1752 + 1753 + 1754 + 1755 + 1756 + 1 d
+p 366 1743 + 1744 + 1745 + 1758 + 1746 + 1747 + 1748 + 1750 + 1751 + 1752 + 1753 + 1754 + 1755 + 1756 + 1 d
+p 366 1743 + 1744 + 1745 + 1758 + 1746 + 1747 + 1748 + 1749 + 1751 + 1752 + 1753 + 1754 + 1755 + 1756 + 1 d
+p 366 1743 + 1744 + 1745 + 1758 + 1746 + 1747 + 1748 + 1749 + 1750 + 1752 + 1753 + 1754 + 1755 + 1756 + 1 d
+p 366 1743 + 1744 + 1745 + 1758 + 1746 + 1747 + 1748 + 1749 + 1750 + 1751 + 1753 + 1754 + 1755 + 1756 + 1 d
+p 366 1743 + 1744 + 1745 + 1758 + 1746 + 1747 + 1748 + 1749 + 1750 + 1751 + 1752 + 1754 + 1755 + 1756 + 1 d
+p 366 1743 + 1744 + 1745 + 1758 + 1746 + 1747 + 1748 + 1749 + 1750 + 1751 + 1752 + 1753 + 1755 + 1756 + 1 d
+p 366 1743 + 1744 + 1745 + 1758 + 1746 + 1747 + 1748 + 1749 + 1750 + 1751 + 1752 + 1753 + 1754 + 1756 + 1 d
+u 1 iv2_series2_b_0 2 iv2_series2_b_1 4 iv2_series2_b_2 8 iv2_series2_b_3 16 iv0_eq_0 16 ~iv0_eq_1 16 ~iv13_eq_0 >= 1 ;
+u 1 iv3_series3_b_0 2 iv3_series3_b_1 4 iv3_series3_b_2 8 iv3_series3_b_3 16 iv0_eq_0 16 ~iv0_eq_1 16 ~iv13_eq_0 >= 1 ;
+u 1 iv4_series4_b_0 2 iv4_series4_b_1 4 iv4_series4_b_2 8 iv4_series4_b_3 16 iv0_eq_0 16 ~iv0_eq_1 16 ~iv13_eq_0 >= 1 ;
+u 1 iv5_series5_b_0 2 iv5_series5_b_1 4 iv5_series5_b_2 8 iv5_series5_b_3 16 iv0_eq_0 16 ~iv0_eq_1 16 ~iv13_eq_0 >= 1 ;
+u 1 iv6_series6_b_0 2 iv6_series6_b_1 4 iv6_series6_b_2 8 iv6_series6_b_3 16 iv0_eq_0 16 ~iv0_eq_1 16 ~iv13_eq_0 >= 1 ;
+u 1 iv7_series7_b_0 2 iv7_series7_b_1 4 iv7_series7_b_2 8 iv7_series7_b_3 16 iv0_eq_0 16 ~iv0_eq_1 16 ~iv13_eq_0 >= 1 ;
+u 1 iv8_series8_b_0 2 iv8_series8_b_1 4 iv8_series8_b_2 8 iv8_series8_b_3 16 iv0_eq_0 16 ~iv0_eq_1 16 ~iv13_eq_0 >= 1 ;
+u 1 iv9_series9_b_0 2 iv9_series9_b_1 4 iv9_series9_b_2 8 iv9_series9_b_3 16 iv0_eq_0 16 ~iv0_eq_1 16 ~iv13_eq_0 >= 1 ;
+u 1 iv10_series10_b_0 2 iv10_series10_b_1 4 iv10_series10_b_2 8 iv10_series10_b_3 16 iv0_eq_0 16 ~iv0_eq_1 16 ~iv13_eq_0 >= 1 ;
+u 1 iv11_series11_b_0 2 iv11_series11_b_1 4 iv11_series11_b_2 8 iv11_series11_b_3 16 iv0_eq_0 16 ~iv0_eq_1 16 ~iv13_eq_0 >= 1 ;
+u 1 iv12_series12_b_0 2 iv12_series12_b_1 4 iv12_series12_b_2 8 iv12_series12_b_3 16 iv0_eq_0 16 ~iv0_eq_1 16 ~iv13_eq_0 >= 1 ;
+p 1682 1714 + 1769 + 1770 + 1771 + 1772 + 1773 + 1774 + 1775 + 1776 + 1777 + 1778 + 1779 + 27 + 1 d
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv13_eq_0 1 ~iv1_ge_3 >= 1 ;
+p 1682 1714 + 1715 + 1770 + 1771 + 1772 + 1773 + 1774 + 1775 + 1776 + 1777 + 1778 + 1779 + 27 + 1 d
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv13_eq_0 1 ~iv2_ge_3 >= 1 ;
+p 1682 1714 + 1715 + 1769 + 1771 + 1772 + 1773 + 1774 + 1775 + 1776 + 1777 + 1778 + 1779 + 27 + 1 d
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv13_eq_0 1 ~iv3_ge_3 >= 1 ;
+p 1682 1714 + 1715 + 1769 + 1770 + 1772 + 1773 + 1774 + 1775 + 1776 + 1777 + 1778 + 1779 + 27 + 1 d
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv13_eq_0 1 ~iv4_ge_3 >= 1 ;
+p 1682 1714 + 1715 + 1769 + 1770 + 1771 + 1773 + 1774 + 1775 + 1776 + 1777 + 1778 + 1779 + 27 + 1 d
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 ~iv13_eq_0 >= 1 ;
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 iv13_eq_0 1 ~iv1_ge_13 >= 1 ;
+u 1 iv0_eq_0 1 ~iv0_eq_1 1 iv13_eq_0 >= 1 ;
+u 1 iv0_eq_0 1 ~iv0_eq_1 >= 1 ;
+u 1 iv0_series0_b_0 2 iv0_series0_b_1 4 iv0_series0_b_2 8 iv0_series0_b_3 17 iv0_eq_0 17 iv0_eq_1 >= 2 ;
+p 1682 1793 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv1_ge_13 >= 1 ;
+p 1682 1793 + 3 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv2_ge_13 >= 1 ;
+p 1682 1793 + 3 + 5 + 9 + 11 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv3_ge_13 >= 1 ;
+p 1682 1793 + 3 + 5 + 7 + 11 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv4_ge_13 >= 1 ;
+p 1682 1793 + 3 + 5 + 7 + 9 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv5_ge_13 >= 1 ;
+p 1682 1793 + 3 + 5 + 7 + 9 + 11 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv6_ge_13 >= 1 ;
+p 1682 1793 + 3 + 5 + 7 + 9 + 11 + 13 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv7_ge_13 >= 1 ;
+p 1682 1793 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv8_ge_13 >= 1 ;
+p 1682 1793 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv9_ge_13 >= 1 ;
+p 1682 1793 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv10_ge_13 >= 1 ;
+p 1682 1793 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 21 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv11_ge_13 >= 1 ;
+p 1682 1793 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 21 + 23 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv12_ge_13 >= 1 ;
+u -1 iv13_series13_b_0 -2 iv13_series13_b_1 -4 iv13_series13_b_2 -8 iv13_series13_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 >= 0 ;
+u 1 iv197_iv197_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv198_iv198_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv199_iv199_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv200_iv200_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv201_iv201_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv202_iv202_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv203_iv203_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv204_iv204_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv205_iv205_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv206_iv206_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv207_iv207_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv208_iv208_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+u 1 iv209_iv209_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 >= 0 ;
+p 1680 1818 + 1819 + 1820 + 1821 + 1822 + 1823 + 1824 + 1825 + 1826 + 1827 + 1828 + 1829 + 1830 + 1831 + 1 d
+u 1 iv42_iv42_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 >= 1 ;
+u 1 iv43_iv43_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 >= 0 ;
+u 1 iv44_iv44_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 >= 0 ;
+u 1 iv45_iv45_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 >= 0 ;
+u 1 iv46_iv46_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 >= 0 ;
+u 1 iv47_iv47_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 >= 0 ;
+u 1 iv48_iv48_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 >= 0 ;
+u 1 iv49_iv49_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 >= 0 ;
+u 1 iv50_iv50_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 >= 0 ;
+u 1 iv51_iv51_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 >= 0 ;
+u 1 iv52_iv52_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 >= 0 ;
+u 1 iv53_iv53_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 >= 0 ;
+u 1 iv54_iv54_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 >= 0 ;
+u 1 iv55_iv55_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 >= 0 ;
+p 566 1833 + 1834 + 1835 + 1836 + 1837 + 1838 + 1839 + 1840 + 1841 + 1842 + 1843 + 1844 + 1845 + 1846 + 1 d
+u 1 iv2_series2_b_0 2 iv2_series2_b_1 4 iv2_series2_b_2 8 iv2_series2_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 ~iv0_eq_2 >= 1 ;
+p 1682 1793 + 1848 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 ~iv0_eq_2 1 ~iv1_ge_12 >= 1 ;
+p 1682 1793 + 3 + 1848 + 9 + 11 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 ~iv0_eq_2 1 ~iv3_ge_12 >= 1 ;
+p 1682 1793 + 3 + 1848 + 7 + 11 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 ~iv0_eq_2 1 ~iv4_ge_12 >= 1 ;
+p 1682 1793 + 3 + 1848 + 7 + 9 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 ~iv0_eq_2 1 ~iv5_ge_12 >= 1 ;
+p 1682 1793 + 3 + 1848 + 7 + 9 + 11 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 ~iv0_eq_2 1 ~iv6_ge_12 >= 1 ;
+p 1682 1793 + 3 + 1848 + 7 + 9 + 11 + 13 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 ~iv0_eq_2 1 ~iv7_ge_12 >= 1 ;
+p 1682 1793 + 3 + 1848 + 7 + 9 + 11 + 13 + 15 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 ~iv0_eq_2 1 ~iv8_ge_12 >= 1 ;
+p 1682 1793 + 3 + 1848 + 7 + 9 + 11 + 13 + 15 + 17 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 ~iv0_eq_2 1 ~iv9_ge_12 >= 1 ;
+p 1682 1793 + 3 + 1848 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 ~iv0_eq_2 1 ~iv10_ge_12 >= 1 ;
+p 1682 1793 + 3 + 1848 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 21 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 ~iv0_eq_2 1 ~iv11_ge_12 >= 1 ;
+u -1 iv182_iv182_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 >= 0 ;
+u -1 iv183_iv183_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 >= 0 ;
+u -1 iv185_iv185_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 >= 0 ;
+u -1 iv186_iv186_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 >= 0 ;
+u -1 iv187_iv187_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 >= 0 ;
+u -1 iv188_iv188_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 >= 0 ;
+u -1 iv189_iv189_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 >= 0 ;
+u -1 iv190_iv190_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 >= 0 ;
+u -1 iv191_iv191_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 >= 0 ;
+u -1 iv192_iv192_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 >= 0 ;
+u -1 iv193_iv193_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 >= 0 ;
+u -1 iv195_iv195_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 >= 0 ;
+u -1 iv194_iv194_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 >= 0 ;
+u -1 iv12_series12_b_0 -2 iv12_series12_b_1 -4 iv12_series12_b_2 -8 iv12_series12_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 ~iv0_eq_2 16 ~iv12_eq_0 >= 0 ;
+u 1 iv182_iv182_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv183_iv183_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv185_iv185_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv186_iv186_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv187_iv187_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv188_iv188_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv189_iv189_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv190_iv190_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv191_iv191_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv192_iv192_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv193_iv193_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv194_iv194_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv195_iv195_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+p 1566 1882 + 1883 + 1884 + 1885 + 1886 + 1887 + 1888 + 1889 + 1890 + 1891 + 1892 + 1893 + 1894 + 1895 + 1 d
+u -1 iv0_series0_b_0 -2 iv0_series0_b_1 -4 iv0_series0_b_2 -8 iv0_series0_b_3 17 iv0_eq_0 17 iv0_eq_1 17 ~iv13_eq_0 17 ~iv0_eq_2 17 ~iv12_eq_0 >= -2 ;
+u 1 iv14_iv14_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv16_iv16_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv17_iv17_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv18_iv18_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv19_iv19_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv20_iv20_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv21_iv21_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv22_iv22_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv23_iv23_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv24_iv24_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv25_iv25_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv26_iv26_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 2 ~iv12_eq_0 >= 1 ;
+u 1 iv27_iv27_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 2 ~iv12_eq_0 >= 1 ;
+p 366 1897 + 1898 + 1899 + 1900 + 1901 + 1902 + 1903 + 1904 + 1905 + 1906 + 1907 + 1908 + 1909 + 1910 + 1 d
+u 1 iv15_iv15_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 ~iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+p 366 1897 + 1898 + 1912 + 1899 + 1901 + 1902 + 1903 + 1904 + 1905 + 1906 + 1907 + 1908 + 1909 + 1910 + 1 d
+p 366 1897 + 1898 + 1912 + 1899 + 1900 + 1902 + 1903 + 1904 + 1905 + 1906 + 1907 + 1908 + 1909 + 1910 + 1 d
+p 366 1897 + 1898 + 1912 + 1899 + 1900 + 1901 + 1903 + 1904 + 1905 + 1906 + 1907 + 1908 + 1909 + 1910 + 1 d
+p 366 1897 + 1898 + 1912 + 1899 + 1900 + 1901 + 1902 + 1904 + 1905 + 1906 + 1907 + 1908 + 1909 + 1910 + 1 d
+p 366 1897 + 1898 + 1912 + 1899 + 1900 + 1901 + 1902 + 1903 + 1905 + 1906 + 1907 + 1908 + 1909 + 1910 + 1 d
+p 366 1897 + 1898 + 1912 + 1899 + 1900 + 1901 + 1902 + 1903 + 1904 + 1906 + 1907 + 1908 + 1909 + 1910 + 1 d
+p 366 1897 + 1898 + 1912 + 1899 + 1900 + 1901 + 1902 + 1903 + 1904 + 1905 + 1907 + 1908 + 1909 + 1910 + 1 d
+p 366 1897 + 1898 + 1912 + 1899 + 1900 + 1901 + 1902 + 1903 + 1904 + 1905 + 1906 + 1908 + 1909 + 1910 + 1 d
+p 366 1897 + 1898 + 1912 + 1899 + 1900 + 1901 + 1902 + 1903 + 1904 + 1905 + 1906 + 1907 + 1909 + 1910 + 1 d
+u 1 iv3_series3_b_0 2 iv3_series3_b_1 4 iv3_series3_b_2 8 iv3_series3_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 ~iv0_eq_2 16 ~iv12_eq_0 >= 1 ;
+u 1 iv4_series4_b_0 2 iv4_series4_b_1 4 iv4_series4_b_2 8 iv4_series4_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 ~iv0_eq_2 16 ~iv12_eq_0 >= 1 ;
+u 1 iv5_series5_b_0 2 iv5_series5_b_1 4 iv5_series5_b_2 8 iv5_series5_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 ~iv0_eq_2 16 ~iv12_eq_0 >= 1 ;
+u 1 iv6_series6_b_0 2 iv6_series6_b_1 4 iv6_series6_b_2 8 iv6_series6_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 ~iv0_eq_2 16 ~iv12_eq_0 >= 1 ;
+u 1 iv7_series7_b_0 2 iv7_series7_b_1 4 iv7_series7_b_2 8 iv7_series7_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 ~iv0_eq_2 16 ~iv12_eq_0 >= 1 ;
+u 1 iv8_series8_b_0 2 iv8_series8_b_1 4 iv8_series8_b_2 8 iv8_series8_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 ~iv0_eq_2 16 ~iv12_eq_0 >= 1 ;
+u 1 iv9_series9_b_0 2 iv9_series9_b_1 4 iv9_series9_b_2 8 iv9_series9_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 ~iv0_eq_2 16 ~iv12_eq_0 >= 1 ;
+u 1 iv10_series10_b_0 2 iv10_series10_b_1 4 iv10_series10_b_2 8 iv10_series10_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 ~iv0_eq_2 16 ~iv12_eq_0 >= 1 ;
+u 1 iv11_series11_b_0 2 iv11_series11_b_1 4 iv11_series11_b_2 8 iv11_series11_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 ~iv0_eq_2 16 ~iv12_eq_0 >= 1 ;
+p 1682 1793 + 1848 + 1922 + 1923 + 1924 + 1925 + 1926 + 1927 + 1928 + 1929 + 1930 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 ~iv0_eq_2 1 ~iv12_eq_0 1 ~iv1_ge_3 >= 1 ;
+u 1 iv1_series1_b_0 2 iv1_series1_b_1 4 iv1_series1_b_2 8 iv1_series1_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 ~iv0_eq_2 16 ~iv12_eq_0 >= 1 ;
+p 1682 1793 + 1933 + 1922 + 1923 + 1924 + 1925 + 1926 + 1927 + 1928 + 1929 + 1930 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 ~iv0_eq_2 1 ~iv12_eq_0 1 ~iv2_ge_3 >= 1 ;
+p 1682 1793 + 1933 + 1848 + 1923 + 1924 + 1925 + 1926 + 1927 + 1928 + 1929 + 1930 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 ~iv0_eq_2 1 ~iv12_eq_0 1 ~iv3_ge_3 >= 1 ;
+p 1682 1793 + 1933 + 1848 + 1922 + 1924 + 1925 + 1926 + 1927 + 1928 + 1929 + 1930 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 ~iv0_eq_2 1 ~iv12_eq_0 1 ~iv4_ge_3 >= 1 ;
+p 1682 1793 + 1933 + 1848 + 1922 + 1923 + 1925 + 1926 + 1927 + 1928 + 1929 + 1930 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 ~iv0_eq_2 1 ~iv12_eq_0 1 ~iv5_ge_3 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 ~iv0_eq_2 1 ~iv12_eq_0 1 ~iv6_ge_3 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 ~iv0_eq_2 1 ~iv12_eq_0 1 ~iv7_ge_3 >= 1 ;
+p 1682 1793 + 1933 + 1848 + 1922 + 1923 + 1924 + 1925 + 1926 + 1928 + 1929 + 1930 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 ~iv0_eq_2 1 ~iv12_eq_0 1 ~iv8_ge_3 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 ~iv0_eq_2 1 ~iv12_eq_0 1 ~iv9_ge_3 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 ~iv0_eq_2 1 ~iv12_eq_0 1 ~iv10_ge_3 >= 1 ;
+p 1682 1793 + 1933 + 1848 + 1922 + 1923 + 1924 + 1925 + 1926 + 1927 + 1928 + 1929 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 ~iv0_eq_2 1 ~iv12_eq_0 1 ~iv11_ge_3 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 ~iv0_eq_2 1 ~iv12_eq_0 >= 1 ;
+u 1 iv12_series12_b_0 2 iv12_series12_b_1 4 iv12_series12_b_2 8 iv12_series12_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 ~iv0_eq_2 16 iv12_eq_0 >= 1 ;
+p 1565 1951 + 1869 + 1870 + 1871 + 1872 + 1873 + 1874 + 1875 + 1876 + 1877 + 1878 + 1879 + 1881 + 1880 + 1 d
+p 1682 1793 + 3 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 21 + 23 + 1951 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 ~iv0_eq_2 1 iv12_eq_0 1 ~iv2_ge_12 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 ~iv0_eq_2 1 iv12_eq_0 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 ~iv0_eq_2 >= 1 ;
+u 1 iv0_series0_b_0 2 iv0_series0_b_1 4 iv0_series0_b_2 8 iv0_series0_b_3 18 iv0_eq_0 18 iv0_eq_1 18 ~iv13_eq_0 18 iv0_eq_2 >= 3 ;
+p 1682 1957 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv1_ge_12 >= 1 ;
+p 1682 1957 + 3 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv2_ge_12 >= 1 ;
+p 1682 1957 + 3 + 5 + 9 + 11 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv3_ge_12 >= 1 ;
+p 1682 1957 + 3 + 5 + 7 + 11 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv4_ge_12 >= 1 ;
+p 1682 1957 + 3 + 5 + 7 + 9 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv5_ge_12 >= 1 ;
+p 1682 1957 + 3 + 5 + 7 + 9 + 11 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv6_ge_12 >= 1 ;
+p 1682 1957 + 3 + 5 + 7 + 9 + 11 + 13 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv7_ge_12 >= 1 ;
+p 1682 1957 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv8_ge_12 >= 1 ;
+p 1682 1957 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv9_ge_12 >= 1 ;
+p 1682 1957 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv10_ge_12 >= 1 ;
+p 1682 1957 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 21 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv11_ge_12 >= 1 ;
+p 1682 1957 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 21 + 23 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_ge_12 >= 1 ;
+u -1 iv12_series12_b_0 -2 iv12_series12_b_1 -4 iv12_series12_b_2 -8 iv12_series12_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 >= 0 ;
+u 1 iv183_iv183_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv184_iv184_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv185_iv185_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv186_iv186_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv187_iv187_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv188_iv188_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv189_iv189_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv190_iv190_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv191_iv191_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv192_iv192_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv193_iv193_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv194_iv194_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+u 1 iv195_iv195_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 >= 0 ;
+p 1566 1982 + 1983 + 1984 + 1985 + 1986 + 1987 + 1988 + 1989 + 1990 + 1991 + 1992 + 1993 + 1994 + 1995 + 1 d
+u 1 iv56_iv56_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 >= 1 ;
+u 1 iv57_iv57_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 >= 0 ;
+u 1 iv58_iv58_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 >= 0 ;
+u 1 iv59_iv59_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 >= 0 ;
+u 1 iv60_iv60_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 >= 0 ;
+u 1 iv61_iv61_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 >= 0 ;
+u 1 iv62_iv62_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 >= 0 ;
+u 1 iv63_iv63_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 >= 0 ;
+u 1 iv64_iv64_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 >= 0 ;
+u 1 iv65_iv65_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 >= 0 ;
+u 1 iv66_iv66_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 >= 0 ;
+u 1 iv67_iv67_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 >= 0 ;
+u 1 iv68_iv68_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 >= 0 ;
+u 1 iv69_iv69_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 >= 0 ;
+p 666 1997 + 1998 + 1999 + 2000 + 2001 + 2002 + 2003 + 2004 + 2005 + 2006 + 2007 + 2008 + 2009 + 2010 + 1 d
+u 1 iv3_series3_b_0 2 iv3_series3_b_1 4 iv3_series3_b_2 8 iv3_series3_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 ~iv0_eq_3 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 ~iv0_eq_3 1 ~iv1_ge_11 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 ~iv0_eq_3 1 ~iv2_ge_11 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 ~iv0_eq_3 1 ~iv4_ge_11 >= 1 ;
+p 1682 1957 + 3 + 5 + 2012 + 9 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 ~iv0_eq_3 1 ~iv5_ge_11 >= 1 ;
+p 1682 1957 + 3 + 5 + 2012 + 9 + 11 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 ~iv0_eq_3 1 ~iv6_ge_11 >= 1 ;
+p 1682 1957 + 3 + 5 + 2012 + 9 + 11 + 13 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 ~iv0_eq_3 1 ~iv7_ge_11 >= 1 ;
+p 1682 1957 + 3 + 5 + 2012 + 9 + 11 + 13 + 15 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 ~iv0_eq_3 1 ~iv8_ge_11 >= 1 ;
+p 1682 1957 + 3 + 5 + 2012 + 9 + 11 + 13 + 15 + 17 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 ~iv0_eq_3 1 ~iv9_ge_11 >= 1 ;
+p 1682 1957 + 3 + 5 + 2012 + 9 + 11 + 13 + 15 + 17 + 19 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 ~iv0_eq_3 1 ~iv10_ge_11 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 ~iv0_eq_3 1 ~iv11_ge_11 >= 1 ;
+u -1 iv168_iv168_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 >= 0 ;
+u -1 iv169_iv169_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 >= 0 ;
+u -1 iv170_iv170_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 >= 0 ;
+u -1 iv172_iv172_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 >= 0 ;
+u -1 iv173_iv173_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 >= 0 ;
+u -1 iv174_iv174_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 >= 0 ;
+u -1 iv175_iv175_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 >= 0 ;
+u -1 iv176_iv176_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 >= 0 ;
+u -1 iv177_iv177_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 >= 0 ;
+u -1 iv178_iv178_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 >= 0 ;
+u -1 iv180_iv180_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 >= 0 ;
+u -1 iv181_iv181_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 >= 0 ;
+u -1 iv179_iv179_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 >= 0 ;
+u -1 iv11_series11_b_0 -2 iv11_series11_b_1 -4 iv11_series11_b_2 -8 iv11_series11_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 ~iv0_eq_3 16 ~iv11_eq_0 >= 0 ;
+u 1 iv168_iv168_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv169_iv169_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv170_iv170_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv172_iv172_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv173_iv173_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv174_iv174_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv175_iv175_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv176_iv176_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv177_iv177_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv178_iv178_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv179_iv179_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv180_iv180_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv181_iv181_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+p 1466 2042 + 2043 + 2044 + 2045 + 2046 + 2047 + 2048 + 2049 + 2050 + 2051 + 2052 + 2053 + 2054 + 2055 + 1 d
+u -1 iv0_series0_b_0 -2 iv0_series0_b_1 -4 iv0_series0_b_2 -8 iv0_series0_b_3 18 iv0_eq_0 18 iv0_eq_1 18 ~iv13_eq_0 18 iv0_eq_2 18 ~iv12_eq_0 18 ~iv0_eq_3 18 ~iv11_eq_0 >= -3 ;
+u 1 iv14_iv14_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv16_iv16_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv17_iv17_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv18_iv18_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv19_iv19_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv20_iv20_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv21_iv21_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv22_iv22_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv23_iv23_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv24_iv24_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv25_iv25_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 2 ~iv11_eq_0 >= 1 ;
+u 1 iv26_iv26_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 2 ~iv11_eq_0 >= 1 ;
+u 1 iv27_iv27_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 2 ~iv11_eq_0 >= 1 ;
+p 366 2057 + 2058 + 2059 + 2060 + 2061 + 2062 + 2063 + 2064 + 2065 + 2066 + 2067 + 2068 + 2069 + 2070 + 1 d
+u 1 iv15_iv15_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 ~iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+p 366 2057 + 2058 + 2072 + 2060 + 2061 + 2062 + 2063 + 2064 + 2065 + 2066 + 2067 + 2068 + 2069 + 2070 + 1 d
+p 366 2057 + 2058 + 2072 + 2059 + 2060 + 2062 + 2063 + 2064 + 2065 + 2066 + 2067 + 2068 + 2069 + 2070 + 1 d
+p 366 2057 + 2058 + 2072 + 2059 + 2060 + 2061 + 2063 + 2064 + 2065 + 2066 + 2067 + 2068 + 2069 + 2070 + 1 d
+p 366 2057 + 2058 + 2072 + 2059 + 2060 + 2061 + 2062 + 2064 + 2065 + 2066 + 2067 + 2068 + 2069 + 2070 + 1 d
+p 366 2057 + 2058 + 2072 + 2059 + 2060 + 2061 + 2062 + 2063 + 2065 + 2066 + 2067 + 2068 + 2069 + 2070 + 1 d
+p 366 2057 + 2058 + 2072 + 2059 + 2060 + 2061 + 2062 + 2063 + 2064 + 2066 + 2067 + 2068 + 2069 + 2070 + 1 d
+p 366 2057 + 2058 + 2072 + 2059 + 2060 + 2061 + 2062 + 2063 + 2064 + 2065 + 2067 + 2068 + 2069 + 2070 + 1 d
+p 366 2057 + 2058 + 2072 + 2059 + 2060 + 2061 + 2062 + 2063 + 2064 + 2065 + 2066 + 2068 + 2069 + 2070 + 1 d
+u 1 iv2_series2_b_0 2 iv2_series2_b_1 4 iv2_series2_b_2 8 iv2_series2_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 ~iv0_eq_3 16 ~iv11_eq_0 >= 1 ;
+u 1 iv4_series4_b_0 2 iv4_series4_b_1 4 iv4_series4_b_2 8 iv4_series4_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 ~iv0_eq_3 16 ~iv11_eq_0 >= 1 ;
+u 1 iv5_series5_b_0 2 iv5_series5_b_1 4 iv5_series5_b_2 8 iv5_series5_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 ~iv0_eq_3 16 ~iv11_eq_0 >= 1 ;
+u 1 iv6_series6_b_0 2 iv6_series6_b_1 4 iv6_series6_b_2 8 iv6_series6_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 ~iv0_eq_3 16 ~iv11_eq_0 >= 1 ;
+u 1 iv7_series7_b_0 2 iv7_series7_b_1 4 iv7_series7_b_2 8 iv7_series7_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 ~iv0_eq_3 16 ~iv11_eq_0 >= 1 ;
+u 1 iv8_series8_b_0 2 iv8_series8_b_1 4 iv8_series8_b_2 8 iv8_series8_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 ~iv0_eq_3 16 ~iv11_eq_0 >= 1 ;
+u 1 iv9_series9_b_0 2 iv9_series9_b_1 4 iv9_series9_b_2 8 iv9_series9_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 ~iv0_eq_3 16 ~iv11_eq_0 >= 1 ;
+u 1 iv10_series10_b_0 2 iv10_series10_b_1 4 iv10_series10_b_2 8 iv10_series10_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 ~iv0_eq_3 16 ~iv11_eq_0 >= 1 ;
+p 1682 1957 + 2081 + 2012 + 2082 + 2083 + 2084 + 2085 + 2086 + 2087 + 2088 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 ~iv0_eq_3 1 ~iv11_eq_0 1 ~iv1_ge_3 >= 1 ;
+u 1 iv1_series1_b_0 2 iv1_series1_b_1 4 iv1_series1_b_2 8 iv1_series1_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 ~iv0_eq_3 16 ~iv11_eq_0 >= 1 ;
+p 1682 1957 + 2091 + 2012 + 2082 + 2083 + 2084 + 2085 + 2086 + 2087 + 2088 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 ~iv0_eq_3 1 ~iv11_eq_0 1 ~iv2_ge_3 >= 1 ;
+p 1682 1957 + 2091 + 2081 + 2082 + 2083 + 2084 + 2085 + 2086 + 2087 + 2088 + 23 + 25 + 27 + 1 d
+p 1682 1957 + 2091 + 2081 + 2012 + 2082 + 2083 + 2084 + 2085 + 2087 + 2088 + 23 + 25 + 27 + 1 d
+p 1682 1957 + 2091 + 2081 + 2012 + 2082 + 2083 + 2084 + 2085 + 2086 + 2088 + 23 + 25 + 27 + 1 d
+p 1682 1957 + 2091 + 2081 + 2012 + 2082 + 2083 + 2084 + 2085 + 2086 + 2087 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 ~iv0_eq_3 1 ~iv11_eq_0 >= 1 ;
+u 1 iv11_series11_b_0 2 iv11_series11_b_1 4 iv11_series11_b_2 8 iv11_series11_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 ~iv0_eq_3 16 iv11_eq_0 >= 1 ;
+p 1465 2099 + 2029 + 2030 + 2031 + 2032 + 2033 + 2034 + 2035 + 2036 + 2037 + 2038 + 2041 + 2039 + 2040 + 1 d
+p 1682 1957 + 3 + 5 + 9 + 11 + 13 + 15 + 17 + 19 + 21 + 2099 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 ~iv0_eq_3 1 iv11_eq_0 1 ~iv3_ge_11 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 ~iv0_eq_3 1 iv11_eq_0 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 ~iv0_eq_3 >= 1 ;
+u 1 iv0_series0_b_0 2 iv0_series0_b_1 4 iv0_series0_b_2 8 iv0_series0_b_3 19 iv0_eq_0 19 iv0_eq_1 19 ~iv13_eq_0 19 iv0_eq_2 19 ~iv12_eq_0 19 iv0_eq_3 >= 4 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv1_ge_11 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv2_ge_11 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv3_ge_11 >= 1 ;
+p 1682 2105 + 3 + 5 + 7 + 11 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv4_ge_11 >= 1 ;
+p 1682 2105 + 3 + 5 + 7 + 9 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv5_ge_11 >= 1 ;
+p 1682 2105 + 3 + 5 + 7 + 9 + 11 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv6_ge_11 >= 1 ;
+p 1682 2105 + 3 + 5 + 7 + 9 + 11 + 13 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv7_ge_11 >= 1 ;
+p 1682 2105 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv8_ge_11 >= 1 ;
+p 1682 2105 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv9_ge_11 >= 1 ;
+p 1682 2105 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv10_ge_11 >= 1 ;
+u -1 iv11_series11_b_0 -2 iv11_series11_b_1 -4 iv11_series11_b_2 -8 iv11_series11_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 >= 0 ;
+u 1 iv169_iv169_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv170_iv170_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv171_iv171_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv172_iv172_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv173_iv173_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv174_iv174_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv175_iv175_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv176_iv176_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv177_iv177_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv178_iv178_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv179_iv179_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv180_iv180_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+u 1 iv181_iv181_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 >= 0 ;
+p 1466 2123 + 2124 + 2125 + 2126 + 2127 + 2128 + 2129 + 2130 + 2131 + 2132 + 2133 + 2134 + 2135 + 2136 + 1 d
+u 1 iv70_iv70_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 >= 1 ;
+u 1 iv71_iv71_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 >= 0 ;
+u 1 iv72_iv72_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 >= 0 ;
+u 1 iv73_iv73_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 >= 0 ;
+u 1 iv74_iv74_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 >= 0 ;
+u 1 iv75_iv75_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 >= 0 ;
+u 1 iv76_iv76_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 >= 0 ;
+u 1 iv77_iv77_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 >= 0 ;
+u 1 iv78_iv78_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 >= 0 ;
+u 1 iv79_iv79_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 >= 0 ;
+u 1 iv80_iv80_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 >= 0 ;
+u 1 iv81_iv81_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 >= 0 ;
+u 1 iv82_iv82_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 >= 0 ;
+u 1 iv83_iv83_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 >= 0 ;
+p 766 2138 + 2139 + 2140 + 2141 + 2142 + 2143 + 2144 + 2145 + 2146 + 2147 + 2148 + 2149 + 2150 + 2151 + 1 d
+u 1 iv4_series4_b_0 2 iv4_series4_b_1 4 iv4_series4_b_2 8 iv4_series4_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 ~iv0_eq_4 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 ~iv0_eq_4 1 ~iv1_ge_10 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 ~iv0_eq_4 1 ~iv2_ge_10 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 ~iv0_eq_4 1 ~iv3_ge_10 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 ~iv0_eq_4 1 ~iv5_ge_10 >= 1 ;
+p 1682 2105 + 3 + 5 + 7 + 2153 + 11 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 ~iv0_eq_4 1 ~iv6_ge_10 >= 1 ;
+p 1682 2105 + 3 + 5 + 7 + 2153 + 11 + 13 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 ~iv0_eq_4 1 ~iv7_ge_10 >= 1 ;
+p 1682 2105 + 3 + 5 + 7 + 2153 + 11 + 13 + 15 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 ~iv0_eq_4 1 ~iv8_ge_10 >= 1 ;
+p 1682 2105 + 3 + 5 + 7 + 2153 + 11 + 13 + 15 + 17 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 ~iv0_eq_4 1 ~iv9_ge_10 >= 1 ;
+p 1682 2105 + 3 + 5 + 7 + 2153 + 11 + 13 + 15 + 17 + 19 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 ~iv0_eq_4 1 ~iv10_ge_10 >= 1 ;
+u -1 iv154_iv154_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 >= 0 ;
+u -1 iv155_iv155_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 >= 0 ;
+u -1 iv156_iv156_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 >= 0 ;
+u -1 iv157_iv157_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 >= 0 ;
+u -1 iv159_iv159_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 >= 0 ;
+u -1 iv160_iv160_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 >= 0 ;
+u -1 iv161_iv161_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 >= 0 ;
+u -1 iv162_iv162_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 >= 0 ;
+u -1 iv163_iv163_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 >= 0 ;
+u -1 iv165_iv165_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 >= 0 ;
+u -1 iv166_iv166_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 >= 0 ;
+u -1 iv167_iv167_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 >= 0 ;
+u -1 iv164_iv164_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 >= 0 ;
+u -1 iv10_series10_b_0 -2 iv10_series10_b_1 -4 iv10_series10_b_2 -8 iv10_series10_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 ~iv0_eq_4 16 ~iv10_eq_0 >= 0 ;
+u 1 iv154_iv154_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv155_iv155_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv156_iv156_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv157_iv157_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv159_iv159_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv160_iv160_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv161_iv161_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv162_iv162_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv163_iv163_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv164_iv164_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv165_iv165_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv166_iv166_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv167_iv167_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+p 1366 2181 + 2182 + 2183 + 2184 + 2185 + 2186 + 2187 + 2188 + 2189 + 2190 + 2191 + 2192 + 2193 + 2194 + 1 d
+u -1 iv0_series0_b_0 -2 iv0_series0_b_1 -4 iv0_series0_b_2 -8 iv0_series0_b_3 19 iv0_eq_0 19 iv0_eq_1 19 ~iv13_eq_0 19 iv0_eq_2 19 ~iv12_eq_0 19 iv0_eq_3 19 ~iv11_eq_0 19 ~iv0_eq_4 19 ~iv10_eq_0 >= -4 ;
+u 1 iv14_iv14_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv16_iv16_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv17_iv17_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv18_iv18_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv19_iv19_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv20_iv20_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv21_iv21_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv22_iv22_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv23_iv23_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv24_iv24_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 1 ;
+u 1 iv25_iv25_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 1 ;
+u 1 iv26_iv26_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 1 ;
+u 1 iv27_iv27_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 1 ;
+p 366 2196 + 2197 + 2198 + 2199 + 2200 + 2201 + 2202 + 2203 + 2204 + 2205 + 2206 + 2207 + 2208 + 2209 + 1 d
+u 1 iv15_iv15_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+p 366 2196 + 2197 + 2211 + 2199 + 2200 + 2201 + 2202 + 2203 + 2204 + 2205 + 2206 + 2207 + 2208 + 2209 + 1 d
+p 366 2196 + 2197 + 2211 + 2198 + 2200 + 2201 + 2202 + 2203 + 2204 + 2205 + 2206 + 2207 + 2208 + 2209 + 1 d
+p 366 2196 + 2197 + 2211 + 2198 + 2199 + 2200 + 2202 + 2203 + 2204 + 2205 + 2206 + 2207 + 2208 + 2209 + 1 d
+p 366 2196 + 2197 + 2211 + 2198 + 2199 + 2200 + 2201 + 2203 + 2204 + 2205 + 2206 + 2207 + 2208 + 2209 + 1 d
+p 366 2196 + 2197 + 2211 + 2198 + 2199 + 2200 + 2201 + 2202 + 2204 + 2205 + 2206 + 2207 + 2208 + 2209 + 1 d
+p 366 2196 + 2197 + 2211 + 2198 + 2199 + 2200 + 2201 + 2202 + 2203 + 2205 + 2206 + 2207 + 2208 + 2209 + 1 d
+p 366 2196 + 2197 + 2211 + 2198 + 2199 + 2200 + 2201 + 2202 + 2203 + 2204 + 2206 + 2207 + 2208 + 2209 + 1 d
+u 1 iv2_series2_b_0 2 iv2_series2_b_1 4 iv2_series2_b_2 8 iv2_series2_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 ~iv0_eq_4 16 ~iv10_eq_0 >= 1 ;
+u 1 iv3_series3_b_0 2 iv3_series3_b_1 4 iv3_series3_b_2 8 iv3_series3_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 ~iv0_eq_4 16 ~iv10_eq_0 >= 1 ;
+u 1 iv5_series5_b_0 2 iv5_series5_b_1 4 iv5_series5_b_2 8 iv5_series5_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 ~iv0_eq_4 16 ~iv10_eq_0 >= 1 ;
+u 1 iv6_series6_b_0 2 iv6_series6_b_1 4 iv6_series6_b_2 8 iv6_series6_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 ~iv0_eq_4 16 ~iv10_eq_0 >= 1 ;
+u 1 iv7_series7_b_0 2 iv7_series7_b_1 4 iv7_series7_b_2 8 iv7_series7_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 ~iv0_eq_4 16 ~iv10_eq_0 >= 1 ;
+u 1 iv8_series8_b_0 2 iv8_series8_b_1 4 iv8_series8_b_2 8 iv8_series8_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 ~iv0_eq_4 16 ~iv10_eq_0 >= 1 ;
+u 1 iv9_series9_b_0 2 iv9_series9_b_1 4 iv9_series9_b_2 8 iv9_series9_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 ~iv0_eq_4 16 ~iv10_eq_0 >= 1 ;
+p 1682 2105 + 2219 + 2220 + 2153 + 2221 + 2222 + 2223 + 2224 + 2225 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 ~iv0_eq_4 1 ~iv10_eq_0 1 ~iv1_ge_3 >= 1 ;
+u 1 iv1_series1_b_0 2 iv1_series1_b_1 4 iv1_series1_b_2 8 iv1_series1_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 ~iv0_eq_4 16 ~iv10_eq_0 >= 1 ;
+p 1682 2105 + 2228 + 2220 + 2153 + 2221 + 2222 + 2223 + 2224 + 2225 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 ~iv0_eq_4 1 ~iv10_eq_0 1 ~iv2_ge_3 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 ~iv0_eq_4 1 ~iv10_eq_0 1 ~iv3_ge_3 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 ~iv0_eq_4 1 ~iv10_eq_0 1 ~iv4_ge_3 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 ~iv0_eq_4 1 ~iv10_eq_0 1 ~iv5_ge_3 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 ~iv0_eq_4 1 ~iv10_eq_0 1 ~iv6_ge_3 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 ~iv0_eq_4 1 ~iv10_eq_0 1 ~iv7_ge_3 >= 1 ;
+p 1682 2105 + 2228 + 2219 + 2220 + 2153 + 2221 + 2222 + 2223 + 2225 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 ~iv0_eq_4 1 ~iv10_eq_0 1 ~iv8_ge_3 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 ~iv0_eq_4 1 ~iv10_eq_0 1 ~iv9_ge_3 >= 1 ;
+u -1 iv56_iv56_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u -1 iv57_iv57_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u -1 iv58_iv58_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u -1 iv59_iv59_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u -1 iv60_iv60_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= -1 ;
+u -1 iv61_iv61_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u -1 iv62_iv62_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u -1 iv63_iv63_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u -1 iv64_iv64_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u -1 iv65_iv65_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u -1 iv66_iv66_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u -1 iv67_iv67_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u -1 iv68_iv68_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u -1 iv69_iv69_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 ~iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+p 665 2239 + 2240 + 2241 + 2242 + 2243 + 2244 + 2245 + 2246 + 2247 + 2248 + 2249 + 2250 + 2251 + 2252 + 1 d
+p 665 2220 + 2239 + 2240 + 2241 + 2242 + 2244 + 2245 + 2246 + 2247 + 2248 + 2249 + 2250 + 2251 + 2252 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 ~iv0_eq_4 1 ~iv10_eq_0 >= 1 ;
+u 1 iv10_series10_b_0 2 iv10_series10_b_1 4 iv10_series10_b_2 8 iv10_series10_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 ~iv0_eq_4 16 iv10_eq_0 >= 1 ;
+p 1365 2256 + 2168 + 2169 + 2170 + 2171 + 2172 + 2173 + 2174 + 2175 + 2176 + 2180 + 2177 + 2178 + 2179 + 1 d
+p 1682 2105 + 3 + 5 + 7 + 11 + 13 + 15 + 17 + 19 + 2256 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 ~iv0_eq_4 1 iv10_eq_0 1 ~iv4_ge_10 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 ~iv0_eq_4 1 iv10_eq_0 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 ~iv0_eq_4 >= 1 ;
+u 1 iv0_series0_b_0 2 iv0_series0_b_1 4 iv0_series0_b_2 8 iv0_series0_b_3 20 iv0_eq_0 20 iv0_eq_1 20 ~iv13_eq_0 20 iv0_eq_2 20 ~iv12_eq_0 20 iv0_eq_3 20 ~iv11_eq_0 20 iv0_eq_4 >= 5 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv1_ge_10 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv2_ge_10 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv3_ge_10 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv4_ge_10 >= 1 ;
+p 1682 2262 + 3 + 5 + 7 + 9 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv5_ge_10 >= 1 ;
+p 1682 2262 + 3 + 5 + 7 + 9 + 11 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv6_ge_10 >= 1 ;
+p 1682 2262 + 3 + 5 + 7 + 9 + 11 + 13 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv7_ge_10 >= 1 ;
+p 1682 2262 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv8_ge_10 >= 1 ;
+p 1682 2262 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv9_ge_10 >= 1 ;
+p 1682 2262 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_ge_10 >= 1 ;
+u -1 iv10_series10_b_0 -2 iv10_series10_b_1 -4 iv10_series10_b_2 -8 iv10_series10_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 >= 0 ;
+u 1 iv155_iv155_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv156_iv156_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv157_iv157_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv158_iv158_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv159_iv159_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv160_iv160_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv161_iv161_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv162_iv162_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv163_iv163_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv164_iv164_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv165_iv165_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv166_iv166_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+u 1 iv167_iv167_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 >= 0 ;
+p 1366 2279 + 2280 + 2281 + 2282 + 2283 + 2284 + 2285 + 2286 + 2287 + 2288 + 2289 + 2290 + 2291 + 2292 + 1 d
+u 1 iv84_iv84_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 >= 1 ;
+u 1 iv85_iv85_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 >= 0 ;
+u 1 iv86_iv86_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 >= 0 ;
+u 1 iv87_iv87_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 >= 0 ;
+u 1 iv88_iv88_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 >= 0 ;
+u 1 iv89_iv89_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 >= 0 ;
+u 1 iv90_iv90_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 >= 0 ;
+u 1 iv91_iv91_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 >= 0 ;
+u 1 iv92_iv92_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 >= 0 ;
+u 1 iv93_iv93_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 >= 0 ;
+u 1 iv94_iv94_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 >= 0 ;
+u 1 iv95_iv95_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 >= 0 ;
+u 1 iv96_iv96_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 >= 0 ;
+u 1 iv97_iv97_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 >= 0 ;
+p 866 2294 + 2295 + 2296 + 2297 + 2298 + 2299 + 2300 + 2301 + 2302 + 2303 + 2304 + 2305 + 2306 + 2307 + 1 d
+u 1 iv5_series5_b_0 2 iv5_series5_b_1 4 iv5_series5_b_2 8 iv5_series5_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 ~iv0_eq_5 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 ~iv0_eq_5 1 ~iv1_ge_9 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 ~iv0_eq_5 1 ~iv2_ge_9 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 ~iv0_eq_5 1 ~iv3_ge_9 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 ~iv0_eq_5 1 ~iv4_ge_9 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 ~iv0_eq_5 1 ~iv6_ge_9 >= 1 ;
+p 1682 2262 + 3 + 5 + 7 + 9 + 2309 + 13 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 ~iv0_eq_5 1 ~iv7_ge_9 >= 1 ;
+p 1682 2262 + 3 + 5 + 7 + 9 + 2309 + 13 + 15 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 ~iv0_eq_5 1 ~iv8_ge_9 >= 1 ;
+p 1682 2262 + 3 + 5 + 7 + 9 + 2309 + 13 + 15 + 17 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 ~iv0_eq_5 1 ~iv9_ge_9 >= 1 ;
+u -1 iv140_iv140_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 >= 0 ;
+u -1 iv141_iv141_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 >= 0 ;
+u -1 iv142_iv142_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 >= 0 ;
+u -1 iv143_iv143_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 >= 0 ;
+u -1 iv144_iv144_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 >= 0 ;
+u -1 iv146_iv146_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 >= 0 ;
+u -1 iv147_iv147_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 >= 0 ;
+u -1 iv148_iv148_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 >= 0 ;
+u -1 iv150_iv150_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 >= 0 ;
+u -1 iv151_iv151_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 >= 0 ;
+u -1 iv152_iv152_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 >= 0 ;
+u -1 iv153_iv153_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 >= 0 ;
+u -1 iv149_iv149_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 >= 0 ;
+u -1 iv9_series9_b_0 -2 iv9_series9_b_1 -4 iv9_series9_b_2 -8 iv9_series9_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 ~iv0_eq_5 16 ~iv9_eq_0 >= 0 ;
+u 1 iv140_iv140_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv141_iv141_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv142_iv142_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv143_iv143_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv144_iv144_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv146_iv146_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv147_iv147_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv148_iv148_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv149_iv149_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv150_iv150_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv151_iv151_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv152_iv152_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv153_iv153_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+p 1266 2334 + 2335 + 2336 + 2337 + 2338 + 2339 + 2340 + 2341 + 2342 + 2343 + 2344 + 2345 + 2346 + 2347 + 1 d
+u -1 iv0_series0_b_0 -2 iv0_series0_b_1 -4 iv0_series0_b_2 -8 iv0_series0_b_3 20 iv0_eq_0 20 iv0_eq_1 20 ~iv13_eq_0 20 iv0_eq_2 20 ~iv12_eq_0 20 iv0_eq_3 20 ~iv11_eq_0 20 iv0_eq_4 20 ~iv10_eq_0 20 ~iv0_eq_5 20 ~iv9_eq_0 >= -5 ;
+u 1 iv14_iv14_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv16_iv16_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv17_iv17_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv18_iv18_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv19_iv19_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv20_iv20_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv21_iv21_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv22_iv22_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv23_iv23_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 1 ;
+u 1 iv24_iv24_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 1 ;
+u 1 iv25_iv25_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 1 ;
+u 1 iv26_iv26_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 1 ;
+u 1 iv27_iv27_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 1 ;
+p 366 2349 + 2350 + 2351 + 2352 + 2353 + 2354 + 2355 + 2356 + 2357 + 2358 + 2359 + 2360 + 2361 + 2362 + 1 d
+u 1 iv15_iv15_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+p 366 2349 + 2350 + 2364 + 2352 + 2353 + 2354 + 2355 + 2356 + 2357 + 2358 + 2359 + 2360 + 2361 + 2362 + 1 d
+p 366 2349 + 2350 + 2364 + 2351 + 2353 + 2354 + 2355 + 2356 + 2357 + 2358 + 2359 + 2360 + 2361 + 2362 + 1 d
+p 366 2349 + 2350 + 2364 + 2351 + 2352 + 2354 + 2355 + 2356 + 2357 + 2358 + 2359 + 2360 + 2361 + 2362 + 1 d
+p 366 2349 + 2350 + 2364 + 2351 + 2352 + 2353 + 2354 + 2356 + 2357 + 2358 + 2359 + 2360 + 2361 + 2362 + 1 d
+p 366 2349 + 2350 + 2364 + 2351 + 2352 + 2353 + 2354 + 2355 + 2357 + 2358 + 2359 + 2360 + 2361 + 2362 + 1 d
+p 366 2349 + 2350 + 2364 + 2351 + 2352 + 2353 + 2354 + 2355 + 2356 + 2358 + 2359 + 2360 + 2361 + 2362 + 1 d
+u 1 iv2_series2_b_0 2 iv2_series2_b_1 4 iv2_series2_b_2 8 iv2_series2_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 ~iv0_eq_5 16 ~iv9_eq_0 >= 1 ;
+u 1 iv3_series3_b_0 2 iv3_series3_b_1 4 iv3_series3_b_2 8 iv3_series3_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 ~iv0_eq_5 16 ~iv9_eq_0 >= 1 ;
+u 1 iv4_series4_b_0 2 iv4_series4_b_1 4 iv4_series4_b_2 8 iv4_series4_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 ~iv0_eq_5 16 ~iv9_eq_0 >= 1 ;
+u 1 iv6_series6_b_0 2 iv6_series6_b_1 4 iv6_series6_b_2 8 iv6_series6_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 ~iv0_eq_5 16 ~iv9_eq_0 >= 1 ;
+u 1 iv7_series7_b_0 2 iv7_series7_b_1 4 iv7_series7_b_2 8 iv7_series7_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 ~iv0_eq_5 16 ~iv9_eq_0 >= 1 ;
+u 1 iv8_series8_b_0 2 iv8_series8_b_1 4 iv8_series8_b_2 8 iv8_series8_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 ~iv0_eq_5 16 ~iv9_eq_0 >= 1 ;
+p 1682 2262 + 2371 + 2372 + 2373 + 2309 + 2374 + 2375 + 2376 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 ~iv0_eq_5 1 ~iv9_eq_0 1 ~iv1_ge_3 >= 1 ;
+u 1 iv1_series1_b_0 2 iv1_series1_b_1 4 iv1_series1_b_2 8 iv1_series1_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 ~iv0_eq_5 16 ~iv9_eq_0 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 ~iv0_eq_5 1 ~iv9_eq_0 1 ~iv2_ge_3 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 ~iv0_eq_5 1 ~iv9_eq_0 1 ~iv3_ge_3 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 ~iv0_eq_5 1 ~iv9_eq_0 1 ~iv4_ge_3 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 ~iv0_eq_5 1 ~iv9_eq_0 1 ~iv6_ge_3 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 ~iv0_eq_5 1 ~iv9_eq_0 1 ~iv7_ge_3 >= 1 ;
+p 1682 2262 + 2379 + 2371 + 2372 + 2373 + 2309 + 2374 + 2375 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 ~iv0_eq_5 1 ~iv9_eq_0 1 ~iv8_ge_3 >= 1 ;
+u -1 iv56_iv56_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u -1 iv57_iv57_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u -1 iv58_iv58_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u -1 iv59_iv59_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u -1 iv60_iv60_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u -1 iv62_iv62_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u -1 iv63_iv63_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u -1 iv64_iv64_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u -1 iv65_iv65_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u -1 iv66_iv66_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u -1 iv67_iv67_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u -1 iv68_iv68_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u -1 iv69_iv69_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 ~iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+p 665 2372 + 2387 + 2388 + 2389 + 2390 + 2391 + 2392 + 2393 + 2394 + 2395 + 2396 + 2397 + 2398 + 2399 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 ~iv0_eq_5 1 ~iv9_eq_0 >= 1 ;
+u 1 iv9_series9_b_0 2 iv9_series9_b_1 4 iv9_series9_b_2 8 iv9_series9_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 ~iv0_eq_5 16 iv9_eq_0 >= 1 ;
+p 1265 2402 + 2321 + 2322 + 2323 + 2324 + 2325 + 2326 + 2327 + 2328 + 2333 + 2329 + 2330 + 2331 + 2332 + 1 d
+p 1682 2262 + 5 + 7 + 9 + 2309 + 13 + 15 + 17 + 2402 + 21 + 23 + 25 + 27 + 1 d
+p 1682 2262 + 3 + 7 + 9 + 2309 + 13 + 15 + 17 + 2402 + 21 + 23 + 25 + 27 + 1 d
+p 1682 2262 + 3 + 5 + 9 + 2309 + 13 + 15 + 17 + 2402 + 21 + 23 + 25 + 27 + 1 d
+p 1682 2262 + 3 + 5 + 7 + 2309 + 13 + 15 + 17 + 2402 + 21 + 23 + 25 + 27 + 1 d
+p 1682 2262 + 3 + 5 + 7 + 9 + 13 + 15 + 17 + 2402 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 ~iv0_eq_5 1 iv9_eq_0 1 ~iv5_ge_9 >= 1 ;
+p 1682 2262 + 3 + 5 + 7 + 9 + 2309 + 15 + 17 + 2402 + 21 + 23 + 25 + 27 + 1 d
+p 1682 2262 + 3 + 5 + 7 + 9 + 2309 + 13 + 17 + 2402 + 21 + 23 + 25 + 27 + 1 d
+p 1682 2262 + 3 + 5 + 7 + 9 + 2309 + 13 + 15 + 2402 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 ~iv0_eq_5 1 iv9_eq_0 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 ~iv0_eq_5 >= 1 ;
+u 1 iv0_series0_b_0 2 iv0_series0_b_1 4 iv0_series0_b_2 8 iv0_series0_b_3 21 iv0_eq_0 21 iv0_eq_1 21 ~iv13_eq_0 21 iv0_eq_2 21 ~iv12_eq_0 21 iv0_eq_3 21 ~iv11_eq_0 21 iv0_eq_4 21 ~iv10_eq_0 21 iv0_eq_5 >= 6 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv1_ge_9 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv2_ge_9 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv3_ge_9 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv4_ge_9 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv5_ge_9 >= 1 ;
+p 1682 2415 + 3 + 5 + 7 + 9 + 11 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv6_ge_9 >= 1 ;
+p 1682 2415 + 3 + 5 + 7 + 9 + 11 + 13 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv7_ge_9 >= 1 ;
+p 1682 2415 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv8_ge_9 >= 1 ;
+p 1682 2415 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_ge_9 >= 1 ;
+u -1 iv140_iv140_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 >= -1 ;
+u -1 iv141_iv141_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 >= 0 ;
+u -1 iv142_iv142_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 >= 0 ;
+u -1 iv143_iv143_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 >= 0 ;
+u -1 iv144_iv144_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 >= 0 ;
+u -1 iv145_iv145_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 >= 0 ;
+u -1 iv146_iv146_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 >= 0 ;
+u -1 iv147_iv147_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 >= 0 ;
+u -1 iv148_iv148_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 >= 0 ;
+u -1 iv149_iv149_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 >= -1 ;
+u -1 iv150_iv150_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 >= 0 ;
+u -1 iv151_iv151_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 >= 0 ;
+u -1 iv152_iv152_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 >= 0 ;
+u -1 iv153_iv153_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 >= 0 ;
+p 1265 2429 + 2430 + 2431 + 2432 + 2433 + 2434 + 2435 + 2436 + 2437 + 2438 + 2439 + 2440 + 2441 + 2442 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_ge_3 >= 1 ;
+u -1 iv9_series9_b_0 -2 iv9_series9_b_1 -4 iv9_series9_b_2 -8 iv9_series9_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 ~iv9_eq_0 >= 0 ;
+u 1 iv141_iv141_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv142_iv142_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv143_iv143_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv144_iv144_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv145_iv145_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv146_iv146_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv147_iv147_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv148_iv148_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv149_iv149_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv150_iv150_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv151_iv151_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv152_iv152_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+u 1 iv153_iv153_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 >= 0 ;
+p 1266 2445 + 2446 + 2447 + 2448 + 2449 + 2450 + 2451 + 2452 + 2453 + 2454 + 2455 + 2456 + 2457 + 2458 + 1 d
+u 1 iv98_iv98_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 >= 1 ;
+u 1 iv99_iv99_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 >= 0 ;
+u 1 iv100_iv100_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 >= 0 ;
+u 1 iv101_iv101_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 >= 0 ;
+u 1 iv102_iv102_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 >= 0 ;
+u 1 iv103_iv103_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 >= 0 ;
+u 1 iv104_iv104_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 >= 0 ;
+u 1 iv105_iv105_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 >= 0 ;
+u 1 iv106_iv106_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 >= 0 ;
+u 1 iv107_iv107_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 >= 0 ;
+u 1 iv108_iv108_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 >= 0 ;
+u 1 iv109_iv109_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 >= 0 ;
+u 1 iv110_iv110_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 >= 0 ;
+u 1 iv111_iv111_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 >= 0 ;
+p 966 2460 + 2461 + 2462 + 2463 + 2464 + 2465 + 2466 + 2467 + 2468 + 2469 + 2470 + 2471 + 2472 + 2473 + 1 d
+u 1 iv6_series6_b_0 2 iv6_series6_b_1 4 iv6_series6_b_2 8 iv6_series6_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 ~iv9_eq_0 16 ~iv0_eq_6 >= 1 ;
+p 1682 2415 + 5 + 7 + 9 + 11 + 2475 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+p 1682 2415 + 3 + 7 + 9 + 11 + 2475 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+p 1682 2415 + 3 + 5 + 9 + 11 + 2475 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+p 1682 2415 + 3 + 5 + 7 + 11 + 2475 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+p 1682 2415 + 3 + 5 + 7 + 9 + 11 + 2475 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u -1 iv8_series8_b_0 -2 iv8_series8_b_1 -4 iv8_series8_b_2 -8 iv8_series8_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 ~iv9_eq_0 16 ~iv0_eq_6 16 ~iv8_eq_0 >= 0 ;
+u 1 iv126_iv126_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u 1 iv127_iv127_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u 1 iv128_iv128_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u 1 iv129_iv129_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u 1 iv130_iv130_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u 1 iv131_iv131_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u 1 iv133_iv133_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u 1 iv134_iv134_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u 1 iv135_iv135_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u 1 iv136_iv136_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u 1 iv137_iv137_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u 1 iv138_iv138_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u 1 iv139_iv139_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+p 1166 2481 + 2482 + 2483 + 2484 + 2485 + 2486 + 2487 + 2488 + 2489 + 2490 + 2491 + 2492 + 2493 + 2494 + 1 d
+u -1 iv0_series0_b_0 -2 iv0_series0_b_1 -4 iv0_series0_b_2 -8 iv0_series0_b_3 21 iv0_eq_0 21 iv0_eq_1 21 ~iv13_eq_0 21 iv0_eq_2 21 ~iv12_eq_0 21 iv0_eq_3 21 ~iv11_eq_0 21 iv0_eq_4 21 ~iv10_eq_0 21 iv0_eq_5 21 ~iv9_eq_0 21 ~iv0_eq_6 21 ~iv8_eq_0 >= -6 ;
+u 1 iv14_iv14_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u 1 iv16_iv16_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u 1 iv17_iv17_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u 1 iv18_iv18_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u 1 iv19_iv19_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u 1 iv20_iv20_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u 1 iv21_iv21_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u 1 iv22_iv22_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 1 ;
+u 1 iv23_iv23_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 1 ;
+u 1 iv24_iv24_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 1 ;
+u 1 iv25_iv25_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 1 ;
+u 1 iv26_iv26_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 1 ;
+u 1 iv27_iv27_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 1 ;
+p 366 2496 + 2497 + 2498 + 2499 + 2500 + 2501 + 2502 + 2503 + 2504 + 2505 + 2506 + 2507 + 2508 + 2509 + 1 d
+u 1 iv15_iv15_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+p 366 2496 + 2497 + 2511 + 2499 + 2500 + 2501 + 2502 + 2503 + 2504 + 2505 + 2506 + 2507 + 2508 + 2509 + 1 d
+p 366 2496 + 2497 + 2511 + 2498 + 2500 + 2501 + 2502 + 2503 + 2504 + 2505 + 2506 + 2507 + 2508 + 2509 + 1 d
+p 366 2496 + 2497 + 2511 + 2498 + 2499 + 2501 + 2502 + 2503 + 2504 + 2505 + 2506 + 2507 + 2508 + 2509 + 1 d
+p 366 2496 + 2497 + 2511 + 2498 + 2499 + 2500 + 2502 + 2503 + 2504 + 2505 + 2506 + 2507 + 2508 + 2509 + 1 d
+p 366 2496 + 2497 + 2511 + 2498 + 2499 + 2500 + 2501 + 2502 + 2504 + 2505 + 2506 + 2507 + 2508 + 2509 + 1 d
+u 1 iv2_series2_b_0 2 iv2_series2_b_1 4 iv2_series2_b_2 8 iv2_series2_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 ~iv9_eq_0 16 ~iv0_eq_6 16 ~iv8_eq_0 >= 1 ;
+u 1 iv3_series3_b_0 2 iv3_series3_b_1 4 iv3_series3_b_2 8 iv3_series3_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 ~iv9_eq_0 16 ~iv0_eq_6 16 ~iv8_eq_0 >= 1 ;
+u 1 iv4_series4_b_0 2 iv4_series4_b_1 4 iv4_series4_b_2 8 iv4_series4_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 ~iv9_eq_0 16 ~iv0_eq_6 16 ~iv8_eq_0 >= 1 ;
+u 1 iv5_series5_b_0 2 iv5_series5_b_1 4 iv5_series5_b_2 8 iv5_series5_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 ~iv9_eq_0 16 ~iv0_eq_6 16 ~iv8_eq_0 >= 1 ;
+u 1 iv7_series7_b_0 2 iv7_series7_b_1 4 iv7_series7_b_2 8 iv7_series7_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 ~iv9_eq_0 16 ~iv0_eq_6 16 ~iv8_eq_0 >= 1 ;
+p 1682 2415 + 2517 + 2518 + 2519 + 2520 + 2475 + 2521 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 ~iv0_eq_6 1 ~iv8_eq_0 1 ~iv1_ge_3 >= 1 ;
+u 1 iv1_series1_b_0 2 iv1_series1_b_1 4 iv1_series1_b_2 8 iv1_series1_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 ~iv9_eq_0 16 ~iv0_eq_6 16 ~iv8_eq_0 >= 1 ;
+p 1682 2415 + 2524 + 2518 + 2519 + 2520 + 2475 + 2521 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 ~iv0_eq_6 1 ~iv8_eq_0 1 ~iv2_ge_3 >= 1 ;
+p 1682 2415 + 2524 + 2517 + 2519 + 2520 + 2475 + 2521 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 ~iv0_eq_6 1 ~iv8_eq_0 1 ~iv3_ge_3 >= 1 ;
+p 1682 2415 + 2524 + 2517 + 2518 + 2520 + 2475 + 2521 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 ~iv0_eq_6 1 ~iv8_eq_0 1 ~iv4_ge_3 >= 1 ;
+p 1682 2415 + 2524 + 2517 + 2518 + 2519 + 2475 + 2521 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 ~iv0_eq_6 1 ~iv8_eq_0 1 ~iv5_ge_3 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 ~iv0_eq_6 1 ~iv8_eq_0 1 ~iv7_ge_3 >= 1 ;
+u -1 iv56_iv56_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u -1 iv57_iv57_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u -1 iv58_iv58_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u -1 iv59_iv59_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u -1 iv60_iv60_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u -1 iv61_iv61_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u -1 iv63_iv63_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u -1 iv64_iv64_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u -1 iv65_iv65_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u -1 iv66_iv66_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u -1 iv67_iv67_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u -1 iv68_iv68_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u -1 iv69_iv69_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+p 665 2518 + 2534 + 2535 + 2536 + 2537 + 2538 + 2539 + 2540 + 2541 + 2542 + 2543 + 2544 + 2545 + 2546 + 1 d
+u -1 iv84_iv84_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u -1 iv85_iv85_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u -1 iv86_iv86_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u -1 iv87_iv87_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u -1 iv88_iv88_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u -1 iv89_iv89_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u -1 iv91_iv91_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u -1 iv92_iv92_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u -1 iv93_iv93_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u -1 iv94_iv94_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u -1 iv95_iv95_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u -1 iv96_iv96_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+u -1 iv97_iv97_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 ~iv0_eq_6 2 ~iv8_eq_0 >= 0 ;
+p 865 2520 + 2548 + 2549 + 2550 + 2551 + 2552 + 2553 + 2554 + 2555 + 2556 + 2557 + 2558 + 2559 + 2560 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 ~iv0_eq_6 1 ~iv8_eq_0 >= 1 ;
+u 1 iv8_series8_b_0 2 iv8_series8_b_1 4 iv8_series8_b_2 8 iv8_series8_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 ~iv9_eq_0 16 ~iv0_eq_6 16 iv8_eq_0 >= 1 ;
+p 1682 2415 + 3 + 5 + 7 + 9 + 11 + 15 + 2563 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 ~iv0_eq_6 1 iv8_eq_0 1 ~iv6_ge_8 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 ~iv0_eq_6 1 iv8_eq_0 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 ~iv0_eq_6 >= 1 ;
+u 1 iv0_series0_b_0 2 iv0_series0_b_1 4 iv0_series0_b_2 8 iv0_series0_b_3 22 iv0_eq_0 22 iv0_eq_1 22 ~iv13_eq_0 22 iv0_eq_2 22 ~iv12_eq_0 22 iv0_eq_3 22 ~iv11_eq_0 22 iv0_eq_4 22 ~iv10_eq_0 22 iv0_eq_5 22 ~iv9_eq_0 22 iv0_eq_6 >= 7 ;
+p 1682 2568 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 ~iv1_ge_8 >= 1 ;
+p 1682 2568 + 3 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 ~iv2_ge_8 >= 1 ;
+p 1682 2568 + 3 + 5 + 9 + 11 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 ~iv3_ge_8 >= 1 ;
+p 1682 2568 + 3 + 5 + 7 + 11 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 ~iv4_ge_8 >= 1 ;
+p 1682 2568 + 3 + 5 + 7 + 9 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 ~iv5_ge_8 >= 1 ;
+p 1682 2568 + 3 + 5 + 7 + 9 + 11 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 ~iv6_ge_8 >= 1 ;
+p 1682 2568 + 3 + 5 + 7 + 9 + 11 + 13 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 ~iv7_ge_8 >= 1 ;
+p 1682 2568 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 ~iv8_ge_8 >= 1 ;
+u -1 iv126_iv126_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 >= -1 ;
+u -1 iv127_iv127_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 >= 0 ;
+u -1 iv128_iv128_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 >= 0 ;
+u -1 iv129_iv129_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 >= 0 ;
+u -1 iv130_iv130_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 >= 0 ;
+u -1 iv131_iv131_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 >= 0 ;
+u -1 iv132_iv132_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 >= 0 ;
+u -1 iv133_iv133_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 >= 0 ;
+u -1 iv134_iv134_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 >= -1 ;
+u -1 iv135_iv135_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 >= 0 ;
+u -1 iv136_iv136_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 >= 0 ;
+u -1 iv137_iv137_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 >= 0 ;
+u -1 iv138_iv138_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 >= 0 ;
+u -1 iv139_iv139_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 >= 0 ;
+p 1165 2585 + 2586 + 2587 + 2588 + 2589 + 2590 + 2591 + 2592 + 2593 + 2594 + 2595 + 2596 + 2597 + 2598 + 1 d
+u -1 iv134_iv134_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 >= 0 ;
+u 1 iv112_iv112_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 1 ;
+u 1 iv113_iv113_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 0 ;
+u 1 iv114_iv114_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 0 ;
+u 1 iv115_iv115_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 0 ;
+u 1 iv116_iv116_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 0 ;
+u 1 iv117_iv117_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 0 ;
+u 1 iv118_iv118_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 0 ;
+u 1 iv119_iv119_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 0 ;
+u 1 iv120_iv120_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 0 ;
+u 1 iv121_iv121_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 0 ;
+u 1 iv122_iv122_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 0 ;
+u 1 iv123_iv123_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 0 ;
+u 1 iv124_iv124_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 0 ;
+u 1 iv125_iv125_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 0 ;
+p 1066 2601 + 2602 + 2603 + 2604 + 2605 + 2606 + 2607 + 2608 + 2609 + 2610 + 2611 + 2612 + 2613 + 2614 + 1 d
+u -1 iv126_iv126_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 0 ;
+p 1165 2616 + 2586 + 2587 + 2588 + 2589 + 2590 + 2591 + 2592 + 2600 + 2594 + 2595 + 2596 + 2597 + 2598 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 ~iv0_eq_7 1 ~iv8_ge_1 >= 1 ;
+u 1 iv7_series7_b_0 2 iv7_series7_b_1 4 iv7_series7_b_2 8 iv7_series7_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 ~iv9_eq_0 16 iv0_eq_6 16 ~iv0_eq_7 >= 1 ;
+p 1682 2568 + 5 + 7 + 9 + 11 + 13 + 2619 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 ~iv0_eq_7 1 ~iv1_ge_7 >= 1 ;
+p 1682 2568 + 3 + 7 + 9 + 11 + 13 + 2619 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 ~iv0_eq_7 1 ~iv2_ge_7 >= 1 ;
+p 1682 2568 + 3 + 5 + 9 + 11 + 13 + 2619 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 ~iv0_eq_7 1 ~iv3_ge_7 >= 1 ;
+p 1682 2568 + 3 + 5 + 7 + 11 + 13 + 2619 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 ~iv0_eq_7 1 ~iv4_ge_7 >= 1 ;
+p 1682 2568 + 3 + 5 + 7 + 9 + 13 + 2619 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 ~iv0_eq_7 1 ~iv5_ge_7 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 ~iv0_eq_7 1 ~iv6_ge_7 >= 1 ;
+u 1 iv28_iv28_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 0 ;
+u 1 iv29_iv29_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 0 ;
+u 1 iv30_iv30_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 0 ;
+u 1 iv31_iv31_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 0 ;
+u 1 iv32_iv32_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 0 ;
+u 1 iv33_iv33_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 0 ;
+u 1 iv34_iv34_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 0 ;
+u 1 iv35_iv35_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 1 ;
+u 1 iv36_iv36_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 0 ;
+u 1 iv37_iv37_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 0 ;
+u 1 iv38_iv38_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 0 ;
+u 1 iv39_iv39_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 0 ;
+u 1 iv40_iv40_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 0 ;
+u 1 iv41_iv41_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 >= 0 ;
+p 466 2631 + 2632 + 2633 + 2634 + 2635 + 2636 + 2637 + 2638 + 2639 + 2640 + 2641 + 2642 + 2643 + 2644 + 1 d
+u 1 iv1_series1_b_0 2 iv1_series1_b_1 4 iv1_series1_b_2 8 iv1_series1_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 ~iv9_eq_0 16 iv0_eq_6 16 ~iv0_eq_7 >= 1 ;
+p 1682 2568 + 2646 + 7 + 9 + 11 + 13 + 2619 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 ~iv0_eq_7 1 ~iv2_ge_6 >= 1 ;
+p 1682 2568 + 2646 + 5 + 9 + 11 + 13 + 2619 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 ~iv0_eq_7 1 ~iv3_ge_6 >= 1 ;
+p 1682 2568 + 2646 + 5 + 7 + 11 + 13 + 2619 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 ~iv0_eq_7 1 ~iv4_ge_6 >= 1 ;
+p 1682 2568 + 2646 + 5 + 7 + 9 + 13 + 2619 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 ~iv0_eq_7 1 ~iv5_ge_6 >= 1 ;
+u -1 iv6_series6_b_0 -2 iv6_series6_b_1 -4 iv6_series6_b_2 -8 iv6_series6_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 ~iv9_eq_0 16 iv0_eq_6 16 ~iv0_eq_7 16 ~iv6_eq_0 >= 0 ;
+u 1 iv98_iv98_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 2 ~iv6_eq_0 >= 0 ;
+u 1 iv100_iv100_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 2 ~iv6_eq_0 >= 0 ;
+u 1 iv101_iv101_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 2 ~iv6_eq_0 >= 0 ;
+u 1 iv102_iv102_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 2 ~iv6_eq_0 >= 0 ;
+u 1 iv103_iv103_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 2 ~iv6_eq_0 >= 0 ;
+u 1 iv104_iv104_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 2 ~iv6_eq_0 >= 0 ;
+u 1 iv105_iv105_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 2 ~iv6_eq_0 >= 0 ;
+u 1 iv106_iv106_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 2 ~iv6_eq_0 >= 0 ;
+u 1 iv107_iv107_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 2 ~iv6_eq_0 >= 0 ;
+u 1 iv108_iv108_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 2 ~iv6_eq_0 >= 0 ;
+u 1 iv109_iv109_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 2 ~iv6_eq_0 >= 0 ;
+u 1 iv110_iv110_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 2 ~iv6_eq_0 >= 0 ;
+u 1 iv111_iv111_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 2 ~iv6_eq_0 >= 0 ;
+p 966 2655 + 2656 + 2657 + 2658 + 2659 + 2660 + 2661 + 2662 + 2663 + 2664 + 2665 + 2666 + 2667 + 2668 + 1 d
+u -1 iv0_series0_b_0 -2 iv0_series0_b_1 -4 iv0_series0_b_2 -8 iv0_series0_b_3 22 iv0_eq_0 22 iv0_eq_1 22 ~iv13_eq_0 22 iv0_eq_2 22 ~iv12_eq_0 22 iv0_eq_3 22 ~iv11_eq_0 22 iv0_eq_4 22 ~iv10_eq_0 22 iv0_eq_5 22 ~iv9_eq_0 22 iv0_eq_6 22 ~iv0_eq_7 22 ~iv6_eq_0 >= -7 ;
+u 1 iv14_iv14_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 2 ~iv6_eq_0 >= 0 ;
+u 1 iv15_iv15_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 2 ~iv6_eq_0 >= 0 ;
+u 1 iv17_iv17_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 2 ~iv6_eq_0 >= 0 ;
+u 1 iv18_iv18_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 2 ~iv6_eq_0 >= 0 ;
+u 1 iv19_iv19_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 2 ~iv6_eq_0 >= 0 ;
+u 1 iv20_iv20_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 2 ~iv6_eq_0 >= 1 ;
+u 1 iv21_iv21_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 2 ~iv6_eq_0 >= 0 ;
+u 1 iv22_iv22_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 2 ~iv6_eq_0 >= 1 ;
+u 1 iv23_iv23_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 2 ~iv6_eq_0 >= 1 ;
+u 1 iv24_iv24_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 2 ~iv6_eq_0 >= 1 ;
+u 1 iv25_iv25_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 2 ~iv6_eq_0 >= 1 ;
+u 1 iv26_iv26_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 2 ~iv6_eq_0 >= 1 ;
+u 1 iv27_iv27_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 2 ~iv6_eq_0 >= 1 ;
+p 366 2670 + 2671 + 2672 + 2673 + 2674 + 2675 + 2676 + 2677 + 2678 + 2679 + 2680 + 2681 + 2682 + 2683 + 1 d
+u 1 iv16_iv16_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 ~iv0_eq_7 2 ~iv6_eq_0 >= 0 ;
+p 366 2670 + 2671 + 2672 + 2685 + 2674 + 2675 + 2676 + 2677 + 2678 + 2679 + 2680 + 2681 + 2682 + 2683 + 1 d
+p 366 2670 + 2671 + 2672 + 2685 + 2673 + 2675 + 2676 + 2677 + 2678 + 2679 + 2680 + 2681 + 2682 + 2683 + 1 d
+p 366 2670 + 2671 + 2672 + 2685 + 2673 + 2674 + 2676 + 2677 + 2678 + 2679 + 2680 + 2681 + 2682 + 2683 + 1 d
+u 1 iv2_series2_b_0 2 iv2_series2_b_1 4 iv2_series2_b_2 8 iv2_series2_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 ~iv9_eq_0 16 iv0_eq_6 16 ~iv0_eq_7 16 ~iv6_eq_0 >= 1 ;
+u 1 iv3_series3_b_0 2 iv3_series3_b_1 4 iv3_series3_b_2 8 iv3_series3_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 ~iv9_eq_0 16 iv0_eq_6 16 ~iv0_eq_7 16 ~iv6_eq_0 >= 1 ;
+u 1 iv4_series4_b_0 2 iv4_series4_b_1 4 iv4_series4_b_2 8 iv4_series4_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 ~iv9_eq_0 16 iv0_eq_6 16 ~iv0_eq_7 16 ~iv6_eq_0 >= 1 ;
+u 1 iv5_series5_b_0 2 iv5_series5_b_1 4 iv5_series5_b_2 8 iv5_series5_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 ~iv9_eq_0 16 iv0_eq_6 16 ~iv0_eq_7 16 ~iv6_eq_0 >= 1 ;
+p 1682 2568 + 2689 + 2690 + 2691 + 2692 + 13 + 2619 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 ~iv0_eq_7 1 ~iv6_eq_0 1 ~iv1_ge_3 >= 1 ;
+p 1682 2568 + 2646 + 2690 + 2691 + 2692 + 13 + 2619 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 ~iv0_eq_7 1 ~iv6_eq_0 >= 1 ;
+u 1 iv6_series6_b_0 2 iv6_series6_b_1 4 iv6_series6_b_2 8 iv6_series6_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 ~iv9_eq_0 16 iv0_eq_6 16 ~iv0_eq_7 16 iv6_eq_0 >= 1 ;
+p 1682 2568 + 5 + 7 + 9 + 11 + 2697 + 2619 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 ~iv0_eq_7 1 iv6_eq_0 1 ~iv1_ge_6 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 ~iv0_eq_7 1 iv6_eq_0 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 ~iv0_eq_7 >= 1 ;
+u 1 iv0_series0_b_0 2 iv0_series0_b_1 4 iv0_series0_b_2 8 iv0_series0_b_3 23 iv0_eq_0 23 iv0_eq_1 23 ~iv13_eq_0 23 iv0_eq_2 23 ~iv12_eq_0 23 iv0_eq_3 23 ~iv11_eq_0 23 iv0_eq_4 23 ~iv10_eq_0 23 iv0_eq_5 23 ~iv9_eq_0 23 iv0_eq_6 23 iv0_eq_7 >= 8 ;
+p 1682 2702 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 iv0_eq_7 1 ~iv1_ge_7 >= 1 ;
+p 1682 2702 + 3 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 iv0_eq_7 1 ~iv2_ge_7 >= 1 ;
+p 1682 2702 + 3 + 5 + 9 + 11 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 iv0_eq_7 1 ~iv3_ge_7 >= 1 ;
+p 1682 2702 + 3 + 5 + 7 + 11 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 iv0_eq_7 1 ~iv4_ge_7 >= 1 ;
+p 1682 2702 + 3 + 5 + 7 + 9 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 iv0_eq_7 1 ~iv5_ge_7 >= 1 ;
+p 1682 2702 + 3 + 5 + 7 + 9 + 11 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 iv0_eq_7 1 ~iv6_ge_7 >= 1 ;
+p 1682 2702 + 3 + 5 + 7 + 9 + 11 + 13 + 17 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 iv0_eq_7 1 ~iv7_ge_7 >= 1 ;
+u -1 iv112_iv112_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u -1 iv113_iv113_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u -1 iv114_iv114_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u -1 iv115_iv115_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u -1 iv116_iv116_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u -1 iv117_iv117_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u -1 iv118_iv118_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u -1 iv119_iv119_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= -1 ;
+u -1 iv120_iv120_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u -1 iv121_iv121_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u -1 iv122_iv122_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u -1 iv123_iv123_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u -1 iv124_iv124_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u -1 iv125_iv125_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+p 1065 2717 + 2718 + 2719 + 2720 + 2721 + 2722 + 2723 + 2724 + 2725 + 2726 + 2727 + 2728 + 2729 + 2730 + 1 d
+u 1 iv126_iv126_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 1 ;
+u 1 iv127_iv127_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u 1 iv128_iv128_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u 1 iv129_iv129_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u 1 iv130_iv130_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u 1 iv131_iv131_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u 1 iv132_iv132_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u 1 iv133_iv133_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u 1 iv134_iv134_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u 1 iv135_iv135_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u 1 iv136_iv136_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u 1 iv137_iv137_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u 1 iv138_iv138_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u 1 iv139_iv139_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+p 1166 2732 + 2733 + 2734 + 2735 + 2736 + 2737 + 2738 + 2739 + 2740 + 2741 + 2742 + 2743 + 2744 + 2745 + 1 d
+u -1 iv119_iv119_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+p 1065 2717 + 2718 + 2719 + 2720 + 2721 + 2722 + 2723 + 2747 + 2725 + 2726 + 2727 + 2728 + 2729 + 2730 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 iv0_eq_7 1 ~iv7_ge_1 >= 1 ;
+u 1 iv8_series8_b_0 2 iv8_series8_b_1 4 iv8_series8_b_2 8 iv8_series8_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 ~iv9_eq_0 16 iv0_eq_6 16 iv0_eq_7 >= 1 ;
+p 1682 2702 + 5 + 7 + 9 + 11 + 13 + 15 + 2750 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 iv0_eq_7 1 ~iv1_ge_6 >= 1 ;
+p 1682 2702 + 3 + 7 + 9 + 11 + 13 + 15 + 2750 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 iv0_eq_7 1 ~iv2_ge_6 >= 1 ;
+p 1682 2702 + 3 + 5 + 9 + 11 + 13 + 15 + 2750 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 iv0_eq_7 1 ~iv3_ge_6 >= 1 ;
+p 1682 2702 + 3 + 5 + 7 + 11 + 13 + 15 + 2750 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 iv0_eq_7 1 ~iv4_ge_6 >= 1 ;
+p 1682 2702 + 3 + 5 + 7 + 9 + 13 + 15 + 2750 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 iv0_eq_7 1 ~iv5_ge_6 >= 1 ;
+p 1682 2702 + 3 + 5 + 7 + 9 + 11 + 15 + 2750 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 iv0_eq_7 1 ~iv6_ge_6 >= 1 ;
+u 1 iv28_iv28_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u 1 iv29_iv29_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u 1 iv30_iv30_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u 1 iv31_iv31_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u 1 iv32_iv32_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u 1 iv33_iv33_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u 1 iv34_iv34_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u 1 iv35_iv35_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u 1 iv36_iv36_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 1 ;
+u 1 iv37_iv37_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u 1 iv38_iv38_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u 1 iv39_iv39_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u 1 iv40_iv40_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u 1 iv41_iv41_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+p 466 2763 + 2764 + 2765 + 2766 + 2767 + 2768 + 2769 + 2770 + 2771 + 2772 + 2773 + 2774 + 2775 + 2776 + 1 d
+u -1 iv98_iv98_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u -1 iv99_iv99_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u -1 iv100_iv100_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u -1 iv101_iv101_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u -1 iv102_iv102_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u -1 iv103_iv103_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u -1 iv105_iv105_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u -1 iv106_iv106_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u -1 iv107_iv107_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u -1 iv108_iv108_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u -1 iv109_iv109_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u -1 iv110_iv110_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u -1 iv111_iv111_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+u 1 iv1_series1_b_0 2 iv1_series1_b_1 4 iv1_series1_b_2 8 iv1_series1_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 ~iv9_eq_0 16 iv0_eq_6 16 iv0_eq_7 >= 1 ;
+p 1682 2702 + 2791 + 7 + 9 + 11 + 13 + 15 + 2750 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 iv0_eq_7 1 ~iv2_ge_5 >= 1 ;
+p 1682 2702 + 2791 + 5 + 9 + 11 + 13 + 15 + 2750 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 iv0_eq_7 1 ~iv3_ge_5 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 iv0_eq_7 1 ~iv4_ge_5 >= 1 ;
+u -1 iv104_iv104_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 >= 0 ;
+p 965 2778 + 2779 + 2780 + 2781 + 2782 + 2783 + 2797 + 2784 + 2785 + 2786 + 2787 + 2788 + 2789 + 2790 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 iv0_eq_7 1 ~iv6_ge_1 >= 1 ;
+u -1 iv5_series5_b_0 -2 iv5_series5_b_1 -4 iv5_series5_b_2 -8 iv5_series5_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 ~iv9_eq_0 16 iv0_eq_6 16 iv0_eq_7 16 ~iv5_eq_0 >= 0 ;
+u 1 iv84_iv84_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 2 ~iv5_eq_0 >= 0 ;
+u 1 iv86_iv86_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 2 ~iv5_eq_0 >= 0 ;
+u 1 iv87_iv87_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 2 ~iv5_eq_0 >= 0 ;
+u 1 iv88_iv88_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 2 ~iv5_eq_0 >= 0 ;
+u 1 iv89_iv89_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 2 ~iv5_eq_0 >= 0 ;
+u 1 iv90_iv90_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 2 ~iv5_eq_0 >= 0 ;
+u 1 iv91_iv91_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 2 ~iv5_eq_0 >= 0 ;
+u 1 iv92_iv92_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 2 ~iv5_eq_0 >= 0 ;
+u 1 iv93_iv93_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 2 ~iv5_eq_0 >= 0 ;
+u 1 iv94_iv94_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 2 ~iv5_eq_0 >= 0 ;
+u 1 iv95_iv95_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 2 ~iv5_eq_0 >= 0 ;
+u 1 iv96_iv96_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 2 ~iv5_eq_0 >= 0 ;
+u 1 iv97_iv97_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 2 ~iv5_eq_0 >= 0 ;
+p 866 2800 + 2801 + 2802 + 2803 + 2804 + 2805 + 2806 + 2807 + 2808 + 2809 + 2810 + 2811 + 2812 + 2813 + 1 d
+u -1 iv0_series0_b_0 -2 iv0_series0_b_1 -4 iv0_series0_b_2 -8 iv0_series0_b_3 23 iv0_eq_0 23 iv0_eq_1 23 ~iv13_eq_0 23 iv0_eq_2 23 ~iv12_eq_0 23 iv0_eq_3 23 ~iv11_eq_0 23 iv0_eq_4 23 ~iv10_eq_0 23 iv0_eq_5 23 ~iv9_eq_0 23 iv0_eq_6 23 iv0_eq_7 23 ~iv5_eq_0 >= -8 ;
+u 1 iv14_iv14_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 2 ~iv5_eq_0 >= 0 ;
+u 1 iv15_iv15_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 2 ~iv5_eq_0 >= 0 ;
+u 1 iv17_iv17_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 2 ~iv5_eq_0 >= 0 ;
+u 1 iv18_iv18_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 2 ~iv5_eq_0 >= 0 ;
+u 1 iv19_iv19_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 2 ~iv5_eq_0 >= 1 ;
+u 1 iv20_iv20_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 2 ~iv5_eq_0 >= 1 ;
+u 1 iv21_iv21_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 2 ~iv5_eq_0 >= 1 ;
+u 1 iv22_iv22_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 2 ~iv5_eq_0 >= 0 ;
+u 1 iv23_iv23_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 2 ~iv5_eq_0 >= 1 ;
+u 1 iv24_iv24_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 2 ~iv5_eq_0 >= 1 ;
+u 1 iv25_iv25_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 2 ~iv5_eq_0 >= 1 ;
+u 1 iv26_iv26_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 2 ~iv5_eq_0 >= 1 ;
+u 1 iv27_iv27_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 2 ~iv5_eq_0 >= 1 ;
+p 366 2815 + 2816 + 2817 + 2818 + 2819 + 2820 + 2821 + 2822 + 2823 + 2824 + 2825 + 2826 + 2827 + 2828 + 1 d
+u 1 iv16_iv16_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 ~iv9_eq_0 2 iv0_eq_6 2 iv0_eq_7 2 ~iv5_eq_0 >= 0 ;
+p 366 2815 + 2816 + 2817 + 2830 + 2819 + 2820 + 2821 + 2822 + 2823 + 2824 + 2825 + 2826 + 2827 + 2828 + 1 d
+p 366 2815 + 2816 + 2817 + 2830 + 2818 + 2820 + 2821 + 2822 + 2823 + 2824 + 2825 + 2826 + 2827 + 2828 + 1 d
+u 1 iv2_series2_b_0 2 iv2_series2_b_1 4 iv2_series2_b_2 8 iv2_series2_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 ~iv9_eq_0 16 iv0_eq_6 16 iv0_eq_7 16 ~iv5_eq_0 >= 1 ;
+u 1 iv3_series3_b_0 2 iv3_series3_b_1 4 iv3_series3_b_2 8 iv3_series3_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 ~iv9_eq_0 16 iv0_eq_6 16 iv0_eq_7 16 ~iv5_eq_0 >= 1 ;
+u 1 iv4_series4_b_0 2 iv4_series4_b_1 4 iv4_series4_b_2 8 iv4_series4_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 ~iv9_eq_0 16 iv0_eq_6 16 iv0_eq_7 16 ~iv5_eq_0 >= 1 ;
+p 1682 2702 + 2833 + 2834 + 2835 + 11 + 13 + 15 + 2750 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 iv0_eq_7 1 ~iv5_eq_0 1 ~iv1_ge_3 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 iv0_eq_7 1 ~iv5_eq_0 >= 1 ;
+u 1 iv5_series5_b_0 2 iv5_series5_b_1 4 iv5_series5_b_2 8 iv5_series5_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 ~iv9_eq_0 16 iv0_eq_6 16 iv0_eq_7 16 iv5_eq_0 >= 1 ;
+p 1682 2702 + 5 + 7 + 9 + 2839 + 13 + 15 + 2750 + 19 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 iv0_eq_7 1 iv5_eq_0 1 ~iv1_ge_5 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 iv0_eq_7 1 iv5_eq_0 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 1 iv0_eq_7 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 1 iv0_eq_6 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 ~iv9_eq_0 >= 1 ;
+u 1 iv9_series9_b_0 2 iv9_series9_b_1 4 iv9_series9_b_2 8 iv9_series9_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 iv9_eq_0 >= 1 ;
+u 1 iv28_iv28_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u 1 iv29_iv29_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u 1 iv30_iv30_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u 1 iv31_iv31_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u 1 iv32_iv32_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u 1 iv33_iv33_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u 1 iv34_iv34_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u 1 iv35_iv35_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u 1 iv36_iv36_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u 1 iv37_iv37_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 1 ;
+u 1 iv38_iv38_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u 1 iv39_iv39_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u 1 iv40_iv40_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u 1 iv41_iv41_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+p 466 2847 + 2848 + 2849 + 2850 + 2851 + 2852 + 2853 + 2854 + 2855 + 2856 + 2857 + 2858 + 2859 + 2860 + 1 d
+u 1 iv0_series0_b_0 2 iv0_series0_b_1 4 iv0_series0_b_2 8 iv0_series0_b_3 24 iv0_eq_0 24 iv0_eq_1 24 ~iv13_eq_0 24 iv0_eq_2 24 ~iv12_eq_0 24 iv0_eq_3 24 ~iv11_eq_0 24 iv0_eq_4 24 ~iv10_eq_0 24 iv0_eq_5 24 iv9_eq_0 >= 9 ;
+p 1682 2862 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 2846 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 iv9_eq_0 1 ~iv1_ge_5 >= 1 ;
+u 1 iv1_series1_b_0 2 iv1_series1_b_1 4 iv1_series1_b_2 8 iv1_series1_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 iv9_eq_0 >= 1 ;
+p 1682 2862 + 2865 + 7 + 9 + 11 + 13 + 15 + 17 + 2846 + 21 + 23 + 25 + 27 + 1 d
+p 1682 2862 + 2865 + 5 + 9 + 11 + 13 + 15 + 17 + 2846 + 21 + 23 + 25 + 27 + 1 d
+p 1682 2862 + 2865 + 5 + 7 + 11 + 13 + 15 + 17 + 2846 + 21 + 23 + 25 + 27 + 1 d
+p 1682 2862 + 2865 + 5 + 7 + 9 + 13 + 15 + 17 + 2846 + 21 + 23 + 25 + 27 + 1 d
+p 1682 2862 + 2865 + 5 + 7 + 9 + 11 + 15 + 17 + 2846 + 21 + 23 + 25 + 27 + 1 d
+p 1682 2862 + 2865 + 5 + 7 + 9 + 11 + 13 + 17 + 2846 + 21 + 23 + 25 + 27 + 1 d
+p 1682 2862 + 2865 + 5 + 7 + 9 + 11 + 13 + 15 + 2846 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 iv9_eq_0 1 ~iv8_ge_3 >= 1 ;
+u -1 iv84_iv84_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv85_iv85_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv86_iv86_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv87_iv87_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv88_iv88_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv89_iv89_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv90_iv90_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv91_iv91_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv92_iv92_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv93_iv93_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv94_iv94_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv95_iv95_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv96_iv96_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv97_iv97_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+p 865 2874 + 2875 + 2876 + 2877 + 2878 + 2879 + 2880 + 2881 + 2882 + 2883 + 2884 + 2885 + 2886 + 2887 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 iv9_eq_0 1 ~iv5_ge_1 >= 1 ;
+u -1 iv98_iv98_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv99_iv99_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv100_iv100_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv101_iv101_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv102_iv102_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv103_iv103_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv104_iv104_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv105_iv105_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv106_iv106_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv107_iv107_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv108_iv108_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv109_iv109_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv110_iv110_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv111_iv111_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+p 965 2890 + 2891 + 2892 + 2893 + 2894 + 2895 + 2896 + 2897 + 2898 + 2899 + 2900 + 2901 + 2902 + 2903 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 iv9_eq_0 1 ~iv6_ge_1 >= 1 ;
+u -1 iv112_iv112_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv113_iv113_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv114_iv114_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv115_iv115_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv116_iv116_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv117_iv117_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv118_iv118_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv119_iv119_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv120_iv120_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv121_iv121_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv122_iv122_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv123_iv123_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv124_iv124_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+u -1 iv125_iv125_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 >= 0 ;
+p 1065 2906 + 2907 + 2908 + 2909 + 2910 + 2911 + 2912 + 2913 + 2914 + 2915 + 2916 + 2917 + 2918 + 2919 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 iv9_eq_0 1 ~iv7_ge_1 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 iv9_eq_0 1 ~iv8_ge_1 >= 1 ;
+u -1 iv4_series4_b_0 -2 iv4_series4_b_1 -4 iv4_series4_b_2 -8 iv4_series4_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 iv9_eq_0 16 ~iv4_eq_0 >= 0 ;
+u 1 iv70_iv70_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u 1 iv72_iv72_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u 1 iv73_iv73_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u 1 iv74_iv74_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u 1 iv75_iv75_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u 1 iv76_iv76_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u 1 iv77_iv77_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u 1 iv78_iv78_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u 1 iv79_iv79_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u 1 iv80_iv80_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u 1 iv81_iv81_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u 1 iv82_iv82_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u 1 iv83_iv83_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+p 766 2923 + 2924 + 2925 + 2926 + 2927 + 2928 + 2929 + 2930 + 2931 + 2932 + 2933 + 2934 + 2935 + 2936 + 1 d
+u -1 iv0_series0_b_0 -2 iv0_series0_b_1 -4 iv0_series0_b_2 -8 iv0_series0_b_3 24 iv0_eq_0 24 iv0_eq_1 24 ~iv13_eq_0 24 iv0_eq_2 24 ~iv12_eq_0 24 iv0_eq_3 24 ~iv11_eq_0 24 iv0_eq_4 24 ~iv10_eq_0 24 iv0_eq_5 24 iv9_eq_0 24 ~iv4_eq_0 >= -9 ;
+u 1 iv14_iv14_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u 1 iv15_iv15_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u 1 iv17_iv17_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u 1 iv18_iv18_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 1 ;
+u 1 iv19_iv19_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 1 ;
+u 1 iv20_iv20_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 1 ;
+u 1 iv21_iv21_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 1 ;
+u 1 iv22_iv22_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 1 ;
+u 1 iv23_iv23_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u 1 iv24_iv24_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 1 ;
+u 1 iv25_iv25_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 1 ;
+u 1 iv26_iv26_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 1 ;
+u 1 iv27_iv27_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 1 ;
+p 366 2938 + 2939 + 2940 + 2941 + 2942 + 2943 + 2944 + 2945 + 2946 + 2947 + 2948 + 2949 + 2950 + 2951 + 1 d
+u 1 iv16_iv16_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+p 366 2938 + 2939 + 2940 + 2953 + 2942 + 2943 + 2944 + 2945 + 2946 + 2947 + 2948 + 2949 + 2950 + 2951 + 1 d
+u 1 iv2_series2_b_0 2 iv2_series2_b_1 4 iv2_series2_b_2 8 iv2_series2_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 iv9_eq_0 16 ~iv4_eq_0 >= 1 ;
+u 1 iv3_series3_b_0 2 iv3_series3_b_1 4 iv3_series3_b_2 8 iv3_series3_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 iv9_eq_0 16 ~iv4_eq_0 >= 1 ;
+p 1682 2862 + 2955 + 2956 + 9 + 11 + 13 + 15 + 17 + 2846 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 iv9_eq_0 1 ~iv4_eq_0 1 ~iv1_ge_3 >= 1 ;
+p 1682 2862 + 2865 + 2956 + 9 + 11 + 13 + 15 + 17 + 2846 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 iv9_eq_0 1 ~iv4_eq_0 1 ~iv2_ge_3 >= 1 ;
+p 1682 2862 + 2865 + 2955 + 9 + 11 + 13 + 15 + 17 + 2846 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 iv9_eq_0 1 ~iv4_eq_0 1 ~iv3_ge_3 >= 1 ;
+u -1 iv56_iv56_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u -1 iv57_iv57_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u -1 iv58_iv58_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u -1 iv59_iv59_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u -1 iv60_iv60_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u -1 iv61_iv61_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u -1 iv62_iv62_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u -1 iv63_iv63_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u -1 iv64_iv64_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u -1 iv65_iv65_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u -1 iv66_iv66_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u -1 iv67_iv67_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u -1 iv68_iv68_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+u -1 iv69_iv69_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 ~iv10_eq_0 2 iv0_eq_5 2 iv9_eq_0 2 ~iv4_eq_0 >= 0 ;
+p 665 2963 + 2964 + 2965 + 2966 + 2967 + 2968 + 2969 + 2970 + 2971 + 2972 + 2973 + 2974 + 2975 + 2976 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 iv9_eq_0 1 ~iv4_eq_0 >= 1 ;
+u 1 iv4_series4_b_0 2 iv4_series4_b_1 4 iv4_series4_b_2 8 iv4_series4_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 ~iv10_eq_0 16 iv0_eq_5 16 iv9_eq_0 16 iv4_eq_0 >= 1 ;
+p 1682 2862 + 5 + 7 + 2979 + 11 + 13 + 15 + 17 + 2846 + 21 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 iv9_eq_0 1 iv4_eq_0 1 ~iv1_ge_4 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 iv9_eq_0 1 iv4_eq_0 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 1 iv9_eq_0 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 1 iv0_eq_5 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 ~iv10_eq_0 >= 1 ;
+u 1 iv10_series10_b_0 2 iv10_series10_b_1 4 iv10_series10_b_2 8 iv10_series10_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 iv10_eq_0 >= 1 ;
+u 1 iv28_iv28_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 >= 0 ;
+u 1 iv29_iv29_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 >= 0 ;
+u 1 iv30_iv30_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 >= 0 ;
+u 1 iv31_iv31_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 >= 0 ;
+u 1 iv32_iv32_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 >= 0 ;
+u 1 iv33_iv33_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 >= 0 ;
+u 1 iv34_iv34_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 >= 0 ;
+u 1 iv35_iv35_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 >= 0 ;
+u 1 iv36_iv36_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 >= 0 ;
+u 1 iv37_iv37_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 >= 0 ;
+u 1 iv38_iv38_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 >= 1 ;
+u 1 iv39_iv39_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 >= 0 ;
+u 1 iv40_iv40_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 >= 0 ;
+u 1 iv41_iv41_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 >= 0 ;
+p 466 2987 + 2988 + 2989 + 2990 + 2991 + 2992 + 2993 + 2994 + 2995 + 2996 + 2997 + 2998 + 2999 + 3000 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 iv10_eq_0 1 iv1_ge_1 >= 1 ;
+u 1 iv0_series0_b_0 2 iv0_series0_b_1 4 iv0_series0_b_2 8 iv0_series0_b_3 25 iv0_eq_0 25 iv0_eq_1 25 ~iv13_eq_0 25 iv0_eq_2 25 ~iv12_eq_0 25 iv0_eq_3 25 ~iv11_eq_0 25 iv0_eq_4 25 iv10_eq_0 >= 10 ;
+p 1682 3003 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 2986 + 23 + 25 + 27 + 1 d
+u 1 iv1_series1_b_0 2 iv1_series1_b_1 4 iv1_series1_b_2 8 iv1_series1_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 iv10_eq_0 >= 1 ;
+p 1682 3003 + 3005 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 2986 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 iv10_eq_0 1 ~iv2_ge_3 >= 1 ;
+p 1682 3003 + 3005 + 5 + 9 + 11 + 13 + 15 + 17 + 19 + 2986 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 iv10_eq_0 1 ~iv3_ge_3 >= 1 ;
+p 1682 3003 + 3005 + 5 + 7 + 11 + 13 + 15 + 17 + 19 + 2986 + 23 + 25 + 27 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 iv10_eq_0 1 ~iv4_ge_1 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 iv10_eq_0 1 ~iv5_ge_1 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 iv10_eq_0 1 ~iv6_ge_1 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 iv10_eq_0 1 ~iv7_ge_1 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 iv10_eq_0 1 ~iv8_ge_1 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 iv10_eq_0 1 ~iv9_ge_1 >= 1 ;
+u -1 iv3_series3_b_0 -2 iv3_series3_b_1 -4 iv3_series3_b_2 -8 iv3_series3_b_3 16 iv0_eq_0 16 iv0_eq_1 16 ~iv13_eq_0 16 iv0_eq_2 16 ~iv12_eq_0 16 iv0_eq_3 16 ~iv11_eq_0 16 iv0_eq_4 16 iv10_eq_0 16 ~iv3_eq_0 >= 0 ;
+u 1 iv56_iv56_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 2 ~iv3_eq_0 >= 0 ;
+u 1 iv58_iv58_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 2 ~iv3_eq_0 >= 0 ;
+u 1 iv59_iv59_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 2 ~iv3_eq_0 >= 0 ;
+u 1 iv60_iv60_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 2 ~iv3_eq_0 >= 0 ;
+u 1 iv61_iv61_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 2 ~iv3_eq_0 >= 0 ;
+u 1 iv62_iv62_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 2 ~iv3_eq_0 >= 0 ;
+u 1 iv63_iv63_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 2 ~iv3_eq_0 >= 0 ;
+u 1 iv64_iv64_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 2 ~iv3_eq_0 >= 0 ;
+u 1 iv65_iv65_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 2 ~iv3_eq_0 >= 0 ;
+u 1 iv66_iv66_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 2 ~iv3_eq_0 >= 0 ;
+u 1 iv67_iv67_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 2 ~iv3_eq_0 >= 0 ;
+u 1 iv68_iv68_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 2 ~iv3_eq_0 >= 0 ;
+u 1 iv69_iv69_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 2 ~iv3_eq_0 >= 0 ;
+p 666 3017 + 3018 + 3019 + 3020 + 3021 + 3022 + 3023 + 3024 + 3025 + 3026 + 3027 + 3028 + 3029 + 3030 + 1 d
+u -1 iv0_series0_b_0 -2 iv0_series0_b_1 -4 iv0_series0_b_2 -8 iv0_series0_b_3 25 iv0_eq_0 25 iv0_eq_1 25 ~iv13_eq_0 25 iv0_eq_2 25 ~iv12_eq_0 25 iv0_eq_3 25 ~iv11_eq_0 25 iv0_eq_4 25 iv10_eq_0 25 ~iv3_eq_0 >= -10 ;
+u 1 iv14_iv14_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 2 ~iv3_eq_0 >= 0 ;
+u 1 iv15_iv15_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 2 ~iv3_eq_0 >= 0 ;
+u 1 iv17_iv17_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 2 ~iv3_eq_0 >= 1 ;
+u 1 iv18_iv18_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 2 ~iv3_eq_0 >= 1 ;
+u 1 iv19_iv19_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 2 ~iv3_eq_0 >= 1 ;
+u 1 iv20_iv20_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 2 ~iv3_eq_0 >= 1 ;
+u 1 iv21_iv21_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 2 ~iv3_eq_0 >= 1 ;
+u 1 iv22_iv22_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 2 ~iv3_eq_0 >= 1 ;
+u 1 iv23_iv23_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 2 ~iv3_eq_0 >= 1 ;
+u 1 iv24_iv24_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 2 ~iv3_eq_0 >= 0 ;
+u 1 iv25_iv25_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 2 ~iv3_eq_0 >= 1 ;
+u 1 iv26_iv26_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 2 ~iv3_eq_0 >= 1 ;
+u 1 iv27_iv27_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 ~iv11_eq_0 2 iv0_eq_4 2 iv10_eq_0 2 ~iv3_eq_0 >= 1 ;
+p 366 3032 + 3033 + 3034 + 3035 + 3036 + 3037 + 3038 + 3039 + 3040 + 3041 + 3042 + 3043 + 3044 + 3045 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 iv10_eq_0 1 ~iv3_eq_0 1 ~iv1_eq_1 >= 1 ;
+u 1 iv1_series1_b_0 2 iv1_series1_b_1 4 iv1_series1_b_2 8 iv1_series1_b_3 17 iv0_eq_0 17 iv0_eq_1 17 ~iv13_eq_0 17 iv0_eq_2 17 ~iv12_eq_0 17 iv0_eq_3 17 ~iv11_eq_0 17 iv0_eq_4 17 iv10_eq_0 17 ~iv3_eq_0 17 iv1_eq_1 >= 2 ;
+p 1682 3003 + 3048 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 2986 + 23 + 25 + 27 + 1 d
+v iv0_eq_10 iv1_eq_2 iv2_eq_1 iv3_eq_0 iv4_eq_0 iv5_eq_0 iv6_eq_0 iv7_eq_0 iv8_eq_0 iv9_eq_0 iv10_eq_1 iv11_eq_0 iv12_eq_0 iv13_eq_0 ~iv14_iv14_t ~iv15_iv15_t ~iv16_iv16_t iv17_iv17_t iv18_iv18_t iv19_iv19_t iv20_iv20_t iv21_iv21_t iv22_iv22_t iv23_iv23_t ~iv24_iv24_t iv25_iv25_t iv26_iv26_t iv27_iv27_t ~iv28_iv28_t ~iv29_iv29_t iv30_iv30_t ~iv31_iv31_t ~iv32_iv32_t ~iv33_iv33_t ~iv34_iv34_t ~iv35_iv35_t ~iv36_iv36_t ~iv37_iv37_t iv38_iv38_t ~iv39_iv39_t ~iv40_iv40_t ~iv41_iv41_t ~iv42_iv42_t iv43_iv43_t ~iv44_iv44_t ~iv45_iv45_t ~iv46_iv46_t ~iv47_iv47_t ~iv48_iv48_t ~iv49_iv49_t ~iv50_iv50_t ~iv51_iv51_t ~iv52_iv52_t ~iv53_iv53_t ~iv54_iv54_t ~iv55_iv55_t ~iv56_iv56_t ~iv57_iv57_t ~iv58_iv58_t ~iv59_iv59_t ~iv60_iv60_t ~iv61_iv61_t ~iv62_iv62_t ~iv63_iv63_t ~iv64_iv64_t ~iv65_iv65_t ~iv66_iv66_t ~iv67_iv67_t ~iv68_iv68_t ~iv69_iv69_t ~iv70_iv70_t ~iv71_iv71_t ~iv72_iv72_t ~iv73_iv73_t ~iv74_iv74_t ~iv75_iv75_t ~iv76_iv76_t ~iv77_iv77_t ~iv78_iv78_t ~iv79_iv79_t ~iv80_iv80_t ~iv81_iv81_t ~iv82_iv82_t ~iv83_iv83_t ~iv84_iv84_t ~iv85_iv85_t ~iv86_iv86_t ~iv87_iv87_t ~iv88_iv88_t ~iv89_iv89_t ~iv90_iv90_t ~iv91_iv91_t ~iv92_iv92_t ~iv93_iv93_t ~iv94_iv94_t ~iv95_iv95_t ~iv96_iv96_t ~iv97_iv97_t ~iv98_iv98_t ~iv99_iv99_t ~iv100_iv100_t ~iv101_iv101_t ~iv102_iv102_t ~iv103_iv103_t ~iv104_iv104_t ~iv105_iv105_t ~iv106_iv106_t ~iv107_iv107_t ~iv108_iv108_t ~iv109_iv109_t ~iv110_iv110_t ~iv111_iv111_t ~iv112_iv112_t ~iv113_iv113_t ~iv114_iv114_t ~iv115_iv115_t ~iv116_iv116_t ~iv117_iv117_t ~iv118_iv118_t ~iv119_iv119_t ~iv120_iv120_t ~iv121_iv121_t ~iv122_iv122_t ~iv123_iv123_t ~iv124_iv124_t ~iv125_iv125_t ~iv126_iv126_t ~iv127_iv127_t ~iv128_iv128_t ~iv129_iv129_t ~iv130_iv130_t ~iv131_iv131_t ~iv132_iv132_t ~iv133_iv133_t ~iv134_iv134_t ~iv135_iv135_t ~iv136_iv136_t ~iv137_iv137_t ~iv138_iv138_t ~iv139_iv139_t ~iv140_iv140_t ~iv141_iv141_t ~iv142_iv142_t ~iv143_iv143_t ~iv144_iv144_t ~iv145_iv145_t ~iv146_iv146_t ~iv147_iv147_t ~iv148_iv148_t ~iv149_iv149_t ~iv150_iv150_t ~iv151_iv151_t ~iv152_iv152_t ~iv153_iv153_t iv154_iv154_t ~iv155_iv155_t ~iv156_iv156_t ~iv157_iv157_t ~iv158_iv158_t ~iv159_iv159_t ~iv160_iv160_t ~iv161_iv161_t ~iv162_iv162_t ~iv163_iv163_t ~iv164_iv164_t ~iv165_iv165_t ~iv166_iv166_t ~iv167_iv167_t ~iv168_iv168_t ~iv169_iv169_t ~iv170_iv170_t ~iv171_iv171_t ~iv172_iv172_t ~iv173_iv173_t ~iv174_iv174_t ~iv175_iv175_t ~iv176_iv176_t ~iv177_iv177_t ~iv178_iv178_t ~iv179_iv179_t ~iv180_iv180_t ~iv181_iv181_t ~iv182_iv182_t ~iv183_iv183_t ~iv184_iv184_t ~iv185_iv185_t ~iv186_iv186_t ~iv187_iv187_t ~iv188_iv188_t ~iv189_iv189_t ~iv190_iv190_t ~iv191_iv191_t ~iv192_iv192_t ~iv193_iv193_t ~iv194_iv194_t ~iv195_iv195_t ~iv196_iv196_t ~iv197_iv197_t ~iv198_iv198_t ~iv199_iv199_t ~iv200_iv200_t ~iv201_iv201_t ~iv202_iv202_t ~iv203_iv203_t ~iv204_iv204_t ~iv205_iv205_t ~iv206_iv206_t ~iv207_iv207_t ~iv208_iv208_t ~iv209_iv209_t
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 iv10_eq_0 1 ~iv3_eq_0 1 iv1_eq_1 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 iv10_eq_0 1 ~iv3_eq_0 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 iv10_eq_0 1 iv3_eq_0 1 ~iv1_ge_3 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 iv10_eq_0 1 iv3_eq_0 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 1 iv10_eq_0 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 1 iv0_eq_4 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 ~iv11_eq_0 >= 1 ;
+u 1 iv28_iv28_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 iv11_eq_0 >= 0 ;
+u 1 iv29_iv29_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 iv11_eq_0 >= 0 ;
+u 1 iv30_iv30_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 iv11_eq_0 >= 0 ;
+u 1 iv31_iv31_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 iv11_eq_0 >= 0 ;
+u 1 iv32_iv32_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 iv11_eq_0 >= 0 ;
+u 1 iv33_iv33_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 iv11_eq_0 >= 0 ;
+u 1 iv34_iv34_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 iv11_eq_0 >= 0 ;
+u 1 iv35_iv35_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 iv11_eq_0 >= 0 ;
+u 1 iv36_iv36_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 iv11_eq_0 >= 0 ;
+u 1 iv37_iv37_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 iv11_eq_0 >= 0 ;
+u 1 iv38_iv38_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 iv11_eq_0 >= 0 ;
+u 1 iv39_iv39_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 iv11_eq_0 >= 1 ;
+u 1 iv40_iv40_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 iv11_eq_0 >= 0 ;
+u 1 iv41_iv41_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 ~iv12_eq_0 2 iv0_eq_3 2 iv11_eq_0 >= 0 ;
+p 466 3058 + 3059 + 3060 + 3061 + 3062 + 3063 + 3064 + 3065 + 3066 + 3067 + 3068 + 3069 + 3070 + 3071 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 iv11_eq_0 1 iv1_ge_1 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 1 iv11_eq_0 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 1 iv0_eq_3 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 ~iv12_eq_0 >= 1 ;
+u 1 iv28_iv28_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 iv12_eq_0 >= 0 ;
+u 1 iv29_iv29_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 iv12_eq_0 >= 0 ;
+u 1 iv30_iv30_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 iv12_eq_0 >= 0 ;
+u 1 iv31_iv31_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 iv12_eq_0 >= 0 ;
+u 1 iv32_iv32_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 iv12_eq_0 >= 0 ;
+u 1 iv33_iv33_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 iv12_eq_0 >= 0 ;
+u 1 iv34_iv34_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 iv12_eq_0 >= 0 ;
+u 1 iv35_iv35_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 iv12_eq_0 >= 0 ;
+u 1 iv36_iv36_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 iv12_eq_0 >= 0 ;
+u 1 iv37_iv37_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 iv12_eq_0 >= 0 ;
+u 1 iv38_iv38_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 iv12_eq_0 >= 0 ;
+u 1 iv39_iv39_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 iv12_eq_0 >= 0 ;
+u 1 iv40_iv40_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 iv12_eq_0 >= 1 ;
+u 1 iv41_iv41_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 iv12_eq_0 >= 0 ;
+p 466 3077 + 3078 + 3079 + 3080 + 3081 + 3082 + 3083 + 3084 + 3085 + 3086 + 3087 + 3088 + 3089 + 3090 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 iv12_eq_0 1 iv1_ge_1 >= 1 ;
+u -1 iv14_iv14_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 iv12_eq_0 >= 0 ;
+u -1 iv15_iv15_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 iv12_eq_0 >= 0 ;
+u -1 iv16_iv16_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 iv12_eq_0 >= -1 ;
+u -1 iv17_iv17_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 iv12_eq_0 >= -1 ;
+u -1 iv18_iv18_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 iv12_eq_0 >= -1 ;
+u -1 iv19_iv19_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 iv12_eq_0 >= -1 ;
+u -1 iv20_iv20_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 iv12_eq_0 >= -1 ;
+u -1 iv21_iv21_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 iv12_eq_0 >= -1 ;
+u -1 iv22_iv22_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 iv12_eq_0 >= -1 ;
+u -1 iv23_iv23_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 iv12_eq_0 >= -1 ;
+u -1 iv24_iv24_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 iv12_eq_0 >= -1 ;
+u -1 iv25_iv25_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 iv12_eq_0 >= -1 ;
+u -1 iv26_iv26_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 iv12_eq_0 >= 0 ;
+u -1 iv27_iv27_t 2 iv0_eq_0 2 iv0_eq_1 2 ~iv13_eq_0 2 iv0_eq_2 2 iv12_eq_0 >= -1 ;
+p 365 3093 + 3094 + 3095 + 3096 + 3097 + 3098 + 3099 + 3100 + 3101 + 3102 + 3103 + 3104 + 3105 + 3106 + 1 d
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 1 iv12_eq_0 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 1 iv0_eq_2 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 ~iv13_eq_0 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 1 iv13_eq_0 >= 1 ;
+u 1 iv0_eq_0 1 iv0_eq_1 >= 1 ;
+u 1 iv0_eq_0 >= 1 ;
+u >= 1 ;
+u >= 1 ;
+c 3115 0
+
+* no of proof steps: 3010
+* no of short proof steps: 1433
+* % of proof steps kept: 47.60797342192691
